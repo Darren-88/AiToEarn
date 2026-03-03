@@ -1,39 +1,34 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "NodeNext", // 关键修改：ESNext → NodeNext
-    "moduleResolution": "NodeNext",
-    "outDir": "./dist",
-    "rootDir": "./",
-    "strict": false,
-    "esModuleInterop": true,
+    "useDefineForClassFields": true,
+    "module": "NodeNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+
+    /* Bundler mode */
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
-    "sourceMap": false,
-    "noImplicitAny": false,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "typeRoots": ["./node_modules/@types"],
-    "types": ["node"],
-    "baseUrl": "./",
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // 👇 新增或修改以下配置以解决当前问题
+    "baseUrl": ".",
     "paths": {
-      "@@/*": ["./commont/*"],
-      "@/*": ["./*"],
-      "src/*": ["./src/*"]
+      "@@/*": ["project/aitoearn-electron/*"]
     },
-    "noEmitOnError": false,
-    "allowJs": true,
-    "checkJs": false
+    "moduleSuffixes": [".js", ".ts", ""]
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx"
+    "project/aitoearn-electron/**/*"
   ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/*.test.ts",
-    "server/**/*"
-  ]
+  "exclude": ["node_modules"]
 }
