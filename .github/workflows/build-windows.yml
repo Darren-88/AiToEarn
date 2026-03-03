@@ -1,0 +1,91 @@
+name: Build Windows Installer
+
+on:
+  push:
+    branches: [ "main", "master" ]
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    
+    strategy:
+      matrix:
+        node-version: [20.18]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install Python (for node-gyp)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Visual Studio Build Tools
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Install Dependencies
+        run: |
+          npm ci
+          
+      - name: Rebuild Native Modules (better-sqlite3)
+        run: npm run rebuild
+        env:
+          PYTHON: "C:\\hostedtoolcache\\python\\3.11.x\\x64\\python.exe"
+
+      - name: Build Application
+        run: npm run build
+
+      - name: Create Windows Installer (NSIS)
+        run: npx electron-builder --win --publish never
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Windows Installer (EXE)
+        uses: actions/upload-artifact@v4
+        with:
+          name: AiToEarn-Windows-Installer
+          path: dist/*.exe
+          retention-days: 30
+
+      - name: Upload Build Logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-logs
+          path: |
+            dist/latest.yml
+            npm-debug.log
+          retention-days: 7
+
+  release:
+    needs: build-windows
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: AiToEarn-Windows-Installer
+          path: ./dist
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/*.exe
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
