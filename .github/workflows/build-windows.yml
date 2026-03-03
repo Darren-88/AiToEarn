@@ -17,9 +17,13 @@ jobs:
         with:
           node-version: '20.x'
           cache: 'npm'
+          cache-dependency-path: 'package.json' # 指定依赖文件，跳过锁文件检查
+          check-latest: true
 
       - name: Install Dependencies
-        run: npm install --force
+        run: |
+          npm install --force
+          npm cache clean --force # 清理缓存，避免冲突
 
       - name: Rebuild Native Modules (better-sqlite3)
         run: npm run rebuild
