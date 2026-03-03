@@ -3,7 +3,7 @@
     "target": "ES2020",
     "module": "CommonJS",
     "outDir": "./dist",
-    "rootDir": "./", // 根目录作为代码源目录
+    "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -12,7 +12,7 @@
     "sourceMap": false
   },
   "include": [
-    "**/*.ts" // 匹配根目录及所有子目录的 .ts 文件
+    "**/*.ts"
   ],
   "exclude": [
     "node_modules",
