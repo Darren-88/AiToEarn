@@ -1,94 +1,34 @@
-name: Build Windows Installer
+name: Build Windows AiToEarn App
 
 on:
   push:
-    branches: [ "main", "master" ]
-    tags:
-      - 'v*'
-  pull_request:
-    branches: [ "main", "master" ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  build-windows:
+  build:
     runs-on: windows-latest
-    
-    strategy:
-      matrix:
-        node-version: [20.18]
-
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js ${{ matrix.node-version }}
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Install Python (for node-gyp)
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install Visual Studio Build Tools
-        uses: microsoft/setup-msbuild@v2
+          node-version: '20.x'
+          cache: 'npm'
 
       - name: Install Dependencies
-        run: |
-          # 替换 npm ci 为 npm install，并生成锁文件（兼容模式）
-          npm install --package-lock-only
-          npm install
-          # 可选：如果后续仍想使用 npm ci，执行以下命令（确保锁文件存在）
-          # npm ci
-          
+        run: npm install --force
+
       - name: Rebuild Native Modules (better-sqlite3)
         run: npm run rebuild
-        env:
-          PYTHON: "C:\\hostedtoolcache\\python\\3.11.x\\x64\\python.exe"
 
-      - name: Build Application
-        run: npm run build
+      - name: Build Installer
+        run: npm run dist:nsis
 
-      - name: Create Windows Installer (NSIS)
-        run: npx electron-builder --win --publish never
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload Windows Installer (EXE)
+      - name: Upload Installer
         uses: actions/upload-artifact@v4
         with:
-          name: AiToEarn-Windows-Installer
-          path: dist/*.exe
-          retention-days: 30
-
-      - name: Upload Build Logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-logs
-          path: |
-            dist/latest.yml
-            npm-debug.log
-          retention-days: 7
-
-  release:
-    needs: build-windows
-    runs-on: ubuntu-latest
-    if: startsWith(github.ref, 'refs/tags/')
-    
-    steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: AiToEarn-Windows-Installer
-          path: ./dist
-
-      - name: Create Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: dist/*.exe
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: AiToEarn-Setup-Win64
+          path: dist/installer/*.exe
