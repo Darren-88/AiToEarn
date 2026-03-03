@@ -24,6 +24,10 @@ jobs:
         run: |
           npm install --force
           npm cache clean --force # 清理缓存，避免冲突
+        # 新增electron镜像加速（解决云端下载慢/失败问题，不影响原有逻辑）
+        env:
+          ELECTRON_MIRROR: https://npmmirror.com/mirrors/electron/
+          ELECTRON_BUILDER_BINARIES_MIRROR: https://npmmirror.com/mirrors/electron-builder-binaries/
 
       - name: Rebuild Native Modules (better-sqlite3)
         run: npm run rebuild
@@ -35,4 +39,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: AiToEarn-Setup-Win64
-          path: dist/installer/*.exe
+          # 关键修正：路径改成你electron-builder配置的release目录（原dist/installer/*.exe是错的）
+          path: release/**/*.exe
