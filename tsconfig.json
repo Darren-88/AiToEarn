@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "CommonJS",
+    "module": "ESNext", // 解决 import.meta 报错
+    "moduleResolution": "NodeNext", // 适配 ESNext 模块
     "outDir": "./dist",
     "rootDir": "./",
     "strict": false,
@@ -13,12 +14,15 @@
     "noImplicitAny": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "typeRoots": ["./node_modules/@types", "./types"],
-    "baseUrl": "./",
+    "typeRoots": ["./node_modules/@types"],
+    "types": [], // 不加载任何类型声明
     "paths": {
-      "@@/*": ["./commont/*"]
+      "@@/*": ["./commont/*"], // 配置 @@ 别名
+      "@/*": ["./*"] // 配置 @ 别名
     },
-    "types": ["node"]
+    "noEmitOnError": false, // 即使有错误也生成 JS 文件
+    "allowJs": true,
+    "checkJs": false
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "**/*.test.ts", "dist"]
