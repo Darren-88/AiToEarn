@@ -1,12 +1,11 @@
 {
   "name": "aitoearn-desktop",
   "version": "1.0.0",
-  "main": "main.js", // 补充main字段（Electron必需），需和你的入口文件匹配
+  "main": "main.js",
   "scripts": {
     "dev": "electron .",
-    // 优化rebuild命令：指定Electron运行时，确保better-sqlite3编译兼容
     "rebuild": "npm rebuild better-sqlite3 --runtime=electron --target=$(npm list electron | grep -m1 'electron@' | cut -d@ -f2) --disturl=https://atom.io/download/atom-shell --abi=$(node -p 'process.versions.abi')",
-    "build:ts": "tsc", // 拆分TS编译命令，便于单独排查编译错误
+    "build:ts": "tsc",
     "build": "npm run build:ts && npm run rebuild",
     "dist": "npm run build && electron-builder --win",
     "dist:nsis": "npm run build && electron-builder --win nsis",
@@ -22,7 +21,6 @@
       "**/*",
       "!**/*.ts",
       "!*.map",
-      // 修复：保留运行必需的node_modules（排除无用文件）
       "!node_modules/**/*.ts",
       "!node_modules/**/*.map",
       "!node_modules/**/.bin",
