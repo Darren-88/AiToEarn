@@ -1,0 +1,50 @@
+{
+  "name": "aitoearn-desktop",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "electron .",
+    "rebuild": "node-gyp rebuild",
+    "build": "tsc && npm run rebuild",
+    "dist": "npm run build && electron-builder --win",
+    "dist:nsis": "npm run build && electron-builder --win nsis",
+    "dist:msi": "npm run build && electron-builder --win msi"
+  },
+  "build": {
+    "appId": "com.yikart.aitoearn",
+    "productName": "AiToEarn",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!**/*.ts",
+      "!*.map",
+      "!node_modules/**/*",
+      "!.github/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.x",
+    "electron": "^28.x"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.x",
+    "node-gyp": "^10.x",
+    "typescript": "^5.x"
+  }
+}
