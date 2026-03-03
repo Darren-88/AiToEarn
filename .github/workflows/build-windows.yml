@@ -25,8 +25,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          # 新增：缓存依赖，加速构建
-          cache: 'npm'
 
       - name: Install Python (for node-gyp)
         uses: actions/setup-python@v5
