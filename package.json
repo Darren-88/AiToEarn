@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "dev": "electron .",
-    "rebuild": "npm rebuild better-sqlite3 --runtime=electron --target=$(npm list electron | grep -m1 'electron@' | cut -d@ -f2) --disturl=https://atom.io/download/atom-shell --abi=$(node -p 'process.versions.abi')",
+    "rebuild": "electron-rebuild -f -w better-sqlite3",
     "build:ts": "tsc",
     "build": "npm run build:ts && npm run rebuild",
     "dist": "npm run build && electron-builder --win",
@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "electron-builder": "^24.x",
+    "electron-rebuild": "^3.0.0",
     "node-gyp": "^10.x",
     "typescript": "^5.x"
   }
