@@ -25,6 +25,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+          # 新增：缓存依赖，加速构建
+          cache: 'npm'
 
       - name: Install Python (for node-gyp)
         uses: actions/setup-python@v5
@@ -36,7 +38,11 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm ci
+          # 替换 npm ci 为 npm install，并生成锁文件（兼容模式）
+          npm install --package-lock-only
+          npm install
+          # 可选：如果后续仍想使用 npm ci，执行以下命令（确保锁文件存在）
+          # npm ci
           
       - name: Rebuild Native Modules (better-sqlite3)
         run: npm run rebuild
