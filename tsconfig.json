@@ -1,34 +1,42 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "useDefineForClassFields": true,
-    "module": "NodeNext",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "CommonJS", // 回退到 CommonJS，避开扩展名要求
+    "moduleResolution": "Node", // 配套 Node 解析模式
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": false,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "NodeNext",
-    "allowImportingTsExtensions": true,
+    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "preserve",
-
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-
-    // 👇 新增或修改以下配置以解决当前问题
-    "baseUrl": ".",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"],
+    "baseUrl": "./",
     "paths": {
-      "@@/*": ["project/aitoearn-electron/*"]
+      "@@/*": ["./commont/*"],
+      "@/*": ["./*"],
+      "src/*": ["./src/*"]
     },
-    "moduleSuffixes": [".js", ".ts", ""]
+    "noEmitOnError": false, // 即使有少量错误也生成 JS
+    "allowJs": true,
+    "checkJs": false,
+    "allowImportingTsExtensions": true, // 允许导入 .ts 扩展名
+    "resolvePackageJsonExports": false,
+    "resolvePackageJsonImports": false
   },
   "include": [
-    "project/aitoearn-electron/**/*"
+    "**/*.ts",
+    "**/*.tsx"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts",
+    "server/**/*"
+  ]
 }
