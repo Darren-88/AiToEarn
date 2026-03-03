@@ -11,13 +11,19 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npm install
+        run: |
+          cd aitoearn-electron
+          npm install
       - name: Build App
-        run: npm run build
+        run: |
+          cd aitoearn-electron
+          npm run build
       - name: Package Installer
-        run: npm run dist
+        run: |
+          cd aitoearn-electron
+          npm run dist
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: AiToEarn-Setup
-          path: dist/*.exe
+          path: aitoearn-electron/dist/*.exe
