@@ -1,14 +1,14 @@
 {
   "name": "aitoearn-desktop",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "electron .",
-    "rebuild": "node-gyp rebuild",
-    "build": "tsc && npm run rebuild",
-    "dist": "npm run build && electron-builder --win",
-    "dist:nsis": "npm run build && electron-builder --win nsis",
-    "dist:msi": "npm run build && electron-builder --win msi"
-  },
+"scripts": {
+  "dev": "electron .",
+  "rebuild": "npm rebuild better-sqlite3",
+  "build": "tsc && npm run rebuild",
+  "dist": "npm run build && electron-builder --win",
+  "dist:nsis": "npm run build && electron-builder --win nsis",
+  "dist:msi": "npm run build && electron-builder --win msi"
+},
   "build": {
     "appId": "com.yikart.aitoearn",
     "productName": "AiToEarn",
