@@ -1,11 +1,11 @@
 {
   "name": "aitoearn-desktop",
   "version": "1.0.0",
-  "main": "electron/main/index.ts", // 直接指向 TS 入口
+  "main": "electron/main/index.ts",
   "scripts": {
     "dev": "electron .",
     "rebuild": "electron-rebuild -f -w better-sqlite3",
-    "build": "npm run rebuild", // 只执行原生模块重建，跳过 TS 编译
+    "build": "npm run rebuild",
     "dist:nsis": "npm run build && electron-builder --win nsis"
   },
   "build": {
@@ -23,7 +23,7 @@
       "!node_modules/**/test",
       "!node_modules/**/docs",
       "!.github/**/*",
-      "!server/**/*" // 排除后端代码，减小包体积
+      "!server/**/*"
     ],
     "win": {
       "target": [
@@ -32,7 +32,7 @@
           "arch": ["x64"]
         }
       ],
-      "icon": "build/icon.ico" // 无图标则注释此行
+      "icon": "build/icon.ico"
     },
     "nsis": {
       "oneClick": false,
