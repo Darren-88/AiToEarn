@@ -11,33 +11,40 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        # 确保拉取完整代码（包含子目录）
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
           cache: 'npm'
-          cache-dependency-path: 'package.json' # 指定依赖文件，跳过锁文件检查
+          # 缓存依赖的路径：根目录/AiToEarn/project/aitoearn-electron/package.json
+          cache-dependency-path: 'project/aitoearn-electron/package.json'
           check-latest: true
 
+      # 核心步骤：进入项目实际目录（AiToEarn/project/aitoearn-electron/）
       - name: Install Dependencies
+        working-directory: ./project/aitoearn-electron
         run: |
           npm install --force
-          npm cache clean --force # 清理缓存，避免冲突
-        # 新增electron镜像加速（解决云端下载慢/失败问题，不影响原有逻辑）
+          npm cache clean --force
         env:
           ELECTRON_MIRROR: https://npmmirror.com/mirrors/electron/
           ELECTRON_BUILDER_BINARIES_MIRROR: https://npmmirror.com/mirrors/electron-builder-binaries/
 
       - name: Rebuild Native Modules (better-sqlite3)
+        working-directory: ./project/aitoearn-electron
         run: npm run rebuild
 
       - name: Build Installer
+        working-directory: ./project/aitoearn-electron
         run: npm run dist:nsis
 
       - name: Upload Installer
         uses: actions/upload-artifact@v4
         with:
           name: AiToEarn-Setup-Win64
-          # 关键修正：路径改成你electron-builder配置的release目录（原dist/installer/*.exe是错的）
-          path: release/**/*.exe
+          # 产物路径：根目录/AiToEarn/project/aitoearn-electron/release/
+          path: project/aitoearn-electron/release/**/*.exe
