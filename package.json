@@ -1,32 +1,29 @@
 {
   "name": "aitoearn-desktop",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "electron/main/index.ts", // 直接指向 TS 入口
   "scripts": {
     "dev": "electron .",
     "rebuild": "electron-rebuild -f -w better-sqlite3",
-    "build:ts": "tsc",
-    "build": "npm run build:ts && npm run rebuild",
-    "dist": "npm run build && electron-builder --win",
-    "dist:nsis": "npm run build && electron-builder --win nsis",
-    "dist:msi": "npm run build && electron-builder --win msi"
+    "build": "npm run rebuild", // 只执行原生模块重建，跳过 TS 编译
+    "dist:nsis": "npm run build && electron-builder --win nsis"
   },
   "build": {
     "appId": "com.yikart.aitoearn",
     "productName": "AiToEarn",
     "directories": {
-      "output": "dist"
+      "output": "dist/installer",
+      "app": "./"
     },
     "files": [
       "**/*",
-      "!**/*.ts",
-      "!*.map",
       "!node_modules/**/*.ts",
       "!node_modules/**/*.map",
       "!node_modules/**/.bin",
       "!node_modules/**/test",
       "!node_modules/**/docs",
-      "!.github/**/*"
+      "!.github/**/*",
+      "!server/**/*" // 排除后端代码，减小包体积
     ],
     "win": {
       "target": [
@@ -35,56 +32,48 @@
           "arch": ["x64"]
         }
       ],
-      "icon": "build/icon.ico"
+      "icon": "build/icon.ico" // 无图标则注释此行
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true
-    }
+    },
+    "extraResources": [
+      {
+        "from": "node_modules/better-sqlite3/build/Release",
+        "to": "resources/better-sqlite3",
+        "filter": ["*.node"]
+      }
+    ]
   },
   "dependencies": {
     "better-sqlite3": "^9.4.3",
     "electron": "^28.2.8",
-    "typeorm": "^0.3.20",
-    "node-cache": "^5.1.2",
     "electron-log": "^5.1.0",
-    "node-schedule": "^2.1.1",
     "electron-store": "^8.1.0",
-    "reflect-metadata": "^0.2.1",
-    "@electron-uikit/contextmenu": "^1.0.0",
-    "@electron-uikit/core": "^1.0.0",
-    "p-queue": "^8.0.1",
     "electron-updater": "^6.1.7",
+    "node-cache": "^5.1.2",
+    "node-schedule": "^2.1.1",
+    "p-queue": "^8.0.1",
     "qs": "^6.12.0",
+    "reflect-metadata": "^0.2.1",
     "sharp": "^0.33.2",
-    "image-size": "^1.1.1",
+    "typeorm": "^0.3.20",
     "xml2js": "^0.6.2",
-    "fluent-ffmpeg": "^2.1.2",
+    "@electron-uikit/core": "^1.0.0",
+    "@electron-uikit/contextmenu": "^1.0.0",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@ffprobe-installer/ffprobe": "^2.1.2",
-    "@nestjs/common": "^10.3.2",
-    "@nestjs/swagger": "^7.3.0",
-    "@nestjs/mongoose": "^10.0.2",
-    "@nestjs/config": "^3.2.0",
-    "@nestjs/platform-express": "^10.3.2",
-    "mongoose": "^8.2.0",
-    "axios": "^1.6.7",
-    "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.1"
+    "fluent-ffmpeg": "^2.1.2",
+    "image-size": "^1.1.1"
   },
   "devDependencies": {
     "electron-builder": "^24.9.1",
     "electron-rebuild": "^3.2.9",
     "node-gyp": "^10.0.1",
     "typescript": "^5.3.3",
-    "@types/node": "^20.11.16",
-    "@types/node-cache": "^4.2.5",
-    "@types/node-schedule": "^2.1.0",
-    "@types/qs": "^6.9.12",
-    "@types/xml2js": "^0.4.14",
-    "@types/fluent-ffmpeg": "^2.1.24",
-    "@types/express": "^4.17.21"
+    "@types/node": "^20.11.16"
   }
 }
