@@ -17,7 +17,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": ["./commont/*"]
-    }
+    },
+    "types": ["node"]
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "**/*.test.ts", "dist"]
