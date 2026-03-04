@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { FireflycardConfig } from './fireflycard.config'
 import { FireflycardService } from './fireflycard.service'
 
@@ -18,4 +18,5 @@ export class FireflycardModule {
     }
   }
 }
+
 

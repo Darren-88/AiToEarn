@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-24 17:10:35
  * @LastEditors: nevin
@@ -241,4 +241,5 @@ export class AutoRunService {
     return !record;
   }
 }
+
 

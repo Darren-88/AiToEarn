@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Delete, Logger, Param, Post } from '@nestjs/common'
+import { Body, Controller, Delete, Logger, Param, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { ApiDoc } from '@yikart/common'
 import { PublishRecordService } from '../../../core/account/publish-record.service'
@@ -145,4 +145,5 @@ export class WxPlatController {
     return res
   }
 }
+
 

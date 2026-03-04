@@ -1,4 +1,4 @@
-﻿import * as fs from 'node:fs'
+import * as fs from 'node:fs'
 import { Inject, Injectable, Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { AccountStatus, AccountType, NewAccount } from '@yikart/aitoearn-server-client'
@@ -426,4 +426,5 @@ export class PinterestService extends PlatformBaseService {
     return tokenInfo.expires_in > getCurrentTimestamp() ? 1 : 0
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import {
   AccountStatus,
@@ -584,4 +584,5 @@ export class BilibiliService extends PlatformBaseService {
     return res.code === 0
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Post } from '@nestjs/common'
+import { Body, Controller, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { Internal } from '@yikart/aitoearn-auth'
 import { ApiDoc } from '@yikart/common'
@@ -25,4 +25,5 @@ export class NotificationInternalController {
     return res
   }
 }
+
 

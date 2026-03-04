@@ -1,4 +1,4 @@
-﻿import { createReadStream } from 'fs';
+import { createReadStream } from 'fs';
 import netRequest from '../../main/api';
 import requestNet from '../requestNet';
 import FormData from 'form-data';
@@ -169,4 +169,5 @@ class Bilibili {
   }
 }
 export const BilibiliPlat = new Bilibili();
+
 

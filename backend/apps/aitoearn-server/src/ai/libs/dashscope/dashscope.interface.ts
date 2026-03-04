@@ -1,4 +1,4 @@
-﻿// 任务状态枚举
+// 任务状态枚举
 export enum TaskStatus {
   Pending = 'PENDING',
   Running = 'RUNNING',
@@ -184,4 +184,5 @@ export interface TextToVideoRequest {
   input: TextToVideoInput
   parameters?: TextToVideoParameters
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 20:12:31
  * @LastEditTime: 2025-05-06 15:49:03
@@ -23,4 +23,5 @@ export class SetUserEarnDto {
   @Expose()
   readonly cycleInterval: number;
 }
+
 

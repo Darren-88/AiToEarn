@@ -1,4 +1,4 @@
-﻿import type { GetKwaiAuthStatusRes } from '@/api/plat/types/kwai.types'
+import type { GetKwaiAuthStatusRes } from '@/api/plat/types/kwai.types'
 import http from '@/utils/request'
 
 /**
@@ -21,4 +21,5 @@ export function getKwaiAuthStatus(taskId: string) {
     `plat/kwai/auth/create-account/${taskId}`,
   )
 }
+
 

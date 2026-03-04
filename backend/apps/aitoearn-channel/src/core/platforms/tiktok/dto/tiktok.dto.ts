@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 import { TiktokPostMode, TiktokPrivacyLevel, TiktokSourceType } from '../../../../libs/tiktok/tiktok.enum'
 /*
@@ -116,4 +116,5 @@ const ListUserVideosSchema = AccountIdSchema.extend({
 export class ListUserVideosDto extends createZodDto(ListUserVideosSchema) {}
 
 export class RevokeTokenDto extends createZodDto(AccountIdSchema) {}
+
 

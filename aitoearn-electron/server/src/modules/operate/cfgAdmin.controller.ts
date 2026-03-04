@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 19:19:20
  * @LastEditTime: 2025-03-03 18:45:45
@@ -57,4 +57,5 @@ export class AdminCfgController {
     return res;
   }
 }
+
 

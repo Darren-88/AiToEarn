@@ -1,4 +1,4 @@
-﻿import { InjectModel } from '@nestjs/mongoose'
+import { InjectModel } from '@nestjs/mongoose'
 import { VipStatus } from '@yikart/common'
 import { Model } from 'mongoose'
 import { User, UserVipInfo } from '../schemas'
@@ -69,4 +69,5 @@ export class VipRepository extends BaseRepository<User> {
     })
   }
 }
+
 

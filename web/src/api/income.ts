@@ -1,4 +1,4 @@
-﻿import type { IncomeRecord } from './types/income'
+import type { IncomeRecord } from './types/income'
 import { request } from '@/utils/request'
 
 /**
@@ -31,4 +31,5 @@ export function apiSubmitWithdraw(incomeRecordId: string, userWalletAccountId?: 
     },
   })
 }
+
 

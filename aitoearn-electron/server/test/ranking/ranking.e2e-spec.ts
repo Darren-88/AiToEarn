@@ -1,4 +1,4 @@
-﻿import { Agent } from '../agent';
+import { Agent } from '../agent';
 import { platform, ranking } from '../mockData';
 import supertest from 'supertest';
 import { RankingType, RankingStatus } from '../../src/db/schema/ranking.schema';
@@ -163,4 +163,5 @@ describe('RankingController (e2e)', () => {
     });
   });
 });
+
 

@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const klingConfigSchema = z.object({
@@ -8,4 +8,5 @@ export const klingConfigSchema = z.object({
 })
 
 export class KlingConfig extends createZodDto(klingConfigSchema) {}
+
 

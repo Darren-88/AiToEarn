@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AccountType } from '@yikart/common'
 import { PublishRecord, PublishStatus } from '@yikart/mongodb'
 import {
@@ -56,4 +56,5 @@ export class PublishingInternalService {
     return this.publishingService.updatePublishRecordStatus(id, status, errorMsg)
   }
 }
+
 

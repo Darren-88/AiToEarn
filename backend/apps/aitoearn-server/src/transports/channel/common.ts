@@ -1,4 +1,4 @@
-﻿import { AccountType } from '@yikart/common'
+import { AccountType } from '@yikart/common'
 
 export enum PublishType {
   VIDEO = 'video', // 视频
@@ -47,4 +47,5 @@ export enum PublishingChannel {
   INTERNAL = 'internal', // 通过我们内部系统发布的
   NATIVE = 'native', // 平台原生端发布的
 }
+
 

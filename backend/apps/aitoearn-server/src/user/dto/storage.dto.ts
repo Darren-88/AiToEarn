@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 // 增加已用存储的 DTO
@@ -32,4 +32,5 @@ export const storageInfoSchema = z.object({
 })
 
 export class StorageInfoDto extends createZodDto(storageInfoSchema) {}
+
 

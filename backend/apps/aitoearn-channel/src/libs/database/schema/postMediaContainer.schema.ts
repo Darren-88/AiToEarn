@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import mongoose from 'mongoose'
 import { PlatPulOption } from '../../../core/publishing/common'
 import { BaseTemp } from './time.tamp'
@@ -93,4 +93,5 @@ export class PostMediaContainer extends BaseTemp {
 }
 
 export const PostMediaContainerSchema = SchemaFactory.createForClass(PostMediaContainer)
+
 

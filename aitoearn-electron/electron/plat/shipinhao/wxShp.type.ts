@@ -1,4 +1,4 @@
-﻿interface Location {
+interface Location {
   longitude: number;
   latitude: number;
   country: string;
@@ -212,4 +212,5 @@ export interface WxSPHGetMixListResponse {
     collectionListCount: number;
   };
 }
+
 

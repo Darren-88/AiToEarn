@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { WithTimestampSchema } from './timestamp.schema'
 
@@ -65,4 +65,5 @@ export class OAuth2Credential extends WithTimestampSchema {
 }
 
 export const OAuth2CredentialSchema = SchemaFactory.createForClass(OAuth2Credential)
+
 

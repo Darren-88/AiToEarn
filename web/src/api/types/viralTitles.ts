@@ -1,4 +1,4 @@
-﻿import type { Platform } from '@/api/hot'
+import type { Platform } from '@/api/hot'
 
 export interface ViralTitle {
   _id: string
@@ -13,4 +13,5 @@ export interface ViralTitle {
   updateTime: Date
   timeType: string
 }
+
 

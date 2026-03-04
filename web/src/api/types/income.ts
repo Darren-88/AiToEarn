@@ -1,4 +1,4 @@
-﻿export enum IncomeType {
+export enum IncomeType {
   TASK = 'task', // 任务
   TASK_BACK = 'task_back', // 任务回退
   REWARD_BACK = 'reward_back', // 奖励回退
@@ -50,4 +50,5 @@ export interface IncomeRecord {
   updatedAt: Date
   currency?: Currency
 }
+
 

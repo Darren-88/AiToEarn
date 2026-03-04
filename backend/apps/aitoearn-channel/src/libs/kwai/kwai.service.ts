@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios'
 import { config } from '../../config'
 import { KwaiError } from './kwai.exception'
@@ -263,4 +263,5 @@ export class KwaiApiService {
     return data.result
   }
 }
+
 

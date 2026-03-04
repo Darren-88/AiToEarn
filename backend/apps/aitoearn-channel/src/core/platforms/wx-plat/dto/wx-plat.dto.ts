@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 import { AddArchiveDataDto } from '../../bilibili/dto/bilibili.dto'
 
@@ -60,4 +60,5 @@ const AddArchiveSchema = AccountIdSchema.extend({
   uploadToken: z.string().describe('上传token'),
 })
 export class AddArchiveDto extends createZodDto(AddArchiveSchema) {}
+
 

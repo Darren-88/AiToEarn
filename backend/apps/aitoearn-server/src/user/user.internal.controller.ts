@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Post } from '@nestjs/common'
+import { Body, Controller, Post } from '@nestjs/common'
 import { Internal } from '@yikart/aitoearn-auth'
 import { UserService } from './user.service'
 
@@ -11,4 +11,5 @@ export class UserInternalController {
     return this.userService.getUserInfoById(body.id)
   }
 }
+
 

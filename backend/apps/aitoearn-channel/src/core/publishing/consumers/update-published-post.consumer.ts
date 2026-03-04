@@ -1,4 +1,4 @@
-﻿import { OnWorkerEvent, Processor, WorkerHost } from '@nestjs/bullmq'
+import { OnWorkerEvent, Processor, WorkerHost } from '@nestjs/bullmq'
 import { Inject, Logger, OnModuleDestroy } from '@nestjs/common'
 import { QueueName } from '@yikart/aitoearn-queue'
 import { AccountType } from '@yikart/common'
@@ -123,4 +123,5 @@ export class UpdatePublishedPostConsumer extends WorkerHost implements OnModuleD
     this.logger.log('UpdatePublishedPostConsumer closed successfully')
   }
 }
+
 

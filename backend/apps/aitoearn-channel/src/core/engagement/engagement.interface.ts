@@ -1,4 +1,4 @@
-﻿import { PostsResponseVo, PostVo } from '@yikart/common'
+import { PostsResponseVo, PostVo } from '@yikart/common'
 import { KeysetPagination, OffsetPagination } from './engagement.dto'
 
 /**
@@ -93,4 +93,5 @@ export interface EngagementProvider {
   commentOnPost: (accountId: string, postId: string, message: string) => Promise<PublishCommentResponse>
   replyToComment: (accountId: string, commentId: string, message: string) => Promise<PublishCommentResponse>
 }
+
 

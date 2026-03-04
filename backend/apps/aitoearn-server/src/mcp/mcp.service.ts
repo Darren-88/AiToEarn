@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AppException, generateApiKey, ResponseCode } from '@yikart/common'
 import { ApiKeyAccountRepository, ApiKeyRepository, APIKeyStatus, APIKeyType, Transactional } from '@yikart/mongodb'
 import { RedisService } from '@yikart/redis'
@@ -105,4 +105,5 @@ export class McpService {
     return await this.apiKeyAccountRepository.list({ apiKey })
   }
 }
+
 

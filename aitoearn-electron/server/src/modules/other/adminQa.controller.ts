@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 19:19:20
  * @LastEditTime: 2025-04-14 17:45:14
@@ -22,4 +22,5 @@ export class AdminQaController {
     return 1;
   }
 }
+
 

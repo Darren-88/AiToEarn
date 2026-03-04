@@ -1,4 +1,4 @@
-﻿import { Module } from '../core/decorators';
+import { Module } from '../core/decorators';
 import { TracingController } from './controller';
 import { TracingService } from './service';
 
@@ -7,4 +7,5 @@ import { TracingService } from './service';
   providers: [TracingService],
 })
 export class TracingModule {}
+
 

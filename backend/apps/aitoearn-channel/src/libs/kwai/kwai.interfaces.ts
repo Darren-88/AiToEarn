@@ -1,4 +1,4 @@
-﻿export interface KwaiRefreshTokenQuery {
+export interface KwaiRefreshTokenQuery {
   app_id: string
   app_secret: string
   refresh_token: string
@@ -145,4 +145,5 @@ export interface KwaiVideoPubResult {
 
 export interface KwaiDeleteVideoResponse {
 }
+
 

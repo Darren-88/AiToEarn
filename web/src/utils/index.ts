@@ -1,4 +1,4 @@
-﻿import dayjs from 'dayjs'
+import dayjs from 'dayjs'
 import { toast } from '@/lib/toast'
 /**
  * 生成唯一ID
@@ -127,4 +127,5 @@ export function dataURLToBlob(dataURL: string): Blob {
   for (let i = 0; i < len; i++) u8[i] = binary.charCodeAt(i)
   return new Blob([u8], { type: mime })
 }
+
 

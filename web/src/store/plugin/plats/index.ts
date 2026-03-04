@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 平台交互模块
  *
  * 目录结构:
@@ -59,4 +59,5 @@ export type {
 } from './types'
 // 平台实例
 export { xhsInteraction } from './xhs'
+
 

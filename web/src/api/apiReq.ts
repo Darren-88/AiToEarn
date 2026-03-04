@@ -1,4 +1,4 @@
-﻿import type { UserInfo } from '@/store/user'
+import type { UserInfo } from '@/store/user'
 import md5 from 'blueimp-md5'
 import http from '@/utils/request'
 
@@ -119,4 +119,5 @@ export interface RechargePointsParams {
 export function rechargePointsApi(data: RechargePointsParams) {
   return http.post<any>('user/points/recharge', data)
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { z, ZodType } from 'zod'
+import { z, ZodType } from 'zod'
 
 export interface ZodDto<
   TOutput = unknown,
@@ -34,4 +34,5 @@ export function isZodDto(metatype: unknown): metatype is ZodDto {
     && 'isZodDto' in metatype
     && metatype.isZodDto === true
 }
+
 

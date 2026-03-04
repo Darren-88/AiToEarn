@@ -1,4 +1,4 @@
-﻿/**
+/**
  * generateShareImages - 分享图片生成工具
  * 将聊天消息渲染为可分享的图片
  */
@@ -498,4 +498,6 @@ function dimAssistantBubbles(container: HTMLElement): void {
     // silent
   }
 }
+
+
 

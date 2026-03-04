@@ -1,4 +1,4 @@
-﻿export enum VideoUTypes {
+export enum VideoUTypes {
   Little = 0,
   Big = 1,
 }
@@ -21,4 +21,5 @@ export interface AddArchiveData {
   source?: string // 如果copyright为转载，则此字段表示转载来源
   topic_id?: number // 参加的话题ID，默认情况下不填写，需要填写和运营联系
 }
+
 

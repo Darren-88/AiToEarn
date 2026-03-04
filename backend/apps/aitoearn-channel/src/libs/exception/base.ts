@@ -1,4 +1,4 @@
-﻿import type { IErrorContext, ISocialMediaError } from './interfaces'
+import type { IErrorContext, ISocialMediaError } from './interfaces'
 import { generateOperation } from './utils'
 
 /**
@@ -254,4 +254,5 @@ export class SocialMediaError<TPlatformRawError = unknown>
     }
   }
 }
+
 

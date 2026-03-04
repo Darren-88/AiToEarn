@@ -1,4 +1,4 @@
-﻿import { PubType } from '@/app/config/publishConfig'
+import { PubType } from '@/app/config/publishConfig'
 import { directTrans } from '@/app/i18n/client'
 import bilibiliSvg from '@/assets/svgs/plat/bilibili.svg'
 import douyinSvg from '@/assets/svgs/plat/douyin.svg'
@@ -266,4 +266,5 @@ AccountPlatInfoMap.forEach((info) => {
     enumerable: true,
   })
 })
+
 

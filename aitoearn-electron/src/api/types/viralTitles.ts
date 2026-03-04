@@ -1,4 +1,4 @@
-﻿import { Platform } from '../platform';
+import { Platform } from '../platform';
 
 export interface ViralTitle {
   _id: string;
@@ -13,4 +13,5 @@ export interface ViralTitle {
   updateTime: Date;
   timeType: string;
 }
+
 

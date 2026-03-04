@@ -1,4 +1,4 @@
-﻿export interface ThreadsPost {
+export interface ThreadsPost {
   reply_control?: string
   allowlisted_country_codes?: string[]
   alt_text?: string
@@ -146,4 +146,5 @@ export interface ThreadsSearchLocationResponse {
 export interface ThreadsDeletePostResponse {
   success: boolean
 }
+
 

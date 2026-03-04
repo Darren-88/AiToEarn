@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { TimeTemp } from './time.tamp';
 
 export enum PubType {
@@ -93,4 +93,5 @@ export class PubRecord extends TimeTemp {
 }
 
 export const PubRecordSchema = SchemaFactory.createForClass(PubRecord);
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-21 21:10:01
  * @LastEditTime: 2025-02-21 21:12:28
@@ -17,4 +17,5 @@ ipcMain.handle('getStore', async (_, key) => {
   const value = store.get(key);
   return value || '';
 });
+
 

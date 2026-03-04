@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Get, Param, Post, Query } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post, Query } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { AccountGroupService } from './accountGroup.service';
 import { ApiResult } from '../../../common/decorators/api-result.decorator';
@@ -61,4 +61,5 @@ export class AccountGroupController {
     return this.accountGroupService.getAccountGroup(token.id);
   }
 }
+
 

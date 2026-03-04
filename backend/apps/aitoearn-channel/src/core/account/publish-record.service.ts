@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { OnEvent } from '@nestjs/event-emitter'
 import { AitoearnServerClientService, PublishRecord, PublishStatus } from '@yikart/aitoearn-server-client'
 
@@ -39,4 +39,5 @@ export class PublishRecordService {
     return this.serverClient.publishing.updatePublishRecordStatus(id, status, errorMsg)
   }
 }
+
 

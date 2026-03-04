@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-17 21:26:26
  * @LastEditTime: 2025-04-01 17:26:37
@@ -165,4 +165,5 @@ export function views(win: Electron.BrowserWindow) {
     }
   });
 }
+
 

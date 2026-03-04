@@ -1,4 +1,4 @@
-﻿import type { AccountType } from './types/account.type'
+import type { AccountType } from './types/account.type'
 import http from '@/utils/request'
 
 export enum TaskOpportunityStatus {
@@ -117,4 +117,5 @@ export function apiGetSettleInfoByUserTask(userTaskId: string) {
 export function apiGetSettleItemList(settleId: string) {
   return http.get<any>(`task/settle/item/list/${settleId}`)
 }
+
 

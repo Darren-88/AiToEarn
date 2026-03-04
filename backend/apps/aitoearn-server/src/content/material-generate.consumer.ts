@@ -1,4 +1,4 @@
-﻿import {
+import {
   OnWorkerEvent,
   Processor,
   WorkerHost,
@@ -83,4 +83,5 @@ export class MaterialGenerateConsumer extends WorkerHost {
     this.logger.log('--- bull_material_generate --- completed')
   }
 }
+
 

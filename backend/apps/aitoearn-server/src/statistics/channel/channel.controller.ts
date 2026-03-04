@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Logger, Post } from '@nestjs/common'
+import { Body, Controller, Logger, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, Public, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc } from '@yikart/common'
@@ -84,4 +84,5 @@ export class ChannelController {
     return res
   }
 }
+
 

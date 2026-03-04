@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 小红书平台交互实现
  *
  * 目录结构:
@@ -184,4 +184,5 @@ export type {
   XhsSubCommentItem,
   XhsSubCommentListResponse,
 } from './types'
+
 

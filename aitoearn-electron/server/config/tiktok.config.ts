@@ -1,10 +1,10 @@
-﻿import { registerAs } from '@nestjs/config';
+import { registerAs } from '@nestjs/config';
 
 export default registerAs('tiktok', () => ({
   // TikTok开发者平台的客户端密钥
   clientId: process.env.TIKTOK_CLIENT_ID || '',
   clientSecret: process.env.TIKTOK_CLIENT_SECRET || '',
-  redirectUri: process.env.TIKTOK_REDIRECT_URI || 'https://platapi.aitoearn.cn',
+  redirectUri: process.env.TIKTOK_REDIRECT_URI || 'https://aitoearn.ai/platapi',
 
   // TikTok API基础URL
   apiBaseUrl: 'https://open.tiktokapis.com',
@@ -34,4 +34,6 @@ export default registerAs('tiktok', () => ({
     'video.publish',
   ].join(','),
 }));
+
+
 

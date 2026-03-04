@@ -1,4 +1,4 @@
-﻿import { IRequestNetResult } from '../requestNet';
+import { IRequestNetResult } from '../requestNet';
 
 interface AbConfig {
   cpPublishNewPage2024: boolean;
@@ -332,4 +332,5 @@ export interface CommentAddResponse {
   };
   message: string; // '成功';
 }
+
 

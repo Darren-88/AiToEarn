@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { FeedbackType } from '@yikart/mongodb'
 import { z } from 'zod'
 
@@ -19,4 +19,5 @@ export const GetFeedbackListSchema = z.object({
   type: z.enum(FeedbackType).optional().describe('反馈类型'),
 })
 export class GetFeedbackListDto extends createZodDto(GetFeedbackListSchema) {}
+
 

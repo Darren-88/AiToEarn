@@ -1,3 +1,4 @@
-﻿export class GenerateFingerprintDto {
+export class GenerateFingerprintDto {
 }
+
 

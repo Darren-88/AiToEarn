@@ -1,4 +1,4 @@
-﻿// 自动任务的进度标识
+// 自动任务的进度标识
 export enum AutorWorksInteractionScheduleEvent {
   Start = 'start', // 开始
   GetCommentListStart = 'getCommentListStart', // 获取评论列表开始
@@ -16,4 +16,5 @@ export const AutorWorksInteractionScheduleEventMap = new Map([
   [AutorWorksInteractionScheduleEvent.ReplyCommentStart, '评论开始'],
   [AutorWorksInteractionScheduleEvent.ReplyCommentEnd, '评论结束'],
 ]);
+
 

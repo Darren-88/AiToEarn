@@ -1,4 +1,4 @@
-﻿import http from '@/utils/request'
+import http from '@/utils/request'
 
 // 导入发布记录到草稿箱
 export async function apiImportPostsRecord(records: Array<{
@@ -18,4 +18,5 @@ export async function apiGetPostsRecordStatus() {
   return http.post('statistics/channels/posts/recordStatus', {
   })
 }
+
 

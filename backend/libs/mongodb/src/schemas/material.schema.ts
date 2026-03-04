@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { UserType } from '@yikart/common'
 import { FileMetadata, MediaType } from './media.schema'
 import { WithTimestampSchema } from './timestamp.schema'
@@ -151,4 +151,5 @@ export class Material extends WithTimestampSchema {
 }
 
 export const MaterialSchema = SchemaFactory.createForClass(Material)
+
 

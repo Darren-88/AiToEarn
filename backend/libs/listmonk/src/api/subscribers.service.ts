@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { CreateSubscriberDto, GetSubscribersDto, GetSubscribersResponse, Subscriber } from '../interfaces'
 import { BaseService } from './base.service'
 
@@ -26,4 +26,5 @@ export class SubscribersService extends BaseService {
     return results[0] || null
   }
 }
+
 

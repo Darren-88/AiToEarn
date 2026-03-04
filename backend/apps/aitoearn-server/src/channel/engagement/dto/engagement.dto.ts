@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const KeysetPaginationSchema = z.object({
@@ -188,4 +188,5 @@ export const LikePostResponseSchema = z.object({
 
 export class LikePostRequestDto extends createZodDto(LikePostRequestSchema) {}
 export class LikePostResponseDto extends createZodDto(LikePostResponseSchema) {}
+
 

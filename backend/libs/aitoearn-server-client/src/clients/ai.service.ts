@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { UserType } from '@yikart/common'
 import { AxiosRequestConfig } from 'axios'
 import {
@@ -280,4 +280,5 @@ export class AiService extends BaseService {
     return res
   }
 }
+
 

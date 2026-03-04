@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { PublishStatus, PublishTask } from '../../../libs/database/schema/publishTask.schema'
 import { CreatePinBody, SourceType } from '../../../libs/pinterest/common'
 import { PinterestService } from '../../platforms/pinterest/pinterest.service'
@@ -70,4 +70,5 @@ export class PinterestPubService extends PublishService {
     return this.publishImagePost(boardId, publishTask)
   }
 }
+
 

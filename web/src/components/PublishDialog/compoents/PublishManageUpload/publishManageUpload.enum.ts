@@ -1,4 +1,4 @@
-﻿export enum UploadTaskStatusEnum {
+export enum UploadTaskStatusEnum {
   Hashing = 'hashing',
   Pending = 'pending',
   Uploading = 'uploading',
@@ -12,4 +12,5 @@ export enum UploadTaskTypeEnum {
   Video = 'video',
   VideoCover = 'videoCover',
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AccountService, AiService, ContentService, NotificationService, PublishingService, PublishRecordService, UserService } from './clients'
 
 @Injectable()
@@ -41,4 +41,5 @@ export class AitoearnServerClientService {
     return this.userService
   }
 }
+
 

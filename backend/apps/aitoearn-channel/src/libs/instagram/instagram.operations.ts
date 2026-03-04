@@ -1,4 +1,4 @@
-﻿export const InstagramOperation = {
+export const InstagramOperation = {
   REFRESH_OAUTH_CREDENTIAL: 'refresh_oauth_credential',
   CREATE_MEDIA_CONTAINER: 'create_media_container',
   CHUNKED_MEDIA_UPLOAD: 'chunked_media_upload',
@@ -18,4 +18,5 @@
 } as const
 
 export type InstagramOperationLabel = typeof InstagramOperation[keyof typeof InstagramOperation]
+
 

@@ -1,4 +1,4 @@
-﻿export enum PaginationTypeEnum {
+export enum PaginationTypeEnum {
   LIMIT_AND_OFFSET = 'limit',
   TAKE_AND_SKIP = 'take',
 }
@@ -23,4 +23,5 @@ export interface IPaginationLinks {
   next?: string;
   last?: string;
 }
+
 

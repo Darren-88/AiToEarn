@@ -1,4 +1,4 @@
-﻿import { Global, Module } from '@nestjs/common'
+import { Global, Module } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import { SkKey, SkKeySchema } from '../../libs/database/schema/skKey.schema'
 import {
@@ -23,4 +23,5 @@ import { SkKeyService } from './sk-key.service'
   exports: [SkKeyService],
 })
 export class SkKeyModule {}
+
 

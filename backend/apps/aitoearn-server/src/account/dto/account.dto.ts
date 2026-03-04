@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import { AccountStatus, ClientType } from '@yikart/mongodb'
 import { z } from 'zod'
 
@@ -134,4 +134,5 @@ export const AccountFilterSchema = z.object({
   types: z.array(z.enum(AccountType)).optional(),
 })
 export class AccountFilterDto extends createZodDto(AccountFilterSchema) {}
+
 

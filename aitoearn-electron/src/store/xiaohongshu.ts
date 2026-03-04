@@ -1,4 +1,4 @@
-﻿import { create } from 'zustand';
+import { create } from 'zustand';
 
 interface XiaohongshuState {
   loginInfo: {
@@ -20,4 +20,5 @@ export const useXiaohongshuStore = create<XiaohongshuState>((set) => ({
   setLoginInfo: (info) => set({ loginInfo: info }),
   clearLoginInfo: () => set({ loginInfo: null }),
 }));
+
 

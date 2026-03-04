@@ -1,4 +1,4 @@
-﻿export enum TaskStatus {
+export enum TaskStatus {
   NotStart = 'NOT_START',
   Submitted = 'SUBMITTED',
   Queued = 'QUEUED',
@@ -7,4 +7,5 @@
   Success = 'SUCCESS',
   Unknown = 'UNKNOWN',
 }
+
 

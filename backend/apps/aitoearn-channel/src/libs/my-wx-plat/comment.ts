@@ -1,4 +1,4 @@
-﻿export interface ComponentVerifyTicketData {
+export interface ComponentVerifyTicketData {
   AppId: string
   CreateTime: number
   InfoType: 'component_verify_ticket'
@@ -69,4 +69,5 @@ export interface WxPlatAuthorizerInfo {
   errcode?: number
   errmsg?: string
 }
+
 

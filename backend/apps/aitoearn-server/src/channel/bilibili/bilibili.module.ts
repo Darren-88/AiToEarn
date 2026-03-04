@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { BilibiliController } from './bilibili.controller'
 import { BilibiliService } from './bilibili.service'
 
@@ -9,4 +9,5 @@ import { BilibiliService } from './bilibili.service'
   exports: [BilibiliService],
 })
 export class BilibiliModule {}
+
 

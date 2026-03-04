@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { MetaController } from './meta.controller'
 
 @Module({
@@ -8,4 +8,5 @@ import { MetaController } from './meta.controller'
   exports: [],
 })
 export class MetaModule {}
+
 

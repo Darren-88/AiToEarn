@@ -1,4 +1,4 @@
-﻿import { createZodDto, TableDto } from '@yikart/common'
+import { createZodDto, TableDto } from '@yikart/common'
 import { MaterialStatus, MaterialType, MediaType } from '@yikart/mongodb'
 import { z } from 'zod'
 
@@ -72,4 +72,5 @@ const MediaIdsSchema = z.object({
   ids: z.array(z.string()).min(1).describe('ID列表'),
 })
 export class MaterialIdsDto extends createZodDto(MediaIdsSchema) {}
+
 

@@ -1,4 +1,4 @@
-﻿import type { NextRequest } from 'next/server'
+import type { NextRequest } from 'next/server'
 import acceptLanguage from 'accept-language'
 import { NextResponse } from 'next/server'
 import { cookieName, fallbackLng, languages } from '@/app/i18n/settings'
@@ -73,4 +73,5 @@ export function middleware(req: NextRequest) {
   }
   return NextResponse.next()
 }
+
 

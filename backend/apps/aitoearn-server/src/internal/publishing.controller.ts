@@ -1,4 +1,4 @@
-﻿import {
+import {
   Body,
   Controller,
   Get,
@@ -89,4 +89,5 @@ export class PublishingController {
     )
   }
 }
+
 

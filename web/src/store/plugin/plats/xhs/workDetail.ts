@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 小红书作品详情功能模块
  */
 
@@ -280,4 +280,5 @@ export async function getWorkDetail(params: GetWorkDetailParams): Promise<GetWor
     }
   }
 }
+
 

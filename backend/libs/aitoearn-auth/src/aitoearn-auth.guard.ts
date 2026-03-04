@@ -1,4 +1,4 @@
-﻿import {
+import {
   CanActivate,
   ExecutionContext,
   Injectable,
@@ -76,4 +76,5 @@ export class AitoearnAuthGuard implements CanActivate {
     return type === 'Bearer' ? token : undefined
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿// Pinterest API v5 Types
+// Pinterest API v5 Types
 // Base docs: https://developers.pinterest.com/docs/api/v5/
 
 // OAuth
@@ -96,4 +96,5 @@ export interface PinterestInitMediaUploadResponse {
   upload_url: string
   upload_parameters: Record<string, string>
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Post } from '@nestjs/common'
+import { Body, Controller, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc } from '@yikart/common'
@@ -51,4 +51,5 @@ export class AliGreenController {
     return this.aliGreenService.getVideoResult(data, token)
   }
 }
+
 

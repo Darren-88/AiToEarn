@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-09-23 18:00:51
  * @LastEditTime: 2025-01-15 14:20:46
@@ -28,4 +28,5 @@ import { IdService } from './id.service'
   exports: [IdService],
 })
 export class DbMongoModule { }
+
 

@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   CallHandler,
   ExecutionContext,
   NestInterceptor,
@@ -68,4 +68,5 @@ export class ResponseInterceptor implements NestInterceptor {
     }
   }
 }
+
 

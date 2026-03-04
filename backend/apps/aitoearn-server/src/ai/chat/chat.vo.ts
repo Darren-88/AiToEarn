@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 import { messageContentComplexSchema } from './chat.dto'
 
@@ -63,4 +63,5 @@ export const chatModelSchema = z.object({
 })
 
 export class ChatModelConfigVo extends createZodDto(chatModelSchema) {}
+
 

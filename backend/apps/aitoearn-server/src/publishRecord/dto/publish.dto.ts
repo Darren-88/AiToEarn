@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import { PublishStatus, PublishType } from '@yikart/mongodb'
 import { z } from 'zod'
 
@@ -96,4 +96,5 @@ export const donePublishRecordSchema = z.object({
   }),
 })
 export class DonePublishRecordDto extends createZodDto(donePublishRecordSchema) {}
+
 

@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Get, Param, Post, Query, Res, UseGuards } from '@nestjs/common'
+import { Body, Controller, Get, Param, Post, Query, Res, UseGuards } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, Public, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc } from '@yikart/common'
@@ -57,4 +57,5 @@ export class TwitterController {
     return res.render('auth/back', result)
   }
 }
+
 

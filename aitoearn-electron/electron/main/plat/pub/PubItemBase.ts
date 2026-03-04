@@ -1,4 +1,4 @@
-﻿import { AccountModel } from '../../../db/models/account';
+import { AccountModel } from '../../../db/models/account';
 import { PlatformBase } from '../PlatformBase';
 
 export abstract class PubItemBase {
@@ -10,4 +10,5 @@ export abstract class PubItemBase {
     this.platform = platform;
   }
 }
+
 

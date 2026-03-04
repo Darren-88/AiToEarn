@@ -1,4 +1,4 @@
-﻿// 任务状态枚举
+// 任务状态枚举
 export enum TaskStatus {
   Queued = 'queued',
   Running = 'running',
@@ -144,4 +144,5 @@ export type VideoModel
     | 'wan2-1-14b-i2v'
     | 'wan2-1-14b-flf2v'
     | string
+
 

@@ -1,4 +1,4 @@
-﻿import type { PlatType } from '@/app/config/platConfig'
+import type { PlatType } from '@/app/config/platConfig'
 import type { PubType } from '@/app/config/publishConfig'
 
 export enum PublishStatus {
@@ -80,4 +80,5 @@ export interface PublishRecordEngagement {
   impressionCount: number
   favoriteCount: number
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Controller, Get, Post, Body, Query, Res, Param, Delete, UseInterceptors, BadRequestException,
+import { Controller, Get, Post, Body, Query, Res, Param, Delete, UseInterceptors, BadRequestException,
   UploadedFile, HttpException, HttpStatus, UseGuards } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { ApiTags, ApiOperation, ApiBody, ApiConsumes, ApiQuery, ApiParam } from '@nestjs/swagger';
@@ -545,3 +545,4 @@ export class TikTokController {
   }
 
 }
+

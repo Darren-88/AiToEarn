@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { ScheduleModule } from '@nestjs/schedule'
 import { VideoModule } from '../video'
 import { VideoTaskStatusScheduler } from './video-task-status.scheduler'
@@ -12,4 +12,5 @@ import { VideoTaskStatusScheduler } from './video-task-status.scheduler'
   exports: [],
 })
 export class SchedulerModule {}
+
 

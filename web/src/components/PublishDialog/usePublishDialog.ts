@@ -1,4 +1,4 @@
-﻿import type { SocialAccount } from '@/api/types/account.type'
+import type { SocialAccount } from '@/api/types/account.type'
 import type { ErrPubParamsMapType } from '@/components/PublishDialog/hooks/usePubParamsVerify'
 import type {
   IPubParams,
@@ -286,4 +286,5 @@ export const usePublishDialog = create(
     },
   ),
 )
+
 

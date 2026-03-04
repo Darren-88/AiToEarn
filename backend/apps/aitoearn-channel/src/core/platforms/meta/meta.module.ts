@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import { OAuth2Credential, OAuth2CredentialSchema } from '../../../libs/database/schema/oauth2Credential.schema'
 import { FacebookService as FacebookAPIService } from '../../../libs/facebook/facebook.service'
@@ -31,4 +31,5 @@ import { ThreadsService } from './threads.service'
   exports: [MetaService, FacebookService, InstagramService, ThreadsService, LinkedinService],
 })
 export class MetaModule {}
+
 

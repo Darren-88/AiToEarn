@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Get, Post } from '@nestjs/common'
+import { Body, Controller, Get, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { ApiDoc } from '@yikart/common'
 import { AccountDataService } from './accountData.service'
@@ -117,4 +117,5 @@ export class AccountDataController {
     return this.accountDataService.getChannelDataPeriodByUids(data.queries, data?.startDate, data?.endDate)
   }
 }
+
 

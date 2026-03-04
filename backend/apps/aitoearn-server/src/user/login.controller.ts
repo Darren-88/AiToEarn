@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Delete, Get, Logger, Post, Put } from '@nestjs/common'
+import { Body, Controller, Delete, Get, Logger, Post, Put } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { AitoearnAuthService, GetToken, Public, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc, AppException, ResponseCode } from '@yikart/common'
@@ -329,4 +329,5 @@ export class LoginController {
     return res
   }
 }
+
 

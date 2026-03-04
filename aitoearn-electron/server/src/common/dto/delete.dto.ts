@@ -1,4 +1,4 @@
-﻿import { IsDefined, IsNotEmpty, IsNumber } from 'class-validator';
+import { IsDefined, IsNotEmpty, IsNumber } from 'class-validator';
 
 export class BatchDeleteDto {
   @IsDefined()
@@ -6,4 +6,5 @@ export class BatchDeleteDto {
   @IsNumber({}, { each: true })
   ids: number[];
 }
+
 

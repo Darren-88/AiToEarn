@@ -1,4 +1,4 @@
-﻿export const fallbackLng = 'en'
+export const fallbackLng = 'en'
 export const languages = [fallbackLng, 'zh-CN']
 export const defaultNS = 'common'
 export const cookieName = 'i18next'
@@ -21,4 +21,5 @@ export function getOptions(
     // }
   }
 }
+
 

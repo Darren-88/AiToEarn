@@ -1,4 +1,4 @@
-﻿// 根据文件获取硬盘上的文件流
+// 根据文件获取硬盘上的文件流
 import { ISaveFileParams } from '../../electron/main/views';
 
 export async function icpGetFileStream(path: string) {
@@ -28,4 +28,5 @@ export async function icpGetLocation() {
   } = await window.ipcRenderer.invoke('GET_LOCATION');
   return res;
 }
+
 

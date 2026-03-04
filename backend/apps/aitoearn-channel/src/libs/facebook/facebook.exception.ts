@@ -1,4 +1,4 @@
-﻿import type { IErrorContext } from '../exception/interfaces'
+import type { IErrorContext } from '../exception/interfaces'
 import { SocialMediaError } from '../exception/base'
 
 /**
@@ -61,4 +61,5 @@ export class FacebookError extends SocialMediaError<FacebookRawError> {
     return `Failed to ${operation}. ${rawError.error_user_title || rawError.message}, error code: ${rawError.code}`
   }
 }
+
 

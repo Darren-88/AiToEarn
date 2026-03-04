@@ -1,4 +1,4 @@
-﻿import { HttpModule } from '@nestjs/axios'
+import { HttpModule } from '@nestjs/axios'
 import { Global, Module } from '@nestjs/common'
 import { ChannelApiModule } from './channel/channelApi.module'
 import { ChannelBaseApi } from './channelBase.api'
@@ -12,4 +12,5 @@ import { ChannelBaseApi } from './channelBase.api'
   exports: [],
 })
 export class TransportsModule { }
+
 

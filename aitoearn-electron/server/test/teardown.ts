@@ -1,5 +1,6 @@
-﻿export default async () => {
+export default async () => {
   await global.mongo?.stop();
   // await global.redis?.stop();
 };
+
 

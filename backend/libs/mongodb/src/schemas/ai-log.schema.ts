@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { UserType } from '@yikart/common'
 import { AiLogChannel, AiLogStatus, AiLogType } from '../enums'
 import { WithTimestampSchema } from './timestamp.schema'
@@ -96,4 +96,5 @@ export class AiLog extends WithTimestampSchema {
 }
 
 export const AiLogSchema = SchemaFactory.createForClass(AiLog)
+
 

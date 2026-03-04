@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { KwaiController } from './kwai.controller'
 
 @Module({
@@ -8,4 +8,5 @@ import { KwaiController } from './kwai.controller'
   exports: [],
 })
 export class KwaiModule {}
+
 

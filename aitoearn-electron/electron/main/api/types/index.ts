@@ -1,4 +1,4 @@
-﻿// 通用响应类型
+// 通用响应类型
 export interface ResOp<T = any> {
   data: T;
   code?: number;
@@ -13,4 +13,5 @@ export interface PaginationMeta {
   totalPages: number;
   currentPage: number;
 }
+
 

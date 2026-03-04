@@ -1,4 +1,4 @@
-﻿import { S3Client } from '@aws-sdk/client-s3'
+import { S3Client } from '@aws-sdk/client-s3'
 import { S3Config } from './s3.config'
 
 export class S3Factory {
@@ -14,4 +14,5 @@ export class S3Factory {
     })
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-08-02 16:18:04
  * @LastEditTime: 2025-01-15 14:37:02
@@ -27,4 +27,5 @@ export enum CheckStatus {
   PASS = 1,
   FAIL = -1,
 }
+
 

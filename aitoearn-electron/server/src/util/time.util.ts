@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-07-22 17:57:25
  * @LastEditTime: 2024-07-22 17:59:08
@@ -25,4 +25,5 @@ export function getTodayEnd(): Date {
 export function getCurrentTimestamp(): number {
   return Math.floor(new Date().getTime() / 1000);
 }
+
 

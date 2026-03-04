@@ -1,4 +1,4 @@
-﻿// 账户组默认ID
+// 账户组默认ID
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 
 import { TimeTemp } from './time.tamp';
@@ -56,4 +56,5 @@ export class AccountGroup extends TimeTemp {
 }
 
 export const AccountGroupSchema = SchemaFactory.createForClass(AccountGroup);
+
 

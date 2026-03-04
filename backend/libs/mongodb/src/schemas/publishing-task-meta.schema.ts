@@ -1,4 +1,4 @@
-﻿import { Prop, Schema } from '@nestjs/mongoose'
+import { Prop, Schema } from '@nestjs/mongoose'
 
 @Schema({})
 export class BiliBiliPublishTaskMeta {
@@ -137,4 +137,5 @@ export class PublishErrorData {
   @Prop({ required: false })
   originalData?: any
 }
+
 

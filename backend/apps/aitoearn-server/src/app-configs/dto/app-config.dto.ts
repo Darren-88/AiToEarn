@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const getAppConfigListSchema = z.object({
@@ -7,4 +7,5 @@ export const getAppConfigListSchema = z.object({
 export class GetAppConfigListDto extends createZodDto(
   getAppConfigListSchema,
 ) {}
+
 

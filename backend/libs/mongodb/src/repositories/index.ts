@@ -1,4 +1,4 @@
-﻿import { AccountRepository } from './account.repository'
+import { AccountRepository } from './account.repository'
 import { AccountGroupRepository } from './accountGroup.repository'
 import { AiLogRepository } from './ai-log.repository'
 import { ApiKeyAccountRepository } from './api-key-account.repository'
@@ -63,4 +63,5 @@ export const repositories = [
   OAuth2CredentialRepository,
   PublishTaskRepository,
 ] as const
+
 

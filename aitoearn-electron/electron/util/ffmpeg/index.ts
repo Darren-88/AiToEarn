@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-14 16:36:05
  * @LastEditTime: 2025-02-23 20:07:52
@@ -20,4 +20,5 @@ export default class FFmpeg {
     this.ffmpeg = ffmpeg(inputPath);
   }
 }
+
 

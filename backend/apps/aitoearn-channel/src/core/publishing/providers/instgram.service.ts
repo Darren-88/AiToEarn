@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { UnrecoverableError } from 'bullmq'
 import { v4 as uuidv4 } from 'uuid'
 import { InstagramService } from '../../../core/platforms/meta/instagram.service'
@@ -216,4 +216,5 @@ export class InstagramPublishService
     }
   }
 }
+
 

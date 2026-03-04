@@ -1,4 +1,4 @@
-﻿// see https://docs.x.com/x-api/media/media-upload-initialize
+// see https://docs.x.com/x-api/media/media-upload-initialize
 export enum XMediaCategory {
   AMPLIFY_VIDEO = 'amplify_video',
   TWEET_GIF = 'tweet_gif',
@@ -27,4 +27,5 @@ export enum XMediaType {
   MODEL_GLTF_BINARY = 'model/gltf-binary',
   MODEL_USDZ_ZIP = 'model/vnd.usdz+zip',
 }
+
 

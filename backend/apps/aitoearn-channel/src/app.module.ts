@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { EventEmitterModule } from '@nestjs/event-emitter'
 import { ScheduleModule } from '@nestjs/schedule'
 import { AitoearnQueueModule } from '@yikart/aitoearn-queue'
@@ -27,4 +27,5 @@ import { DbMongoModule } from './libs/database'
   ],
 })
 export class AppModule {}
+
 

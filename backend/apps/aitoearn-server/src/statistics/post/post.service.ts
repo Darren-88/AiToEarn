@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { PostRepository } from '@yikart/statistics-db'
 import { FetchAllPostsRequestDto, FetchPostRequestDto, FetchPostsBatchRequestDto, FetchPostsRequestDto } from './post.dto'
 
@@ -70,4 +70,5 @@ export class PostService {
     return await this.postRepository.getAverageSummaryMonthly(payload)
   }
 }
+
 

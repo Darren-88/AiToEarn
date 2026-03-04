@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-23 15:48:14
  * @LastEditTime: 2025-02-14 22:36:25
@@ -54,4 +54,5 @@ export async function ipcUpFlie(path: string) {
   );
   return res;
 }
+
 

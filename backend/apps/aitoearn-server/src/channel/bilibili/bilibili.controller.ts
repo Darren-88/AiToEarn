@@ -1,4 +1,4 @@
-﻿import {
+import {
   Controller,
   Get,
   Param,
@@ -143,4 +143,5 @@ export class BilibiliController {
     return this.platBilibiliApi.getArcIncStat(accountId)
   }
 }
+
 

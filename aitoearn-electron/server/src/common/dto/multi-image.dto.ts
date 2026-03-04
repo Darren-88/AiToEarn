@@ -1,4 +1,4 @@
-﻿import { ApiProperty } from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 import { IsNumber, IsOptional, IsString } from 'class-validator';
 
 export class MultiImage {
@@ -15,4 +15,5 @@ export class MultiImage {
   @IsOptional()
   size?: number;
 }
+
 

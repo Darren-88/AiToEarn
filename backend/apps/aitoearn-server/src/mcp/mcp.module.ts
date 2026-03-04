@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { AccountModule } from '../account/account.module'
 import { McpApiKeyController } from './mcp.controller'
 import { McpService } from './mcp.service'
@@ -18,4 +18,5 @@ import { McpService } from './mcp.service'
   ],
 })
 export class McpModule {}
+
 

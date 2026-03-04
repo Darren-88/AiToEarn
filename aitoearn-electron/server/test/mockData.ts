@@ -1,4 +1,4 @@
-﻿import { ObjectId } from 'mongodb';
+import { ObjectId } from 'mongodb';
 import { PlatformAccountGroupStatus } from '../src/db/schema/platform-account-group.schema';
 import { PlatformStatus, PlatformType } from '../src/db/schema/platform.schema';
 import { RankingStatus, RankingType } from '../src/db/schema/ranking.schema';
@@ -156,4 +156,5 @@ export const task = {
     requiresShoppingCart: true,
   },
 };
+
 

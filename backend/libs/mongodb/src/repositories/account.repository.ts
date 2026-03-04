@@ -1,4 +1,4 @@
-﻿import { Logger } from '@nestjs/common'
+import { Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { AccountType, TableDto } from '@yikart/common'
 import { Model, RootFilterQuery } from 'mongoose'
@@ -328,4 +328,5 @@ export class AccountRepository extends BaseRepository<Account> {
     }).lean()
   }
 }
+
 

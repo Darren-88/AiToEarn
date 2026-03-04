@@ -1,4 +1,4 @@
-﻿import { Pagination } from '@yikart/common'
+import { Pagination } from '@yikart/common'
 import { DeleteOptions } from 'mongodb'
 import { FilterQuery, Model, MongooseBaseQueryOptions, QueryOptions, UpdateQuery } from 'mongoose'
 
@@ -127,4 +127,5 @@ export class BaseRepository<TDocument> {
     return result !== null
   }
 }
+
 

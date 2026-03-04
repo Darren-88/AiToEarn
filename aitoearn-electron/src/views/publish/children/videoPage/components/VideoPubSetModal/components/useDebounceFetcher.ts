@@ -1,4 +1,4 @@
-﻿import { useMemo, useRef, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import lodash from 'lodash';
 
 export default function useDebounceFetcher<T>(
@@ -37,4 +37,5 @@ export default function useDebounceFetcher<T>(
     setOptions,
   };
 }
+
 

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next'
+import type { Metadata } from 'next'
 import { useTranslation } from '@/app/i18n'
 
 export async function getPageTitle(name: string, lng: string) {
@@ -28,4 +28,5 @@ export async function getMetadata(
 export function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
+
 

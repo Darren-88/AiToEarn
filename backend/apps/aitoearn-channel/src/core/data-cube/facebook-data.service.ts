@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { OnEvent } from '@nestjs/event-emitter'
 import { AccountType, AitoearnServerClientService } from '@yikart/aitoearn-server-client'
 import { FacebookService } from '../platforms/meta/facebook.service'
@@ -53,4 +53,5 @@ export class FacebookDataService extends DataCubeBase {
     }
   }
 }
+
 

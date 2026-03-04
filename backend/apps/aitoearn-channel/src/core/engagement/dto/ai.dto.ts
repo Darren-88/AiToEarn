@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const CommentSchema = z.object({
@@ -14,4 +14,5 @@ export const ReplyToCommentAnswerSchema = z.object({
 
 export class comment extends createZodDto(CommentSchema) {}
 export class ReplyToCommentAnswer extends createZodDto(ReplyToCommentAnswerSchema) {}
+
 

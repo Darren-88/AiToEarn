@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Post } from '@nestjs/common'
+import { Body, Controller, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { ApiDoc } from '@yikart/common'
 import { CreateBoardBodyDto, CreatePinBodyDto, WebhookDto } from './dto/pinterest.dto'
@@ -156,4 +156,5 @@ export class PinterestController {
     return await this.pinterestService.getAccessTokenStatus(data.accountId)
   }
 }
+
 

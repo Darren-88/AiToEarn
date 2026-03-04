@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { TimeTemp } from './time.tamp';
 import { Types } from 'mongoose';
 
@@ -81,4 +81,5 @@ export class AccountToken extends TimeTemp {
 }
 
 export const AccountTokenSchema = SchemaFactory.createForClass(AccountToken);
+
 

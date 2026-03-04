@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { getCurrentTimestamp } from '../../../common'
 import {
   ChunkedMediaUploadRequest,
@@ -239,4 +239,5 @@ export class InstagramService extends MetaBaseService {
     return result
   }
 }
+
 

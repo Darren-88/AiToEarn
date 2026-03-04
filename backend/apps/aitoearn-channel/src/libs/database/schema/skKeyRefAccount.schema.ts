@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { BaseTemp } from './time.tamp'
 
@@ -36,4 +36,5 @@ export class SkKeyRefAccount extends BaseTemp {
 }
 
 export const SkKeyRefAccountSchema = SchemaFactory.createForClass(SkKeyRefAccount)
+
 

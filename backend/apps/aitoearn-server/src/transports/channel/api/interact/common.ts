@@ -1,4 +1,4 @@
-﻿import { AccountType } from '@yikart/common'
+import { AccountType } from '@yikart/common'
 
 export interface InteractionRecord {
   id: string
@@ -27,4 +27,5 @@ export interface ReplyCommentRecord {
   createAt: Date
   updatedAt: Date
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { LinkedinService } from './linkedin.service'
 
 @Module({
@@ -7,4 +7,5 @@ import { LinkedinService } from './linkedin.service'
   exports: [LinkedinService],
 })
 export class LinkedinModule {}
+
 

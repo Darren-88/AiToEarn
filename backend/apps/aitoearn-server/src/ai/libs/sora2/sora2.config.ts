@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const sora2ConfigSchema = z.object({
@@ -7,4 +7,5 @@ export const sora2ConfigSchema = z.object({
 })
 
 export class Sora2Config extends createZodDto(sora2ConfigSchema) {}
+
 

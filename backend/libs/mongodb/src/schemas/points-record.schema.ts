@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { Document } from 'mongoose'
 import { WithTimestampSchema } from './timestamp.schema'
 
@@ -67,4 +67,5 @@ export class PointsRecord extends WithTimestampSchema {
 }
 
 export const PointsRecordSchema = SchemaFactory.createForClass(PointsRecord)
+
 

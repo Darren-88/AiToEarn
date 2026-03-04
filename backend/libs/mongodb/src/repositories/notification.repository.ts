@@ -1,4 +1,4 @@
-﻿import { InjectModel } from '@nestjs/mongoose'
+import { InjectModel } from '@nestjs/mongoose'
 import { NotificationType, Pagination, UserType } from '@yikart/common'
 import { FilterQuery, Model, Types } from 'mongoose'
 import { NotificationStatus } from '../enums'
@@ -161,4 +161,5 @@ export class NotificationRepository extends BaseRepository<Notification> {
     })
   }
 }
+
 

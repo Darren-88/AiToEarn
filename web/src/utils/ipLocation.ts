@@ -1,4 +1,4 @@
-﻿/**
+/**
  * IP地理位置获取工具
  * 使用JSONP方式调用IP地理位置服务
  */
@@ -81,4 +81,5 @@ export function formatLocationInfo(info: IpLocationInfo): string {
   const country = extractCountry(info.location)
   return `${country} | ${info.ip}`
 }
+
 

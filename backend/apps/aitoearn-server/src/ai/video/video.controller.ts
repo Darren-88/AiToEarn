@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Get, Param, Post, Query } from '@nestjs/common'
+import { Body, Controller, Get, Param, Post, Query } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, Public, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc, UserType } from '@yikart/common'
@@ -267,4 +267,5 @@ export class VideoController {
     return DashscopeTaskStatusResponseVo.create(response)
   }
 }
+
 

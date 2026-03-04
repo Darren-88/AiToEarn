@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { ChannelBaseApi } from '../../channelBase.api'
 import { AccessToken } from './bilibili.common'
 
@@ -761,4 +761,5 @@ export class PlatYoutubeNatsApi extends ChannelBaseApi {
     return res
   }
 }
+
 

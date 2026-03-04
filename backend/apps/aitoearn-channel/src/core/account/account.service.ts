@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { QueueService } from '@yikart/aitoearn-queue'
 import { AccountStatus, AccountType, AitoearnServerClientService, NewAccount } from '@yikart/aitoearn-server-client'
@@ -127,4 +127,5 @@ export class AccountService {
     return await this.accountModel.updateOne({ _id: id }, { status })
   }
 }
+
 

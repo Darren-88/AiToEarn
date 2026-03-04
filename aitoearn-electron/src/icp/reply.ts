@@ -1,4 +1,4 @@
-﻿import { PlatType } from '@@/AccountEnum';
+import { PlatType } from '@@/AccountEnum';
 
 /*
  * @Author: nevin
@@ -187,4 +187,5 @@ export async function ipcGetReplyCommentRecordList(
   );
   return res;
 }
+
 

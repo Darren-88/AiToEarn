@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { Cron, CronExpression } from '@nestjs/schedule'
 import { AppException, ResponseCode } from '@yikart/common'
 import { PointsRecordRepository, User, UserRepository, UserStatus } from '@yikart/mongodb'
@@ -211,4 +211,5 @@ export class PointsService {
     await this.pointsRecordRepository.getPoint10DayExp(user)
   }
 }
+
 

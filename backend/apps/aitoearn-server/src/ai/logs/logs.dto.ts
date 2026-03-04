@@ -1,4 +1,4 @@
-﻿import { createZodDto, PaginationDtoSchema, UserType } from '@yikart/common'
+import { createZodDto, PaginationDtoSchema, UserType } from '@yikart/common'
 import { z } from 'zod'
 
 // 日志列表查询参数
@@ -18,4 +18,5 @@ const logDetailQuerySchema = z.object({
 })
 
 export class LogDetailQueryDto extends createZodDto(logDetailQuerySchema) {}
+
 

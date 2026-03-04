@@ -1,4 +1,4 @@
-﻿import { Platform } from '../platform';
+import { Platform } from '../platform';
 
 interface HotValueHistory {
   timestamp: Date; // 记录时间
@@ -19,4 +19,5 @@ export interface HotTopic {
   createTime: Date;
   updateTime: Date;
 }
+
 

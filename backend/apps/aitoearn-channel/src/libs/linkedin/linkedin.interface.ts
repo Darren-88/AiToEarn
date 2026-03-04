@@ -1,4 +1,4 @@
-﻿export const LifecycleState = 'PUBLISHED'
+export const LifecycleState = 'PUBLISHED'
 
 export enum LinkedinShareCategory {
   TEXT = 'TEXT',
@@ -92,4 +92,5 @@ export interface LinkedInUploadResponseData {
 export interface LinkedInUploadResponse {
   value: LinkedInUploadResponseData
 }
+
 

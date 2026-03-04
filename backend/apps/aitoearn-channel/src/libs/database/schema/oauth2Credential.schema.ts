@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { BaseTemp } from './time.tamp'
 
@@ -63,4 +63,5 @@ export class OAuth2Credential extends BaseTemp {
 }
 
 export const OAuth2CredentialSchema = SchemaFactory.createForClass(OAuth2Credential)
+
 

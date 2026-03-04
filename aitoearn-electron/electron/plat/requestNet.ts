@@ -1,4 +1,4 @@
-﻿import { net, session, Session } from 'electron';
+import { net, session, Session } from 'electron';
 import FormData from 'form-data';
 import { ipv4Regular } from '../../commont/regular';
 import { parseProxyString } from '../../commont/utils';
@@ -159,4 +159,5 @@ const requestNet = <T = any>({
 };
 
 export default requestNet;
+
 

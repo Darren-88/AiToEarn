@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { PostsResponseVo, PostVo } from '@yikart/common'
 import { FacebookService } from '../../../core/platforms/meta/facebook.service'
 import { FacebookPagePostRequest, FacebookPostCommentsRequest } from '../../../libs/facebook/facebook.interfaces'
@@ -167,4 +167,5 @@ export class FacebookEngagementProvider implements EngagementProvider {
     return this.publishFacebookObjectComment(accountId, commentId, message)
   }
 }
+
 

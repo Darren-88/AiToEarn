@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Get, Param, Post } from '@nestjs/common'
+import { Body, Controller, Get, Param, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, Public, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc, UserType } from '@yikart/common'
@@ -195,4 +195,5 @@ export class ImageController {
     return AsyncTaskResponseVo.create(response)
   }
 }
+
 

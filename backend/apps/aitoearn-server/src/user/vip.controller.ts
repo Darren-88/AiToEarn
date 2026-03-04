@@ -1,4 +1,4 @@
-﻿import { Controller } from '@nestjs/common'
+import { Controller } from '@nestjs/common'
 // import { Cron } from '@nestjs/schedule'
 // import { RedisService } from '@yikart/redis'
 // import { VipService } from './vip.service'
@@ -12,4 +12,5 @@ export class VipController {
     // private readonly redisService: RedisService,
   ) {}
 }
+
 

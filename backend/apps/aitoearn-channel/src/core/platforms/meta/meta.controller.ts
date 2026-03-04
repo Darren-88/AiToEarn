@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Delete, Get, Param, Post, Query } from '@nestjs/common'
+import { Body, Controller, Delete, Get, Param, Post, Query } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { ApiDoc } from '@yikart/common'
 import { FacebookInsightsRequest, FacebookPagePostRequest, FacebookPostEdgesRequest, FacebookPublishedPostRequest } from '../../../libs/facebook/facebook.interfaces'
@@ -383,4 +383,5 @@ export class MetaController {
     return await this.linkedinService.deletePost(accountId, postId)
   }
 }
+
 

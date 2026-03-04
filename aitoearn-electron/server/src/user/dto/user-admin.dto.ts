@@ -1,4 +1,4 @@
-﻿import { ApiProperty } from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 import { IsEnum, IsOptional, IsString } from 'class-validator';
 import { UserStatus } from '../../db/schema/user.schema';
 import { PagerDto } from '../../common/dto/pager.dto';
@@ -25,4 +25,5 @@ export class UpdateUserStatusDto {
   @IsEnum(UserStatus)
   status: UserStatus;
 }
+
 

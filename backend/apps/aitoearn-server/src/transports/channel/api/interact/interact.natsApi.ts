@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { TableDto } from '@yikart/common'
 import { ChannelBaseApi } from '../../../channelBase.api'
 
@@ -74,4 +74,5 @@ export class InteractNatsApi extends ChannelBaseApi {
     return res
   }
 }
+
 

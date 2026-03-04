@@ -1,4 +1,4 @@
-﻿import { Controller, Icp, Inject } from '../core/decorators';
+import { Controller, Icp, Inject } from '../core/decorators';
 import { BackupService } from './service';
 
 @Controller()
@@ -31,4 +31,5 @@ export class BackupController {
     await this.backupService.restoreFromBackup(backupPath);
   }
 }
+
 

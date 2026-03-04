@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { PlatBilibiliNatsApi } from '../../transports/channel/api/bilibili.natsApi'
 
 @Injectable()
@@ -16,4 +16,5 @@ export class BilibiliService {
     return res
   }
 }
+
 

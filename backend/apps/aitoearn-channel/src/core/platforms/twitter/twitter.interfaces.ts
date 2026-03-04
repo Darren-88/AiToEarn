@@ -1,4 +1,4 @@
-﻿export interface TwitterOAuthTaskInfo {
+export interface TwitterOAuthTaskInfo {
   state: string
   codeVerifier: string
   userId: string
@@ -7,4 +7,5 @@
   spaceId?: string
   taskId: string
 }
+
 

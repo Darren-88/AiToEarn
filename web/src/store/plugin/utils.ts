@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 浏览器插件相关工具函数
  */
 
@@ -177,4 +177,5 @@ export function withRetry<T>(
     throw lastError
   }
 }
+
 

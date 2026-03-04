@@ -1,4 +1,4 @@
-﻿import { useUserStore } from '@/store/user'
+import { useUserStore } from '@/store/user'
 import { getOssUrl } from '@/utils/oss'
 import http from '@/utils/request'
 
@@ -207,7 +207,7 @@ export async function aiChatStream(data: {
   const token = useUserStore.getState().token
   const lang = useUserStore.getState().lang
 
-  const response = await fetch('https://aitoearn.ai/api/ai/chat', {
+  const response = await fetch('https://api.aitoearn.cn/api/ai/chat', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -232,4 +232,6 @@ export async function aiChatStream(data: {
 
   return response
 }
+
+
 

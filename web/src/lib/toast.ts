@@ -1,4 +1,4 @@
-﻿import { toast as sonnerToast } from 'sonner'
+import { toast as sonnerToast } from 'sonner'
 
 interface ToastOptions {
   key?: string
@@ -142,4 +142,5 @@ export const toast = {
 }
 
 export default toast
+
 

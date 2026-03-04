@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-03-24 23:18:06
  * @LastEditTime: 2025-03-24 23:19:06
@@ -15,4 +15,5 @@ export const sysNotice = (title: string, body: string) =>
     notification.on('click', resolve);
     notification.show();
   });
+
 

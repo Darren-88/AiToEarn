@@ -1,4 +1,4 @@
-﻿import { Agent } from './agent';
+import { Agent } from './agent';
 import { AuthService } from '../src/auth/auth.service';
 import { user } from './mockData';
 import { initApp } from './app';
@@ -21,4 +21,5 @@ beforeAll(async () => {
 afterAll(async () => {
   await Agent.app().close();
 });
+
 

@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 import { TableDto } from '../../../../common/global/dto/table.dto'
 import { ArchiveStatus } from '../../../../libs/bilibili/common'
@@ -102,4 +102,5 @@ const GetArcStatSchema = AccountIdSchema.extend({
   resourceId: z.string().describe('稿件ID'),
 })
 export class GetArcStatDto extends createZodDto(GetArcStatSchema) {}
+
 

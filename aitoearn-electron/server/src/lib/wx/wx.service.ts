@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 16:12:56
  * @LastEditTime: 2025-02-24 22:20:10
@@ -120,4 +120,5 @@ export class WxService {
     return result.data;
   }
 }
+
 

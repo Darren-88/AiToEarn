@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-20 16:41:36
  * @LastEditors: nevin
@@ -12,4 +12,5 @@ export interface HttpResult<T> {
   code: 0 | string; // 自定义code
   url: string; // 错误的url地址
 }
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 队列名称枚举
  * 统一管理所有队列的名称
  */
@@ -27,4 +27,5 @@ export enum QueueName {
   /** 更新发布任务队列 */
   UpdatePublishedPost = 'update_published_post',
 }
+
 

@@ -1,4 +1,4 @@
-﻿import path from 'node:path'
+import path from 'node:path'
 import { Module } from '@nestjs/common'
 import { EventEmitterModule } from '@nestjs/event-emitter'
 import { AitoearnAuthModule } from '@yikart/aitoearn-auth'
@@ -57,4 +57,5 @@ import { UserModule } from './user/user.module'
   providers: [],
 })
 export class AppModule { }
+
 

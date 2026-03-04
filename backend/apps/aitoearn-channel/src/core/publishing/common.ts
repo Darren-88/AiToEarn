@@ -1,4 +1,4 @@
-﻿import { InitUploadVideoDto } from '../../core/platforms/youtube/dto/youtube.dto'
+import { InitUploadVideoDto } from '../../core/platforms/youtube/dto/youtube.dto'
 import { AddArchiveData } from '../../libs/bilibili/common'
 import {
   PublishStatus,
@@ -49,4 +49,5 @@ export interface DoPubRes {
   noRetry?: boolean
   data?: any
 }
+
 

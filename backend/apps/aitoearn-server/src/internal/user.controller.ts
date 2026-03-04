@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Post } from '@nestjs/common'
+import { Body, Controller, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { Internal } from '@yikart/aitoearn-auth'
 import { ApiDoc, VipStatus } from '@yikart/common'
@@ -64,4 +64,5 @@ export class UserInternalController {
     return this.pointsService.deductPoints(body)
   }
 }
+
 

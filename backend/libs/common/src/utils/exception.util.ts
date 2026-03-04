@@ -1,4 +1,4 @@
-﻿import type { CommonResponse } from '../interfaces'
+import type { CommonResponse } from '../interfaces'
 import { BadRequestException, HttpException } from '@nestjs/common'
 import { AppException } from '../exceptions/app.exception'
 
@@ -74,4 +74,5 @@ function getDefaultPayload() {
     message: MESSAGES.UNKNOWN_EXCEPTION_MESSAGE,
   }
 }
+
 

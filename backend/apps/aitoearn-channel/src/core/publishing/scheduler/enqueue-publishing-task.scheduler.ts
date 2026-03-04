@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { Cron } from '@nestjs/schedule'
 import { IMMEDIATE_PUBLISH_TOLERANCE_SECONDS, PUBLISHING_SCHEDULED_TASK_CRON_EXPRESSION } from '../constant'
 import { PublishingService } from '../publishing.service'
@@ -34,4 +34,5 @@ export class EnqueuePublishingTaskScheduler {
     }
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-20 16:24:16
  * @LastEditTime: 2025-02-12 18:32:28
@@ -22,4 +22,5 @@ export class VideoModel extends WorkData {
   @Column({ type: 'varchar', nullable: false, comment: '视频路径' })
   videoPath!: string;
 }
+
 

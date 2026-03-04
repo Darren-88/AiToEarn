@@ -1,4 +1,4 @@
-﻿import { OnWorkerEvent, Processor, WorkerHost } from '@nestjs/bullmq'
+import { OnWorkerEvent, Processor, WorkerHost } from '@nestjs/bullmq'
 import { Inject, Logger, OnModuleDestroy } from '@nestjs/common'
 import { QueueName } from '@yikart/aitoearn-queue'
 import { AccountType } from '@yikart/common'
@@ -124,4 +124,5 @@ export class ImmediatePublishPostConsumer extends WorkerHost implements OnModule
     this.logger.log('PostPublishConsumer closed successfully')
   }
 }
+
 

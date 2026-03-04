@@ -1,4 +1,4 @@
-﻿import { Module } from '../core/decorators';
+import { Module } from '../core/decorators';
 import { BackupController } from './controller';
 import { BackupService } from './service';
 
@@ -7,4 +7,5 @@ import { BackupService } from './service';
   providers: [BackupService],
 })
 export class BackupModule {}
+
 

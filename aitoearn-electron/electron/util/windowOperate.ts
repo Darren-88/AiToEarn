@@ -1,4 +1,4 @@
-﻿import { BrowserWindow } from 'electron';
+import { BrowserWindow } from 'electron';
 import { SendChannelEnum } from '../../commont/UtilsEnum';
 
 /**
@@ -23,4 +23,5 @@ class WindowOperate {
 
 const windowOperate = new WindowOperate();
 export default windowOperate;
+
 

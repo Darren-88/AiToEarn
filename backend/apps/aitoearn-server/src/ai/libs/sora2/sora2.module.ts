@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { Sora2Config } from './sora2.config'
 import { Sora2Service } from './sora2.service'
 
@@ -19,4 +19,5 @@ export class Sora2Module {
     }
   }
 }
+
 

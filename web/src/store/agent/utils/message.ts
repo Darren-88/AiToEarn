@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - 消息工具
  * 消息创建和状态管理工具
  */
@@ -227,4 +227,5 @@ export function createMessageUtils(ctx: IMessageContext) {
 }
 
 export type MessageUtils = ReturnType<typeof createMessageUtils>
+
 

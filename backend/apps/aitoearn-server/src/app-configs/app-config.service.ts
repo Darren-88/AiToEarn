@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { TableDto } from '@yikart/common'
 import { AppConfig, AppConfigRepository } from '@yikart/mongodb'
 
@@ -74,4 +74,5 @@ export class AppConfigService {
     })
   }
 }
+
 

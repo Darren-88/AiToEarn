@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const dashscopeConfigSchema = z.object({
@@ -7,4 +7,5 @@ export const dashscopeConfigSchema = z.object({
 })
 
 export class DashscopeConfig extends createZodDto(dashscopeConfigSchema) {}
+
 

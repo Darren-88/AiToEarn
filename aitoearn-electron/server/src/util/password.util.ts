@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-21 09:50:47
  * @LastEditors: nevin
@@ -57,4 +57,5 @@ export function validatePassWord(
   const { password: hashPassword } = encryptPassword(password, userSalt);
   return userPassword === hashPassword;
 }
+
 

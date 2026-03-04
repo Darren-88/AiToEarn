@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const volcengineConfigSchema = z.object({
@@ -7,4 +7,5 @@ export const volcengineConfigSchema = z.object({
 })
 
 export class VolcengineConfig extends createZodDto(volcengineConfigSchema) {}
+
 

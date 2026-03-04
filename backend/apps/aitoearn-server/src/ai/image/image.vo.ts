@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { AiLogStatus } from '@yikart/mongodb'
 import { z } from 'zod'
 
@@ -105,4 +105,5 @@ const taskStatusResponseSchema = z.object({
 })
 
 export class TaskStatusResponseVo extends createZodDto(taskStatusResponseSchema) {}
+
 

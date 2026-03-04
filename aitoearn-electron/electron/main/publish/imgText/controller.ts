@@ -1,4 +1,4 @@
-﻿import { Controller, Et, Icp, Inject } from '../../core/decorators';
+import { Controller, Et, Icp, Inject } from '../../core/decorators';
 import { PublishService } from '../service';
 import { AccountService } from '../../account/service';
 import { ImgTextPubService } from './service';
@@ -93,4 +93,5 @@ export class ImgTextPubController {
     return pubRes;
   }
 }
+
 

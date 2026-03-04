@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-20 16:36:41
  * @LastEditTime: 2025-02-26 14:41:25
@@ -12,4 +12,5 @@ export function generateSignature(sessionKey: string) {
   hmac.update('');
   return hmac.digest('hex');
 }
+
 

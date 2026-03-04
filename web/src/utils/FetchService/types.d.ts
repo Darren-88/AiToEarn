@@ -1,4 +1,4 @@
-﻿export interface RequestParams extends RequestInit {
+export interface RequestParams extends RequestInit {
   url: string
   method: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'
   data?: Dictionary
@@ -16,4 +16,5 @@ export interface IFetchServiceConfig<T = Response> {
   ) => RequestParams | void | null
   responseInterceptor?: (response: Response) => T
 }
+
 

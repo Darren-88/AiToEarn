@@ -1,4 +1,4 @@
-﻿import { createPersistStore } from '@/utils/createPersistStore';
+import { createPersistStore } from '@/utils/createPersistStore';
 import { StoreKey } from '@/utils/StroeEnum';
 import { IVideoPageStore } from '@/views/publish/children/videoPage/useVideoPageStore';
 import {
@@ -107,4 +107,5 @@ export const usePubStroe = createPersistStore(
     name: StoreKey.VideoPub,
   },
 );
+
 

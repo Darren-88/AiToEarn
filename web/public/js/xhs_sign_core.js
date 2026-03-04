@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 小红书签名核心初始化
  * 创建 window.mnsv2 函数
  */
@@ -15,4 +15,5 @@
   
   console.log('[XhsSign Core] mnsv2 函数初始化完成:', typeof window.mnsv2);
 })();
+
 

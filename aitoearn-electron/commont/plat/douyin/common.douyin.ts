@@ -1,4 +1,4 @@
-﻿// 自主声明
+// 自主声明
 export enum DeclarationDouyin {
   // 内容由AI生成
   AIGC = 'aigc',
@@ -13,4 +13,5 @@ export enum DeclarationDouyin {
   // 内容取材网络
   FromNetV3 = 'from_net_v3',
 }
+
 

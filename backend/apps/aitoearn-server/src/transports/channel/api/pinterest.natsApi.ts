@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { CreateBoardBodyDto, CreatePinBodyDto, ListBodyDto, WebhookDto } from '../../../channel/pinterest/dto/pinterest.dto'
 import { ChannelBaseApi } from '../../channelBase.api'
 
@@ -128,4 +128,5 @@ export class PlatPinterestNatsApi extends ChannelBaseApi {
     return res
   }
 }
+
 

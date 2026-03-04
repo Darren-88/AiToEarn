@@ -1,4 +1,4 @@
-﻿import { HttpModule } from '@nestjs/axios'
+import { HttpModule } from '@nestjs/axios'
 import { forwardRef, Global, Module } from '@nestjs/common'
 import { AccountModule } from '../account/account.module'
 import { PublishModule } from '../publishRecord/publishRecord.module'
@@ -52,4 +52,5 @@ import { YoutubeModule } from './youtube/youtube.module'
   exports: [ChannelService],
 })
 export class ChannelModule { }
+
 

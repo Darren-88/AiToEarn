@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 // 积分记录 VO
@@ -21,4 +21,5 @@ export const pointsRecordsVoSchema = z.object({
 })
 
 export class PointsRecordsVo extends createZodDto(pointsRecordsVoSchema) {}
+
 

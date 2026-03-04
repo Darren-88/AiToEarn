@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - Refs 管理
  * 管理内部引用变量，避免闭包问题
  */
@@ -66,4 +66,5 @@ export function resetAllRefs(refs: IAgentRefs): void {
   refs.t.value = null
   refs.actionContext.value = null
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { IsString, IsOptional, IsArray, IsNumber, IsBoolean, IsUrl } from 'class-validator';
+import { IsString, IsOptional, IsArray, IsNumber, IsBoolean, IsUrl } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateVideoDto {
@@ -156,4 +156,5 @@ export class CombinedVideoUploadDto {
   @IsOptional()
   maxRetries?: number;
 }
+
 

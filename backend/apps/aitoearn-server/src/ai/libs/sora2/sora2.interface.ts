@@ -1,4 +1,4 @@
-﻿// 任务状态枚举
+// 任务状态枚举
 export enum TaskStatus {
   Pending = 'pending',
   Running = 'running',
@@ -53,4 +53,5 @@ export type VideoModel
   = | 'sora2'
     | 'sora2-pro'
     | string
+
 

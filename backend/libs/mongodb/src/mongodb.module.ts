@@ -1,4 +1,4 @@
-﻿import type { MongodbConfig } from './mongodb.config'
+import type { MongodbConfig } from './mongodb.config'
 import { Global } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import mongoose from 'mongoose'
@@ -32,4 +32,5 @@ export class MongodbModule {
     }
   }
 }
+
 

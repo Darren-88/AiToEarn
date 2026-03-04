@@ -1,4 +1,4 @@
-﻿import netRequest from '.';
+import netRequest from '.';
 
 export enum TracingType {
   EVENT = 'event', // 事件
@@ -138,4 +138,5 @@ export class TracingApi {
 }
 
 export const tracingApi = new TracingApi();
+
 

@@ -1,4 +1,4 @@
-﻿import {
+import {
   Body,
   Controller,
   Delete,
@@ -85,4 +85,5 @@ export class McpApiKeyController {
     return { list, total }
   }
 }
+
 

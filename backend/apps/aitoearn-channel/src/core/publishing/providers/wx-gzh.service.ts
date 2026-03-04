@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import {
   PublishStatus,
   PublishTask,
@@ -91,4 +91,5 @@ export class WxGzhPubService extends PublishService {
     }
   }
 }
+
 

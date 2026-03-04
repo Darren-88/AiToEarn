@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, RootFilterQuery, Types } from 'mongoose';
 import { paginateModel } from '../../common/paginate/create-pagination';
@@ -342,4 +342,5 @@ export class AdminUserTaskService {
     return res.modifiedCount > 0;
   }
 }
+
 

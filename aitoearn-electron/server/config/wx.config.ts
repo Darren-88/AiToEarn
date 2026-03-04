@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-20 11:05:02
  * @LastEditors: nevin
@@ -29,4 +29,5 @@ export default () => ({
     WX_GZH_AES_KEY: process.env.WX_GZH_AES_KEY || '',
   },
 });
+
 

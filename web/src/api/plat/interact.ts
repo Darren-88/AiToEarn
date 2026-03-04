@@ -1,4 +1,4 @@
-﻿// 渠道互动
+// 渠道互动
 import http from '@/utils/request'
 
 /**
@@ -62,4 +62,5 @@ export function apiDelComment(data: {
     data,
   )
 }
+
 

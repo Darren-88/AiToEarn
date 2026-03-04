@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import axios, { AxiosInstance, AxiosResponse } from 'axios'
 import { VolcengineConfig } from './volcengine.config'
 import {
@@ -69,4 +69,5 @@ export class VolcengineService {
     await this.httpClient.delete(`/api/v3/contents/generations/tasks/${taskId}`)
   }
 }
+
 

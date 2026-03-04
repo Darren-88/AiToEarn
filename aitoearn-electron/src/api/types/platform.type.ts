@@ -1,4 +1,4 @@
-﻿export type AiToolsRankingItemType = {
+export type AiToolsRankingItemType = {
   _id: string;
   rankingId: string;
   col_name: string;
@@ -59,4 +59,5 @@ export interface GetAiToolsRankingApiParams {
   startDate: string;
   area: string;
 }
+
 

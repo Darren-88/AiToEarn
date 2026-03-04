@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 19:19:20
  * @LastEditTime: 2025-05-06 15:50:54
@@ -24,4 +24,5 @@ export class UserPopController {
     return this.userService.generateUsePopularizeCode(token.id)
   }
 }
+
 

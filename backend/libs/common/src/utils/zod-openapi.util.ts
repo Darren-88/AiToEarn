@@ -1,4 +1,4 @@
-﻿import type { Type } from '@nestjs/common'
+import type { Type } from '@nestjs/common'
 import type { SchemaObject } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface'
 import { SchemaObjectFactory } from '@nestjs/swagger/dist/services/schema-object-factory'
 import { z } from 'zod'
@@ -45,4 +45,5 @@ export function patchNestJsSwagger() {
   // @ts-expect-error set __patchedWithLoveByNestjsZod to true
   SchemaObjectFactory.prototype.__patchedWithLoveByNestjsZod = true
 }
+
 

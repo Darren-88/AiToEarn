@@ -1,4 +1,4 @@
-﻿import type { DestinationStream } from 'pino'
+import type { DestinationStream } from 'pino'
 import { Logger } from '@nestjs/common'
 import * as winston from 'winston'
 import { MongoDB } from 'winston-mongodb'
@@ -141,4 +141,5 @@ export class MongoDBLogger implements DestinationStream {
     })
   }
 }
+
 

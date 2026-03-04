@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 抖音平台特定类型定义
  */
 
@@ -111,4 +111,5 @@ export interface DouyinHomeFeedItem {
     height?: number
   }
 }
+
 

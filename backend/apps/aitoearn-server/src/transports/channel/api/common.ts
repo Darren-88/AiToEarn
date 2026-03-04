@@ -1,4 +1,4 @@
-﻿export enum FeedbackType {
+export enum FeedbackType {
   errReport = 'errReport', // 错误反馈
   feedback = 'feedback', // 反馈
   msgReport = 'msgReport', // 消息举报
@@ -72,4 +72,5 @@ export interface ChannelArcDataBulk extends ChannelAccountDataCube {
   // 每天
   list: ChannelArcDataCube[]
 }
+
 

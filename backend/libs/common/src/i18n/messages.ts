@@ -1,4 +1,4 @@
-﻿import template from 'art-template'
+import template from 'art-template'
 import { ResponseCode } from '../enums'
 
 export type Locale = 'en-US' | 'zh-CN'
@@ -319,4 +319,5 @@ export const messages: Record<ResponseCode, Record<Locale, MessageValue>> = {
     'zh-CN': 'API 密钥未找到',
   },
 }
+
 

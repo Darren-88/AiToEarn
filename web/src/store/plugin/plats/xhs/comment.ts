@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 小红书评论功能模块
  */
 
@@ -235,4 +235,5 @@ export async function getSubCommentList(params: SubCommentListParams): Promise<C
     }
   }
 }
+
 

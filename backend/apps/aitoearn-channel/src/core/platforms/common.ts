@@ -1,4 +1,4 @@
-﻿export interface AuthTaskInfo<T> {
+export interface AuthTaskInfo<T> {
   taskId: string
   spaceId?: string
   transpond?: string // nats转发
@@ -54,4 +54,5 @@ export interface ChannelArcDataBulk extends ChannelAccountDataCube {
   // 每天
   list: ChannelArcDataCube[]
 }
+
 

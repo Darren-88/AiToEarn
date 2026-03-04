@@ -1,4 +1,4 @@
-﻿// MCP API接口
+// MCP API接口
 import { request } from '@/utils/request'
 
 /**
@@ -105,4 +105,5 @@ export function apiGetMCPRefList(pageNo: number, pageSize: number, key: string) 
     },
   })
 }
+
 

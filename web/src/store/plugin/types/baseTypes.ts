@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 浏览器插件相关类型定义
  */
 
@@ -237,4 +237,5 @@ export interface OperationResult<T = any> {
   data?: T
   error?: string
 }
+
 

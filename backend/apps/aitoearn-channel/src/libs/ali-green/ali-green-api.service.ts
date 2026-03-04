@@ -1,4 +1,4 @@
-﻿import { randomBytes } from 'node:crypto'
+import { randomBytes } from 'node:crypto'
 import Green20220302, * as $Green20220302 from '@alicloud/green20220302'
 import * as $Util from '@alicloud/tea-util'
 /*
@@ -72,4 +72,5 @@ export class AliGreenApiService {
       })
   }
 }
+
 

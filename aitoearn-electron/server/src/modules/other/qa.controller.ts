@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 19:19:20
  * @LastEditTime: 2025-04-14 19:21:01
@@ -32,4 +32,5 @@ export class QaController {
     return res;
   }
 }
+
 

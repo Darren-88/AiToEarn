@@ -1,4 +1,4 @@
-﻿export enum UptimeStatus {
+export enum UptimeStatus {
   NORMAL = 1, // 正常
   TIMEOUT = 2, // 超时
   UNAVAILABLE = 3, // 不可用
@@ -28,4 +28,5 @@ export interface UptimeItem {
   createdAt: string
   updatedAt: string
 }
+
 

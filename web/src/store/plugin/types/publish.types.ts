@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 发布参数类型定义
  */
 
@@ -98,4 +98,5 @@ export interface ValidationResult {
   /** 错误信息 */
   errors?: string[]
 }
+
 

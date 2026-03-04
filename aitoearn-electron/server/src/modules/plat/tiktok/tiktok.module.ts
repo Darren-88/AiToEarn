@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: 
  * @Date: 2025-06-06
  * @LastEditTime: 2025-06-06
@@ -45,4 +45,5 @@ import { forwardRef } from '@nestjs/common';
   exports: [TikTokService, TikTokAuthService]
 })
 export class TiktokModule { }
+
 

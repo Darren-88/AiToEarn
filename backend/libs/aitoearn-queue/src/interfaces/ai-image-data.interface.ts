@@ -1,4 +1,4 @@
-﻿import type { UserType } from '@yikart/common'
+import type { UserType } from '@yikart/common'
 import type { AiLogChannel, AiLogType } from '@yikart/mongodb'
 
 /**
@@ -24,4 +24,5 @@ export interface AiImageData {
   /** 任务类型 */
   taskType: 'generation' | 'edit' | 'md2card' | 'fireflyCard'
 }
+
 

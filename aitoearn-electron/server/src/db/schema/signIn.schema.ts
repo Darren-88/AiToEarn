@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-11-16 22:04:18
  * @LastEditTime: 2025-04-27 17:34:58
@@ -35,4 +35,5 @@ export class SignIn extends TimeTemp {
 }
 
 export const SignInSchema = SchemaFactory.createForClass(SignIn);
+
 

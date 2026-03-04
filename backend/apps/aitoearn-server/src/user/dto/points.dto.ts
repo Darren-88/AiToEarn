@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import z from 'zod'
 
 // 添加积分的 DTO
@@ -38,4 +38,5 @@ export const pointsRecordsSchema = z.object({
 })
 
 export class PointsRecordsDto extends createZodDto(pointsRecordsSchema) {}
+
 

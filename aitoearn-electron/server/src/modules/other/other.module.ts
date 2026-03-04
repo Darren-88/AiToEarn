@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 19:19:07
  * @LastEditTime: 2025-04-14 19:22:41
@@ -27,4 +27,5 @@ import { FeedbackAdminController } from './feedbackAdmin.controller';
   controllers: [FeedbackController, QaController, FeedbackAdminController],
 })
 export class OtherModule {}
+
 

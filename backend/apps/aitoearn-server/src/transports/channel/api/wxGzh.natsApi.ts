@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { ChannelBaseApi } from '../../channelBase.api'
 
 @Injectable()
@@ -119,4 +119,5 @@ export class PlatWxGzhNatsApi extends ChannelBaseApi {
     return res
   }
 }
+
 

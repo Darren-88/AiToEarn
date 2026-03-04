@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const PostSchema = z.object({
@@ -28,4 +28,5 @@ export const FetchPostsResponseSchema = z.object({
 
 export class PostVo extends createZodDto(PostSchema) { }
 export class FetchPostsResponseVo extends createZodDto(FetchPostsResponseSchema) { }
+
 

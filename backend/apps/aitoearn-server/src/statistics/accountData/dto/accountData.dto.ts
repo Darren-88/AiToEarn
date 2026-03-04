@@ -1,4 +1,4 @@
-﻿import { z } from 'zod'
+import { z } from 'zod'
 
 export const AccountIdSchema = z.object({
   accountId: z.string(),
@@ -55,4 +55,5 @@ export const GetChannelDataPeriodByUidsSchema = z.object({
   endDate: z.string().optional(),
 })
 export type GetChannelDataPeriodByUidsDto = z.infer<typeof GetChannelDataPeriodByUidsSchema>
+
 

@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   GetPublishListParams,
   PublishParams,
   PublishRecordItem,
@@ -102,4 +102,5 @@ export function getPublishRecordDetail(flowId: string) {
     method: 'GET',
   })
 }
+
 

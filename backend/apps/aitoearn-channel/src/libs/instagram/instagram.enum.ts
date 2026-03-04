@@ -1,4 +1,4 @@
-﻿export enum InstagramMediaType {
+export enum InstagramMediaType {
   CAROUSEL = 'CAROUSEL',
   REELS = 'REELS',
   STORIES = 'STORIES',
@@ -86,4 +86,5 @@ export enum InstagramMediaInsightsPeriod {
   LIFETIME = 'lifetime',
   TOTAL_OVER_RANGE = 'total_over_range',
 }
+
 

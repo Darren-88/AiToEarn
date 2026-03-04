@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AccountStatus, AccountType, NewAccount } from '@yikart/aitoearn-server-client'
 import { AppException, ResponseCode } from '@yikart/common'
 import { RedisService } from '@yikart/redis'
@@ -290,4 +290,5 @@ export class WxPlatService {
     }
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Pagination, PaginationVo, UserType } from '@yikart/common'
+import { Pagination, PaginationVo, UserType } from '@yikart/common'
 
 // Models Config interfaces
 export interface ModelsConfigVo {
@@ -904,4 +904,5 @@ export interface DashscopeStatusRequestDto {
   userType: UserType
   taskId: string
 }
+
 

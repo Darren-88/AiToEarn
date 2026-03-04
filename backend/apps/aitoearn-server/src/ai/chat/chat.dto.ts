@@ -1,4 +1,4 @@
-﻿import { createZodDto, UserType } from '@yikart/common'
+import { createZodDto, UserType } from '@yikart/common'
 import { z } from 'zod'
 
 export const messageContentTextSchema = z.object({
@@ -62,4 +62,5 @@ const chatModelsQuerySchema = z.object({
 })
 
 export class ChatModelsQueryDto extends createZodDto(chatModelsQuerySchema) {}
+
 

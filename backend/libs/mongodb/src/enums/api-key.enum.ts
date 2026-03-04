@@ -1,4 +1,4 @@
-﻿export enum APIKeyStatus {
+export enum APIKeyStatus {
   Active = 'ACTIVE',
   Disabled = 'DISABLED',
   Revoked = 'REVOKED',
@@ -9,4 +9,5 @@ export enum APIKeyType {
   Mcp = 'MCP',
   Api = 'API',
 }
+
 

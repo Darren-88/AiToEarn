@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { PublishingTaskType, PublishStatus } from '../enums'
 import { PublishErrorData, PublishingTaskMeta } from './publishing-task-meta.schema'
@@ -161,4 +161,5 @@ export class PublishTask extends WithTimestampSchema {
 }
 
 export const PublishTaskSchema = SchemaFactory.createForClass(PublishTask)
+
 

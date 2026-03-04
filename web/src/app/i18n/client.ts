@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import type { FlatNamespace } from 'i18next'
 import type { UseTranslationOptions, UseTranslationResponse } from 'react-i18next'
@@ -97,4 +97,5 @@ export function directTrans<Ns extends FlatNamespace>(
   // @ts-ignore
   return t(key)
 }
+
 

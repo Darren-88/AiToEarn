@@ -1,4 +1,4 @@
-﻿import { Account, AccountSchema } from './account.schema'
+import { Account, AccountSchema } from './account.schema'
 import { AccountGroup, AccountGroupSchema } from './accountGroup.schema'
 import { AiLog, AiLogSchema } from './ai-log.schema'
 import { ApiKeyAccount, ApiKeyAccountSchema } from './api-key-account.schema'
@@ -72,4 +72,5 @@ export const schemas = [
   { name: OAuth2Credential.name, schema: OAuth2CredentialSchema },
   { name: PublishTask.name, schema: PublishTaskSchema },
 ] as const
+
 

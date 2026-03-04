@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import z from 'zod'
 
 const AccountIdSchema = z.object({
@@ -50,4 +50,5 @@ const UserTimelineSchema = z.object({
 })
 
 export class UserTimelineDto extends createZodDto(UserTimelineSchema) {}
+
 

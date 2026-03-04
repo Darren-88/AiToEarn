@@ -1,4 +1,4 @@
-﻿import z from 'zod'
+import z from 'zod'
 
 export const PaginationDtoSchema = z.object({
   page: z.coerce.number().int().min(1).default(1),
@@ -6,4 +6,5 @@ export const PaginationDtoSchema = z.object({
 })
 
 export type Pagination = z.infer<typeof PaginationDtoSchema>
+
 

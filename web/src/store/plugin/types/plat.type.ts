@@ -1,4 +1,4 @@
-﻿import type { PluginPlatformType } from '@/store/plugin/types/baseTypes'
+import type { PluginPlatformType } from '@/store/plugin/types/baseTypes'
 
 export interface PlatAccountInfo {
   type: PluginPlatformType
@@ -9,4 +9,5 @@ export interface PlatAccountInfo {
   nickname: string
   fansCount?: number
 }
+
 

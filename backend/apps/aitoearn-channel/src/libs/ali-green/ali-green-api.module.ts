@@ -1,4 +1,4 @@
-﻿import Credential, { Config } from '@alicloud/credentials'
+import Credential, { Config } from '@alicloud/credentials'
 /*
  * @Author: white
  * @Date: 2025-09-18 14:39:05
@@ -41,4 +41,5 @@ import { AliGreenApiService } from '../ali-green/ali-green-api.service'
   exports: [ALI_GREEN_CLIENT, AliGreenApiService],
 })
 export class AliGreenApiModule { }
+
 

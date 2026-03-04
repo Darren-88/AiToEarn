@@ -1,4 +1,4 @@
-﻿import type { DestinationStream } from 'pino'
+import type { DestinationStream } from 'pino'
 import PinoPretty from 'pino-pretty'
 
 export class ConsoleLogger implements DestinationStream {
@@ -12,4 +12,5 @@ export class ConsoleLogger implements DestinationStream {
     this.stream.push(msg)
   }
 }
+
 

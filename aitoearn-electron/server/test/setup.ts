@@ -1,4 +1,4 @@
-﻿import { RedisContainer } from '@testcontainers/redis';
+import { RedisContainer } from '@testcontainers/redis';
 import { MongoDBContainer } from '@testcontainers/mongodb';
 import { initApp } from './app';
 
@@ -20,4 +20,5 @@ export default async () => {
 
   await initApp();
 };
+
 

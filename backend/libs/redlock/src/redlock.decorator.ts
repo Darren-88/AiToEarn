@@ -1,4 +1,4 @@
-﻿import { SetMetadata } from '@nestjs/common'
+import { SetMetadata } from '@nestjs/common'
 
 export interface RedlockOptions {
   key: string | ((...args: unknown[]) => string)
@@ -24,4 +24,5 @@ export function Redlock(
   }
   return SetMetadata(REDLOCK_METADATA, lockOptions)
 }
+
 

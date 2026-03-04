@@ -1,4 +1,4 @@
-﻿export interface AiToolsRankingItemType {
+export interface AiToolsRankingItemType {
   _id: string
   rankingId: string
   col_name: string
@@ -59,4 +59,5 @@ export interface GetAiToolsRankingApiParams {
   startDate: string
   area: string
 }
+
 

@@ -1,4 +1,4 @@
-﻿import {
+import {
   Body,
   Controller,
   Post,
@@ -217,4 +217,5 @@ export class AiController {
     return DashscopeTaskStatusResponseVo.create(response)
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { WithTimestampSchema } from './timestamp.schema'
 
@@ -258,4 +258,5 @@ export class PostDatas extends WithTimestampSchema {
 }
 
 export const PostDatasSchema = SchemaFactory.createForClass(PostDatas)
+
 

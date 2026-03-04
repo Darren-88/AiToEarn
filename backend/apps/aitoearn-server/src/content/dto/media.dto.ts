@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-08-19 15:58:47
  * @LastEditTime: 2025-03-17 12:41:12
@@ -48,4 +48,5 @@ const MediaIdsSchema = z.object({
   ids: z.array(z.string()).min(1).describe('ID列表'),
 })
 export class MediaIdsDto extends createZodDto(MediaIdsSchema) {}
+
 

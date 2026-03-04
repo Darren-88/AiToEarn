@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 插件相关工具函数
  */
 
@@ -32,4 +32,5 @@ export function createInitialPlatformAccounts() {
   }
   return accounts
 }
+
 

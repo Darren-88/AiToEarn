@@ -1,4 +1,4 @@
-﻿import type { StateStorage } from 'zustand/middleware'
+import type { StateStorage } from 'zustand/middleware'
 
 class AppLocalStorage implements StateStorage {
   public async getItem(name: string): Promise<string | null> {
@@ -29,4 +29,5 @@ class AppLocalStorage implements StateStorage {
 }
 
 export const appLocalStorage = new AppLocalStorage()
+
 

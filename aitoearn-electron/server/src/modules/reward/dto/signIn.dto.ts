@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-15 20:59:55
  * @LastEditTime: 2025-04-27 18:16:37
@@ -43,4 +43,5 @@ export class QuerySignInListDto extends PagerDto {
   @Expose()
   readonly time?: [Date, Date];
 }
+
 

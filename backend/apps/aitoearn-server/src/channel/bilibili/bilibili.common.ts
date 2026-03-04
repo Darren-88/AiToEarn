@@ -1,4 +1,4 @@
-﻿export enum VideoUTypes {
+export enum VideoUTypes {
   Little = 0,
   Big = 1,
 }
@@ -47,4 +47,5 @@ export interface AccessToken {
   refresh_token: string // 'WxFDKwqScZIQDm4iWmKDvetyFugM6HkX';
   scopes: string[] // ['USER_INFO', 'ATC_DATA', 'ATC_BASE'];
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { z } from 'zod'
+import { z } from 'zod'
 import { createZodDto } from '../utils'
 
 export const KeysetPaginationSchema = z.object({
@@ -42,4 +42,5 @@ export const PostsResponseSchema = z.object({
 
 export class PostVo extends createZodDto(postSchema) {}
 export class PostsResponseVo extends createZodDto(PostsResponseSchema) {}
+
 

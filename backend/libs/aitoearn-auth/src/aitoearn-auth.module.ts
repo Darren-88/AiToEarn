@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { APP_GUARD } from '@nestjs/core'
 import { JwtModule } from '@nestjs/jwt'
 import { AitoearnAuthConfig } from './aitoearn-auth.config'
@@ -32,4 +32,5 @@ export class AitoearnAuthModule {
     }
   }
 }
+
 

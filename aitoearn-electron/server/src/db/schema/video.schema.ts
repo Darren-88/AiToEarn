@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { WorkData } from './workData.schema';
 
 @Schema({
@@ -16,4 +16,5 @@ export class Video extends WorkData {
 }
 
 export const VideoSchema = SchemaFactory.createForClass(Video);
+
 

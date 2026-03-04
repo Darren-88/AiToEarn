@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-11 19:02:37
  * @LastEditTime: 2025-03-31 11:39:35
@@ -14,4 +14,5 @@ export function getNowTimeStamp(is13Bit: boolean = false): number {
 export function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
+
 

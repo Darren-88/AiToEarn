@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { OpenaiConfig } from './openai.config'
 import { OpenaiService } from './openai.service'
 
@@ -19,4 +19,5 @@ export class OpenaiModule {
     }
   }
 }
+
 

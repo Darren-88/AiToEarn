@@ -1,4 +1,4 @@
-﻿import type { Job, JobsOptions, Queue } from 'bullmq'
+import type { Job, JobsOptions, Queue } from 'bullmq'
 import type {
   AiImageData,
   EngagementReplyToCommentData,
@@ -198,4 +198,5 @@ export class QueueService {
     })
   }
 }
+
 

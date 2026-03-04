@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-03-01 19:27:26
  * @LastEditTime: 2025-04-14 12:28:22
@@ -35,4 +35,5 @@ import { ManagerGuard } from './manager.guard';
   exports: [AuthService],
 })
 export class AuthModule {}
+
 

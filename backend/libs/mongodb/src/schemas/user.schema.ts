@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { VipStatus } from '@yikart/common'
 import { EarnInfoStatus, UserStatus } from '../enums'
 import { WithTimestampSchema } from './timestamp.schema'
@@ -235,4 +235,5 @@ export class User extends WithTimestampSchema {
 }
 
 export const UserSchema = SchemaFactory.createForClass(User)
+
 

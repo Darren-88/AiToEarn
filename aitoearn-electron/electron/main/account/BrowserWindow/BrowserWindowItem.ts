@@ -1,4 +1,4 @@
-﻿import { webContents, WebContents } from 'electron';
+import { webContents, WebContents } from 'electron';
 import { ICookieParams, ICreateBrowserWindowParams } from './browserWindow';
 
 export default class BrowserWindowItem {
@@ -56,4 +56,5 @@ export default class BrowserWindowItem {
     return true;
   }
 }
+
 

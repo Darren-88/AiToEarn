@@ -1,4 +1,4 @@
-﻿export const ThreadsOAuth2Config = {
+export const ThreadsOAuth2Config = {
   pkce: false,
   shortLived: true,
   apiBaseUrl: 'https://graph.threads.net/v1.0/',
@@ -23,4 +23,5 @@
   },
   scopesSeparator: ',',
 }
+
 

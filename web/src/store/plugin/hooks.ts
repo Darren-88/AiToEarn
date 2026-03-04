@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 浏览器插件相关的自定义 Hooks
  */
 
@@ -278,4 +278,5 @@ export function usePluginWorkflow() {
     loginAndPublishImages,
   }
 }
+
 

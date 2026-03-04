@@ -1,4 +1,4 @@
-﻿import { InjectModel } from '@nestjs/mongoose'
+import { InjectModel } from '@nestjs/mongoose'
 import { Pagination } from '@yikart/common'
 import { FilterQuery, Model } from 'mongoose'
 import { ApiKey } from '../schemas'
@@ -45,4 +45,5 @@ export class ApiKeyRepository extends BaseRepository<ApiKey> {
     return await this.updateOne({ key }, { desc })
   }
 }
+
 

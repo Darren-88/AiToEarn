@@ -1,4 +1,4 @@
-﻿import {
+import {
   registerDecorator,
   ValidationOptions,
   ValidatorConstraint,
@@ -30,4 +30,5 @@ export function IsObjectId(validationOptions?: ValidationOptions) {
     });
   };
 }
+
 

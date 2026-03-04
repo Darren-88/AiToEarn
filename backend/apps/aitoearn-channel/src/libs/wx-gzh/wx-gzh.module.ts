@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { WxGzhApiService } from './wx-gzh.service'
 
 @Module({
@@ -6,4 +6,5 @@ import { WxGzhApiService } from './wx-gzh.service'
   exports: [WxGzhApiService],
 })
 export class WxGzhApiModule {}
+
 

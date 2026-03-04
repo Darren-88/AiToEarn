@@ -1,4 +1,4 @@
-﻿export interface TransactionalMessage {
+export interface TransactionalMessage {
   subscriber_email?: string
   subscriber_id?: number
   subscriber_emails?: string[]
@@ -15,4 +15,5 @@
 export interface TransactionalResponse {
   data: boolean
 }
+
 

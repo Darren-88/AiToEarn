@@ -1,4 +1,4 @@
-﻿import { GlobleCache } from '../../global/cache';
+import { GlobleCache } from '../../global/cache';
 
 // 0 进行中 1 完成 2 错误
 export enum AutoInteractionCacheStatus {
@@ -65,4 +65,5 @@ export class AutoInteractionCache {
     GlobleCache.delCache(AutoInteractionCache.cacheKey);
   }
 }
+
 

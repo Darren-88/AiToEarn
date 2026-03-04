@@ -1,4 +1,4 @@
-﻿const os = require('node:os')
+const os = require('node:os')
 
 const {
   REDIS_HOST,
@@ -99,7 +99,7 @@ module.exports = {
   awsS3: {
     region: 'ap-southeast-1',
     bucketName: 'aitoearn',
-    endpoint: 'https://aitoearn.s3.ap-southeast-1.amazonaws.com',
+    endpoint: 'https://aitoearn.ai/s3',
   },
   bilibili: {
     id: BILIBILI_CLIENT_ID,
@@ -213,4 +213,6 @@ module.exports = {
     token: INTERNAL_TOKEN,
   },
 }
+
+
 

@@ -1,4 +1,4 @@
-﻿import http from '@/utils/request'
+import http from '@/utils/request'
 
 export interface NotificationItem {
   id: string
@@ -109,4 +109,5 @@ export function acceptTask(taskId: string, opportunityId: string, accountId?: st
 export function submitTask(userTaskId: string, materialId?: string) {
   return http.post('task/submit', { userTaskId, materialId })
 }
+
 

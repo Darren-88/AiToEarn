@@ -1,4 +1,4 @@
-﻿import http, { request } from '@/utils/request'
+import http, { request } from '@/utils/request'
 
 // 获取 Twitter 授权 URL
 export function getTwitterAuthUrlApi(mail: string, spaceId?: string) {
@@ -23,4 +23,5 @@ export function apiCheckTwitterAuth(taskId: string) {
     `plat/twitter/auth/info/${taskId}`,
   )
 }
+
 

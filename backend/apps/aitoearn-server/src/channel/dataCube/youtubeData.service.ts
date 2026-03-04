@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { DataCubeApi } from './dataCube.api'
 import { DataCubeBase } from './dataCube.base'
 
@@ -28,4 +28,5 @@ export class YouTubeDataService extends DataCubeBase {
     return res
   }
 }
+
 

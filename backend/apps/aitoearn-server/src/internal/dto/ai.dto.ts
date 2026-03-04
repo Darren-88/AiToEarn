@@ -1,4 +1,4 @@
-﻿import { createZodDto, PaginationDtoSchema, UserType } from '@yikart/common'
+import { createZodDto, PaginationDtoSchema, UserType } from '@yikart/common'
 import { z } from 'zod'
 import { fireflycardStyleSchema, fireflycardSwitchConfigSchema, fireflycardTempSchema } from '../../ai/image/image.dto'
 import { FireflycardTempTypes } from '../../ai/libs/fireflycard'
@@ -98,4 +98,5 @@ const imageEditSchema = z.object({
 })
 
 export class AdminImageEditDto extends createZodDto(imageEditSchema) {}
+
 

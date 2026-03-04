@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const accountIdSchema = z.object({
@@ -47,4 +47,5 @@ export const NewChannelSchema = z.object({
   uid: z.string(),
 })
 export type NewChannelDto = z.infer<typeof NewChannelSchema>
+
 

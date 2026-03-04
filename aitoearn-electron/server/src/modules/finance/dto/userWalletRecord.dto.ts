@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-15 20:59:55
  * @LastEditTime: 2025-03-24 21:52:23
@@ -97,4 +97,5 @@ export class CreateUserWalletRecordDto {
   @ApiProperty({ enum: UserWalletRecordStatus })
   status?: UserWalletRecordStatus;
 }
+
 

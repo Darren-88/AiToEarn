@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 // @ts-ignore
 import kuaiShosignCore from './kuaiShoSignCore.js';
 import qs from 'qs';
@@ -63,4 +63,5 @@ export class KwaiSginService {
     return createHash('md5').update(str).digest('hex');
   }
 }
+
 

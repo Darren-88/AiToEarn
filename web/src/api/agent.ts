@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Description: AI Agent 内容生成任务接口
  */
 import { fetchEventSource } from '@microsoft/fetch-event-source'
@@ -522,4 +522,5 @@ export const agentApi = {
     return res
   },
 }
+
 

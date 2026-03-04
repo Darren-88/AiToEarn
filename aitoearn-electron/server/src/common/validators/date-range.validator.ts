@@ -1,4 +1,4 @@
-﻿import {
+import {
   ValidationArguments,
   ValidatorConstraint,
   ValidatorConstraintInterface,
@@ -20,4 +20,5 @@ export class IsDateRange implements ValidatorConstraintInterface {
     return `${args.property}必须早于${relatedPropertyName}`;
   }
 }
+
 

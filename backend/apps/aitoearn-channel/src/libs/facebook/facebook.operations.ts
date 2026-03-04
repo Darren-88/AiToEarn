@@ -1,4 +1,4 @@
-﻿// Operation constants for FacebookService (human-readable lowercase labels)
+// Operation constants for FacebookService (human-readable lowercase labels)
 // Chosen scheme: const object + literal type (plan option 2)
 export const FacebookOperation = {
   REFRESH_OAUTH_CREDENTIAL: 'refresh oauth credential',
@@ -44,4 +44,5 @@ export const FacebookOperation = {
 } as const
 
 export type FacebookOperationLabel = typeof FacebookOperation[keyof typeof FacebookOperation]
+
 

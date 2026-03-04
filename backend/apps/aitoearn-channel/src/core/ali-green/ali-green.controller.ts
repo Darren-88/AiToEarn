@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Post } from '@nestjs/common'
+import { Body, Controller, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { ApiDoc } from '@yikart/common'
 import { AliGreenService } from './ali-green.service'
@@ -49,4 +49,5 @@ export class AliGreenController {
     return this.aliGreenService.getVideoResult(data.taskId)
   }
 }
+
 

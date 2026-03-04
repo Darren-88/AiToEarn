@@ -1,4 +1,4 @@
-﻿import { StateStorage } from 'zustand/middleware';
+import { StateStorage } from 'zustand/middleware';
 
 /**
  * 这里重写了 zustand 的读写逻辑
@@ -21,4 +21,5 @@ class IndexedDBStorage implements StateStorage {
 }
 
 export const indexedDBStorage = new IndexedDBStorage();
+
 

@@ -1,4 +1,4 @@
-﻿import { ApiProperty, PartialType } from '@nestjs/swagger';
+import { ApiProperty, PartialType } from '@nestjs/swagger';
 import {
   IsArray,
   IsDate,
@@ -217,4 +217,5 @@ export class DeleteAccountsDto {
   @Expose()
   ids: string[];
 }
+
 

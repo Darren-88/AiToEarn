@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { PubRecordListFilterDto } from '../../../channel/dto/publish.dto'
 import { ChannelBaseApi } from '../../channelBase.api'
 
@@ -28,4 +28,5 @@ export class PublishTaskNatsApi extends ChannelBaseApi {
     return res
   }
 }
+
 

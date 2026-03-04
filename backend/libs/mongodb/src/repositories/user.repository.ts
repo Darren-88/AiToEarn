@@ -1,4 +1,4 @@
-﻿import * as crypto from 'node:crypto'
+import * as crypto from 'node:crypto'
 import { InjectModel } from '@nestjs/mongoose'
 import { Pagination } from '@yikart/common'
 import { FilterQuery, Model } from 'mongoose'
@@ -163,4 +163,5 @@ export class UserRepository extends BaseRepository<User> {
     return res.modifiedCount > 0
   }
 }
+
 

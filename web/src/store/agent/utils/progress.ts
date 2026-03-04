@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - 进度工具
  * 进度计算和状态配置
  */
@@ -34,4 +34,5 @@ export function calculateProgress(currentProgress: number, status: string, isNew
 export function getStatusConfig(status: string) {
   return STATUS_CONFIG[status] || { text: status, color: '#333' }
 }
+
 

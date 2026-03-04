@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { AliGreenApiModule } from '../../libs/ali-green/ali-green-api.module'
 import { AliGreenController } from './ali-green.controller'
 import { AliGreenService } from './ali-green.service'
@@ -12,4 +12,5 @@ import { AliGreenService } from './ali-green.service'
   exports: [AliGreenService],
 })
 export class AliGreenModule {}
+
 

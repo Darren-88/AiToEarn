@@ -1,4 +1,4 @@
-﻿import { Module, forwardRef } from '@nestjs/common';
+import { Module, forwardRef } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { HttpModule } from '@nestjs/axios';
 import { ConfigModule, ConfigService } from '@nestjs/config';
@@ -43,3 +43,4 @@ import googleConfig from 'config/google.config';
   exports: [TwitterService, TwitterAuthService],
 })
 export class TwitterModule {}
+

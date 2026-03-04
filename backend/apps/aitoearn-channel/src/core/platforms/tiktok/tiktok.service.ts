@@ -1,4 +1,4 @@
-﻿/* eslint-disable style/indent */
+/* eslint-disable style/indent */
 /*
  * @Author: nevin
  * @Date: 2025-01-08 00:00:00
@@ -501,4 +501,5 @@ export class TiktokService extends PlatformBaseService {
     return tokenInfo.refresh_expires_in > getCurrentTimestamp() ? 1 : 0
   }
 }
+
 

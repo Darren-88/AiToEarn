@@ -1,4 +1,4 @@
-﻿import type { StatisticsDbConfig } from './statistics-db.config'
+import type { StatisticsDbConfig } from './statistics-db.config'
 import { Global } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import mongoose from 'mongoose'
@@ -158,4 +158,5 @@ export class StatisticsDbModule {
     }
   }
 }
+
 

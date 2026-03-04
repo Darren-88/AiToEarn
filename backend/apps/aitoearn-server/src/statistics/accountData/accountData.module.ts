@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { AccountDataController } from './accountData.controller'
 import { AccountDataService } from './accountData.service'
 
@@ -8,4 +8,5 @@ import { AccountDataService } from './accountData.service'
   providers: [AccountDataService],
 })
 export class AccountDataModule {}
+
 

@@ -1,4 +1,4 @@
-﻿import i18next from 'i18next'
+import i18next from 'i18next'
 import lodash from 'lodash'
 import { getUserInfoApi } from '@/api/apiReq'
 import { getCreditsBalanceApi } from '@/api/credits'
@@ -165,4 +165,5 @@ export const useUserStore = createPersistStore(
     name: 'User',
   },
 )
+
 

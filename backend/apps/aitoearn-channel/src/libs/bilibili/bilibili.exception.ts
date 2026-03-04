@@ -1,4 +1,4 @@
-﻿import { IErrorContext, SocialMediaError } from '../exception'
+import { IErrorContext, SocialMediaError } from '../exception'
 
 export interface BilibiliRawError {
   message: string
@@ -55,4 +55,5 @@ export class BilibiliError extends SocialMediaError<BilibiliRawError> {
     return `Failed to ${operation}. ${rawError.message || 'Unknown error'}, error code: ${rawError.code || 'N/A'}`
   }
 }
+
 

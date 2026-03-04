@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2021-12-24 13:46:31
  * @LastEditors: nevin
@@ -97,4 +97,5 @@ export class InteractionRecord extends BaseTemp {
 }
 
 export const InteractionRecordSchema = SchemaFactory.createForClass(InteractionRecord)
+
 

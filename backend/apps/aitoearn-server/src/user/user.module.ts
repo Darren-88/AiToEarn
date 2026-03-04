@@ -1,4 +1,4 @@
-﻿import { Global, Module } from '@nestjs/common'
+import { Global, Module } from '@nestjs/common'
 import { LoginController } from './login.controller'
 import { LoginService } from './login.service'
 import { PointsService } from './points.service'
@@ -16,4 +16,5 @@ import { VipService } from './vip.service'
   exports: [UserService, VipService, StorageService, PointsService],
 })
 export class UserModule { }
+
 

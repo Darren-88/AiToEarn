@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AxiosRequestConfig } from 'axios'
 import { NewNotification } from '../interfaces'
 import { BaseService } from './base.service'
@@ -14,4 +14,5 @@ export class NotificationService extends BaseService {
     return this.request<NewNotification>(url, config)
   }
 }
+
 

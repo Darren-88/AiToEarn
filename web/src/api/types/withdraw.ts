@@ -1,4 +1,4 @@
-﻿// 旧枚举（保留兼容）
+// 旧枚举（保留兼容）
 export enum WithdrawRecordType {
   TASK = 'task', // 任务
   REWARD = 'reward', // 奖励
@@ -105,4 +105,5 @@ export interface WithdrawAllPendingRequest {
   walletAccountId: string
   [property: string]: any
 }
+
 

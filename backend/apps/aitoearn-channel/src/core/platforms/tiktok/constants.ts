@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-08 00:00:00
  * @LastEditTime: 2025-01-08 00:00:00
@@ -44,4 +44,5 @@ export const TIKTOK_DEFAULT_SCOPES = [
   'user.info.stats',
   'video.list',
 ]
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-21 21:12:52
  * @LastEditTime: 2025-02-21 21:13:19
@@ -25,4 +25,5 @@ export function getUserToken() {
   const res: ResponseData = JSON.parse(store.get(StoreKey.User));
   return res.state.token;
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-20 11:05:02
  * @LastEditors: nevin
@@ -17,4 +17,5 @@ export default () => ({
     HOST_URL: process.env.OSS_URL || '',
   },
 });
+
 

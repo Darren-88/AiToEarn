@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const s3ConfigSchema = z.object({
@@ -12,4 +12,5 @@ export const s3ConfigSchema = z.object({
 })
 
 export class S3Config extends createZodDto(s3ConfigSchema) {}
+
 

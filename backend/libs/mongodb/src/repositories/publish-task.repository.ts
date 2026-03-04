@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { FilterQuery, Model } from 'mongoose'
 import { PublishTask } from '../schemas'
@@ -49,4 +49,5 @@ export class PublishTaskRepository extends BaseRepository<PublishTask> {
     return await this.publishTaskModel.find(filter)
   }
 }
+
 

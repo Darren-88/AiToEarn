@@ -1,4 +1,4 @@
-﻿import { Global, Module } from '@nestjs/common';
+import { Global, Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Account, AccountSchema } from '../../db/schema/account.schema';
 import { AccountService } from './account.service';
@@ -23,4 +23,5 @@ import {
   exports: [AccountService, AccountGroupService],
 })
 export class AccountModule {}
+
 

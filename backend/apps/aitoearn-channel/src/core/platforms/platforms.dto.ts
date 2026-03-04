@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import z, { email } from 'zod'
 
 export const GenAuthURLSchema = z.object({
@@ -14,4 +14,5 @@ export const GenAuthURLSchema = z.object({
 export class GenAuthURLDto extends createZodDto(
   GenAuthURLSchema,
 ) {}
+
 

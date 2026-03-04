@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AppException, ResponseCode } from '@yikart/common'
 import axios, { AxiosInstance, AxiosResponse } from 'axios'
 import jwt from 'jsonwebtoken'
@@ -538,4 +538,5 @@ export class KlingService {
     return response.data
   }
 }
+
 

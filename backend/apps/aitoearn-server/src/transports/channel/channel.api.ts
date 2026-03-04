@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AccountType } from '@yikart/common'
 import { AccountStatus } from '@yikart/mongodb'
 import { ChannelBaseApi } from '../channelBase.api'
@@ -44,4 +44,5 @@ export class ChannelApi extends ChannelBaseApi {
     return res
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { createPaginationVo, createZodDto, UserType } from '@yikart/common'
+import { createPaginationVo, createZodDto, UserType } from '@yikart/common'
 import { AiLogChannel, AiLogStatus, AiLogType } from '@yikart/mongodb'
 import { z } from 'zod'
 
@@ -34,4 +34,5 @@ const logDetailResponseSchema = z.object({
 })
 
 export class LogDetailResponseVo extends createZodDto(logDetailResponseSchema) {}
+
 

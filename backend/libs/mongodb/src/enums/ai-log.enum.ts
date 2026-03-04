@@ -1,4 +1,4 @@
-﻿export enum AiLogType {
+export enum AiLogType {
   Chat = 'chat',
   Image = 'image',
   Card = 'card',
@@ -20,4 +20,5 @@ export enum AiLogChannel {
   Dashscope = 'dashscope',
   Sora2 = 'sora2',
 }
+
 

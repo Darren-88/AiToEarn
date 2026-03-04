@@ -1,4 +1,4 @@
-﻿import { request } from '@/utils/request'
+import { request } from '@/utils/request'
 
 // 会员类型枚举
 export enum VipCycleType {
@@ -46,4 +46,5 @@ export function setVipApi(cycleType: VipCycleType) {
     },
   })
 }
+
 

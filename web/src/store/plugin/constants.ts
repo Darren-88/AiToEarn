@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 浏览器插件相关常量定义
  */
 
@@ -63,4 +63,5 @@ export const TASK_STATUS_I18N_KEY = {
   completed: 'plugin:common.completed',
   error: 'plugin:common.error',
 } as const
+
 

@@ -1,4 +1,4 @@
-﻿import { HttpModule } from '@nestjs/axios'
+import { HttpModule } from '@nestjs/axios'
 import { Global, Module } from '@nestjs/common'
 import { StatisticsDbModule } from '@yikart/statistics-db'
 import { config } from '../config'
@@ -24,4 +24,5 @@ import { TaskModule } from './task/task.module'
   exports: [StatisticsService],
 })
 export class StatisticsModule {}
+
 

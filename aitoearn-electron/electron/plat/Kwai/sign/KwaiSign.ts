@@ -1,4 +1,4 @@
-﻿// @ts-ignore
+// @ts-ignore
 import kuaiShosignCore from './kuaiShoSignCore.js';
 import qs from 'qs';
 // @ts-ignore
@@ -67,4 +67,5 @@ class KwaiSign {
 
 const kwaiSign = new KwaiSign();
 export default kwaiSign;
+
 

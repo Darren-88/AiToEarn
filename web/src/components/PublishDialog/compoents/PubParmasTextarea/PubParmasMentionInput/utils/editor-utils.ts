@@ -1,4 +1,4 @@
-﻿import type { MutableRefObject } from 'react'
+import type { MutableRefObject } from 'react'
 import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext'
 import {
   $createParagraphNode,
@@ -132,4 +132,5 @@ export function PasteTopicsPlugin() {
 
   return null
 }
+
 

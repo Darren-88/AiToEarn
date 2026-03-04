@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { ModelsConfigController } from './models-config.controller'
 import { ModelsConfigService } from './models-config.service'
 
@@ -12,4 +12,5 @@ import { ModelsConfigService } from './models-config.service'
   ],
 })
 export class ModelsConfigModule {}
+
 

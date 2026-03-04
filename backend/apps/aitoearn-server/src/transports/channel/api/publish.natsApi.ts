@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AccountType, TableDto } from '@yikart/common'
 import { PublishStatus, PublishType } from '@yikart/mongodb'
 import { NewPublishData, NewPublishRecordData, PlatOptions } from '../../../channel/common'
@@ -154,4 +154,5 @@ export class PlatPublishNatsApi extends ChannelBaseApi {
     return res
   }
 }
+
 

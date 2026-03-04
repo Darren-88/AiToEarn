@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 16:12:27
  * @LastEditTime: 2025-02-25 09:47:37
@@ -34,4 +34,5 @@ import { WxGzhService } from './wxGzh.service';
   exports: [WxService, WxPayService, WxGzhService],
 })
 export class WxModule {}
+
 

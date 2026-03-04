@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import { PublishStatus, PublishType } from '@yikart/mongodb'
 import { z } from 'zod'
 import { PublishingChannel } from '../../transports/channel/common'
@@ -114,4 +114,5 @@ export const UpdatePublishTaskSchema = z.object({
   }).optional(),
 })
 export class UpdatePublishTaskDto extends createZodDto(UpdatePublishTaskSchema) {}
+
 

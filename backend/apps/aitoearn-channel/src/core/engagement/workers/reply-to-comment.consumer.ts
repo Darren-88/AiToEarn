@@ -1,4 +1,4 @@
-﻿import { Processor, WorkerHost } from '@nestjs/bullmq'
+import { Processor, WorkerHost } from '@nestjs/bullmq'
 import { Logger, OnModuleDestroy } from '@nestjs/common'
 import { QueueName } from '@yikart/aitoearn-queue'
 import { Job } from 'bullmq'
@@ -64,4 +64,5 @@ export class EngagementReplyToCommentConsumer extends WorkerHost implements OnMo
     this.logger.log('EngagementReplyToCommentConsumer closed successfully')
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 import { SourceTypeEnum } from '../comment'
 
@@ -48,4 +48,5 @@ const WebhookSchema = z.object({
   state: z.string({ message: 'state' }).optional(),
 })
 export class WebhookDto extends createZodDto(WebhookSchema) {}
+
 

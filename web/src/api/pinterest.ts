@@ -1,4 +1,4 @@
-﻿import http from '@/utils/request'
+import http from '@/utils/request'
 
 // 获取广告账户
 export function getPinterestAccountApi(adAccountId: string) {
@@ -54,4 +54,5 @@ export function getPinterestPinApi(id: string, accountId: string) {
 export function deletePinterestPinApi(id: string, accountId: string) {
   return http.delete<any>(`plat/pinterest/pin/${id}`, { accountId })
 }
+
 

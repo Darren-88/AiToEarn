@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const accountIdSchema = z.object({
@@ -43,4 +43,5 @@ export const postDetailSchema = z.object({
   platform: z.enum(AccountType),
 })
 export class postDetailDto extends createZodDto(postDetailSchema) {}
+
 

@@ -1,4 +1,4 @@
-﻿import type { DynamicModule, Provider, Type } from '@nestjs/common'
+import type { DynamicModule, Provider, Type } from '@nestjs/common'
 import type { NestApplication } from '@nestjs/core'
 import type { NestExpressApplication } from '@nestjs/platform-express'
 import type { SchemaObject } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface'
@@ -207,4 +207,5 @@ export async function startApplication(Module: Type<unknown>, config: BaseConfig
       logger.log(`swagger docs: http://localhost:${config.port}${config.openapi.path}`)
   })
 }
+
 

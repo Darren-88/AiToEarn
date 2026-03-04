@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-08-30 14:39:05
  * @LastEditTime: 2024-09-14 19:03:21
@@ -38,4 +38,5 @@ import redisConfig from '../../../config/redis.config';
   exports: [REDIS_CLIENT, RedisService],
 })
 export class RedisModule {}
+
 

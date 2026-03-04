@@ -1,4 +1,5 @@
-﻿export interface PageParams {
+export interface PageParams {
   params: Promise<{ lng: string }>
 }
+
 

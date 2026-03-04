@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useEffect, useState } from 'react'
 
@@ -74,4 +74,5 @@ function useCssVariables(variableNames: string[] = [
 }
 
 export default useCssVariables
+
 

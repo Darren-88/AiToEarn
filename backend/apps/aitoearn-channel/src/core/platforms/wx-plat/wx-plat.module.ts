@@ -1,4 +1,4 @@
-﻿import { forwardRef, Module } from '@nestjs/common'
+import { forwardRef, Module } from '@nestjs/common'
 import { MyWxPlatApiModule } from '../../../libs/my-wx-plat/my-wx-plat.module'
 import { WxGzhApiModule } from '../../../libs/wx-gzh/wx-gzh.module'
 import { PublishModule } from '../../publishing/publishing.module'
@@ -13,4 +13,5 @@ import { WxPlatService } from './wx-plat.service'
   exports: [WxPlatService, WxGzhService],
 })
 export class WxPlatModule {}
+
 

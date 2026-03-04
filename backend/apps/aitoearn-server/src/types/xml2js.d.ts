@@ -1,4 +1,4 @@
-﻿declare module 'xml2js' {
+declare module 'xml2js' {
   export function parseString(
     str: string,
     options: { explicitArray: boolean },
@@ -10,4 +10,5 @@
     callback: (err: any, result: any) => void,
   ): void
 }
+
 

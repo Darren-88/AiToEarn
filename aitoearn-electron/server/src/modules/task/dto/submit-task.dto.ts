@@ -1,4 +1,4 @@
-﻿import { ApiProperty } from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsOptional, IsString } from 'class-validator';
 
 export class SubmitTaskDto {
@@ -18,4 +18,5 @@ export class SubmitTaskDto {
   @IsOptional()
   submissionUrl?: string;
 }
+
 

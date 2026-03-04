@@ -1,4 +1,4 @@
-﻿import * as echarts from 'echarts';
+import * as echarts from 'echarts';
 import { CallbackDataParams } from 'echarts/types/src/util/types';
 
 type EChartsOption = echarts.EChartsOption;
@@ -43,4 +43,5 @@ const initWeepPie = (
 };
 
 export default initWeepPie;
+
 

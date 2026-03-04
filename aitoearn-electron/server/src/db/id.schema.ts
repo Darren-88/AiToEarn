@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2021-12-24 13:46:31
  * @LastEditors: nevin
@@ -21,4 +21,5 @@ export class Id {
   update_time: number;
 }
 export const IdSchema = SchemaFactory.createForClass(Id);
+
 

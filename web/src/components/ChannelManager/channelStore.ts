@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ChannelManager - 频道管理器局部状态管理
  * 只管理弹窗显示隐藏状态，所有数据使用全局 account store
  */
@@ -23,4 +23,5 @@ export const useChannelManagerStore = create(
     },
   })),
 )
+
 

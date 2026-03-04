@@ -1,4 +1,4 @@
-﻿import { create } from 'zustand';
+import { create } from 'zustand';
 import { combine } from 'zustand/middleware';
 import lodash from 'lodash';
 import { AccountInfo } from '@/views/account/comment';
@@ -136,4 +136,5 @@ export const useAccountStore = create(
     },
   ),
 );
+
 

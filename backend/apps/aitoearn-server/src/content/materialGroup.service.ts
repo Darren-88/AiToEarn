@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { TableDto } from '@yikart/common'
 import { MaterialGroupRepository } from '@yikart/mongodb'
 import { NewMaterialGroup, UpdateMaterialGroup } from './common'
@@ -40,4 +40,5 @@ export class MaterialGroupService {
     return res
   }
 }
+
 

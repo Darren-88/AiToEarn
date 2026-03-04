@@ -1,4 +1,4 @@
-﻿export enum PublishType {
+export enum PublishType {
   VIDEO = 'video', // 视频
   ARTICLE = 'article',
 }
@@ -17,4 +17,5 @@ export enum PublishingTaskType {
   VIDEO = 'video', // 视频
   ARTICLE = 'article',
 }
+
 

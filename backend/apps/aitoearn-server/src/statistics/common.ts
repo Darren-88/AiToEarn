@@ -1,4 +1,4 @@
-﻿import { AccountType } from '@yikart/common'
+import { AccountType } from '@yikart/common'
 
 export interface NewAccountCrawlerData {
   accountId?: string
@@ -8,4 +8,5 @@ export interface NewAccountCrawlerData {
   avatar?: string
   nickname?: string
 }
+
 

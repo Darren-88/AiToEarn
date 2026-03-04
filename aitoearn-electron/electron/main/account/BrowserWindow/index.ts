@@ -1,4 +1,4 @@
-﻿import { ICreateBrowserWindowParams } from './browserWindow';
+import { ICreateBrowserWindowParams } from './browserWindow';
 import BrowserWindowItem from './BrowserWindowItem';
 
 class BrowserWindowController {
@@ -27,4 +27,5 @@ class BrowserWindowController {
 }
 
 export const browserWindowController = new BrowserWindowController();
+
 

@@ -1,4 +1,4 @@
-﻿import { HttpModule } from '@nestjs/axios'
+import { HttpModule } from '@nestjs/axios'
 import { Module } from '@nestjs/common'
 import { BilibiliDataService } from './bilibiliData.service'
 import { DataCubeApi } from './dataCube.api'
@@ -11,4 +11,5 @@ import { YouTubeDataService } from './youtubeData.service'
   providers: [DataCubeApi, BilibiliDataService, YouTubeDataService],
 })
 export class DataCubeModule { }
+
 

@@ -1,4 +1,4 @@
-﻿import {
+import {
   applyDecorators,
   HttpStatus,
   RequestMethod,
@@ -95,4 +95,5 @@ export function ApiResult<TModel extends Type<any>>({
     },
   );
 }
+
 

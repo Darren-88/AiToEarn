@@ -1,4 +1,4 @@
-﻿import { InjectModel } from '@nestjs/mongoose'
+import { InjectModel } from '@nestjs/mongoose'
 import { Pagination, RangeFilter, UserType } from '@yikart/common'
 import { FilterQuery, Model } from 'mongoose'
 import { AiLogStatus, AiLogType } from '../enums'
@@ -93,4 +93,5 @@ export class AiLogRepository extends BaseRepository<AiLog> {
     return await this.findOne({ _id: id, userId, userType })
   }
 }
+
 

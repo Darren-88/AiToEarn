@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-07-04 15:15:28
  * @LastEditTime: 2024-11-26 18:39:44
@@ -39,4 +39,5 @@ export function getDayRangeUTC(date: string): { start: Date, end: Date } {
   const end = new Date(`${date} T23:59:59.999Z`)
   return { start, end }
 }
+
 

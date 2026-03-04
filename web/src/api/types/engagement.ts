@@ -1,4 +1,4 @@
-﻿export type EngagementPlatform
+export type EngagementPlatform
   = | 'bilibili'
     | 'douyin'
     | 'facebook'
@@ -149,4 +149,5 @@ export interface CommentRepliesResponse {
     after?: string
   }
 }
+
 

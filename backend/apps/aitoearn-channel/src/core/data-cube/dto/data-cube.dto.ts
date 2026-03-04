@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const AccountSchema = z.object({
@@ -15,4 +15,5 @@ export const ArcSchema = z.object({
 export class ArcDto extends createZodDto(
   ArcSchema,
 ) {}
+
 

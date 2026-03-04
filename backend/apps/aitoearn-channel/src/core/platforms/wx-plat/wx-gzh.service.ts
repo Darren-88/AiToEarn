@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { fileUrlToBlob } from '../../../common'
 import { FileService } from '../../../core/file/file.service'
 import {
@@ -177,4 +177,5 @@ export class WxGzhService {
     return res
   }
 }
+
 

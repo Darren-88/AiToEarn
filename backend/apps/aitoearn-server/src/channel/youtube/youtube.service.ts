@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AppException } from '@yikart/common'
 import { RedisService } from '@yikart/redis'
 import { AccountService } from '../../account/account.service'
@@ -739,4 +739,5 @@ export class YoutubeService {
     return data
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { KlingConfig } from './kling.config'
 import { KlingService } from './kling.service'
 
@@ -19,4 +19,5 @@ export class KlingModule {
     }
   }
 }
+
 

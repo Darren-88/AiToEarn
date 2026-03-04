@@ -1,4 +1,4 @@
-﻿import { HttpModule } from '@nestjs/axios'
+import { HttpModule } from '@nestjs/axios'
 import { Global, Module } from '@nestjs/common'
 import { PlatBilibiliNatsApi } from './api/bilibili.natsApi'
 import { EngagementNatsApi } from './api/engagement/engagement.api'
@@ -55,4 +55,5 @@ import { ChannelApi } from './channel.api'
   ],
 })
 export class ChannelApiModule { }
+
 

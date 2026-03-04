@@ -1,4 +1,4 @@
-﻿import { Processor, WorkerHost } from '@nestjs/bullmq'
+import { Processor, WorkerHost } from '@nestjs/bullmq'
 import { Logger, OnModuleDestroy } from '@nestjs/common'
 import { QueueName, QueueService } from '@yikart/aitoearn-queue'
 import { Job } from 'bullmq'
@@ -167,4 +167,5 @@ export class EngagementTaskDistributionConsumer extends WorkerHost implements On
     this.logger.log('EngagementTaskDistributionConsumer closed successfully')
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Model } from 'mongoose';
+import { Model } from 'mongoose';
 import { getModelToken } from '@nestjs/mongoose';
 import { platform, platform2, ranking, user, hotTopics, viralTitles } from './mockData';
 import { Platform } from '../src/db/schema/platform.schema';
@@ -52,4 +52,5 @@ export async function setupTestData(app: INestApplication) {
     platform2: createdPlatform2,
   };
 }
+
 

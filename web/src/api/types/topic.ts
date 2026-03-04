@@ -1,4 +1,4 @@
-﻿export interface Topic {
+export interface Topic {
   _id: string
   title: string // 话题标题
   description?: string
@@ -23,4 +23,5 @@
   authorUrl: string
   updateTime: Date
 }
+
 

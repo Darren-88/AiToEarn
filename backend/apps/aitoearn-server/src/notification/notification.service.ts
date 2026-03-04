@@ -1,4 +1,4 @@
-﻿import { Injectable, OnModuleInit } from '@nestjs/common'
+import { Injectable, OnModuleInit } from '@nestjs/common'
 import { AppException, NotificationType, ResponseCode, UserType } from '@yikart/common'
 import { NotificationRepository, NotificationStatus } from '@yikart/mongodb'
 import {
@@ -97,4 +97,5 @@ export class NotificationService implements OnModuleInit {
     return await this.notificationRepository.countByUserIdUnread(userId, filter)
   }
 }
+
 

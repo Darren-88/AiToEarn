@@ -1,4 +1,4 @@
-﻿import type { SentPostsResponse } from './types/sent.types'
+import type { SentPostsResponse } from './types/sent.types'
 import { request } from '@/utils/request'
 
 // Get published posts list
@@ -9,4 +9,5 @@ export function getSentPosts(params: any) {
     data: params,
   })
 }
+
 

@@ -1,4 +1,4 @@
-﻿// Facebook API接口
+// Facebook API接口
 import http from '@/utils/request'
 
 export interface FacebookPageItem {
@@ -34,4 +34,5 @@ export function apiSubmitFacebookPages(pageIds: string[]) {
     pageIds,
   })
 }
+
 

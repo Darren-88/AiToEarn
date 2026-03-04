@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 应用下载配置文件
  * 管理不同平台的下载链接、二维码等信息
  */
@@ -42,7 +42,7 @@ interface AppReleaseResponse {
 export const MAIN_APP_DOWNLOAD_URL = 'https://docs.aitoearn.ai/en/downloads'
 
 // API端点
-const APP_RELEASE_API = 'https://aitoearn.ai/api/app-release/latest'
+const APP_RELEASE_API = 'https://api.aitoearn.cn/api/app-release/latest'
 
 // 缓存最新下载地址
 let cachedDownloadUrl: string | null = null
@@ -179,4 +179,6 @@ export function getAppDownloadConfig(platformKey: string): AppDownloadConfig | n
 export function getTasksRequiringApp(accountTypes: string[]): string[] {
   return accountTypes.filter(type => APP_DOWNLOAD_CONFIGS[type])
 }
+
+
 

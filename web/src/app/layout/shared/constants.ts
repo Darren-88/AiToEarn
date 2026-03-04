@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 导航共享常量
  * MobileNav 和 LayoutSidebar 共用的常量配置
  */
@@ -14,4 +14,5 @@ export const AFFILIATES_URL = 'https://aitoearn.getrewardful.com/signup?_gl=1*15
 
 /** 有效的 VIP 会员状态 */
 export const ACTIVE_VIP_STATUSES = ['active_monthly', 'active_yearly', 'active_nonrenewing', 'monthly_once', 'yearly_once']
+
 

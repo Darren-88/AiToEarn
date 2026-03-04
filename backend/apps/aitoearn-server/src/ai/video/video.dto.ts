@@ -1,4 +1,4 @@
-﻿import { createZodDto, PaginationDtoSchema, UserType } from '@yikart/common'
+import { createZodDto, PaginationDtoSchema, UserType } from '@yikart/common'
 import { z } from 'zod'
 import { AspectRatio, CameraControlType, TaskStatus as KlingTaskStatus, Mode } from '../libs/kling'
 import { TaskStatus as Sora2TaskStatus, VideoOrientation, VideoSize } from '../libs/sora2'
@@ -377,4 +377,5 @@ const sora2CallbackSchema = z.object({
 })
 
 export class Sora2CallbackDto extends createZodDto(sora2CallbackSchema) {}
+
 

@@ -1,4 +1,4 @@
-﻿import type { ZodDto } from './zod-dto.util'
+import type { ZodDto } from './zod-dto.util'
 import { resolve } from 'node:path'
 import { program } from 'commander'
 import { fileLoader, selectConfig as nestSelectConfig, TypedConfigModule } from 'nest-typed-config'
@@ -28,4 +28,5 @@ export function selectConfig<
   })
   return nestSelectConfig(module, config)
 }
+
 

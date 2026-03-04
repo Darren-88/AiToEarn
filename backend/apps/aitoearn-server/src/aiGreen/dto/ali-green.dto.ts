@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 const TextBodySchema = z.object({
@@ -20,4 +20,5 @@ const VideoResultBodySchema = z.object({
   taskId: z.string().describe('视频任务id'),
 })
 export class VideoResultBodyDto extends createZodDto(VideoResultBodySchema) {}
+
 

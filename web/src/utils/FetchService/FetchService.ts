@@ -1,4 +1,4 @@
-﻿import type { Dictionary, IFetchServiceConfig, RequestParams } from './types'
+import type { Dictionary, IFetchServiceConfig, RequestParams } from './types'
 
 /**
  * 泛型：
@@ -94,4 +94,5 @@ class FetchService<T = Response> {
 }
 
 export default FetchService
+
 

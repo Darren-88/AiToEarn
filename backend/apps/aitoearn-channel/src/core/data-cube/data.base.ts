@@ -1,4 +1,4 @@
-﻿import {
+import {
   ChannelAccountDataBulk,
   ChannelAccountDataCube,
   ChannelArcDataBulk,
@@ -36,4 +36,5 @@ export abstract class DataCubeBase {
     dataId: string,
   ): Promise<ChannelArcDataBulk>
 }
+
 

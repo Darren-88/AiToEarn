@@ -1,4 +1,4 @@
-﻿import type { AccountGroupItem, SocialAccount } from '@/api/types/account.type'
+import type { AccountGroupItem, SocialAccount } from '@/api/types/account.type'
 import lodash from 'lodash'
 import { create } from 'zustand'
 import { combine } from 'zustand/middleware'
@@ -198,4 +198,5 @@ export const useAccountStore = create(
     },
   ),
 )
+
 

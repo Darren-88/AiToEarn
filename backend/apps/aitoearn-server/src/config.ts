@@ -1,4 +1,4 @@
-﻿import { aitoearnAuthConfigSchema } from '@yikart/aitoearn-auth'
+import { aitoearnAuthConfigSchema } from '@yikart/aitoearn-auth'
 import { s3ConfigSchema } from '@yikart/aws-s3'
 import { baseConfig, createZodDto, selectConfig } from '@yikart/common'
 import { AiLogChannel, mongodbConfigSchema } from '@yikart/mongodb'
@@ -194,4 +194,5 @@ export const appConfigSchema = z.object({
 export class AppConfig extends createZodDto(appConfigSchema) { }
 
 export const config = selectConfig(AppConfig)
+
 

@@ -1,4 +1,4 @@
-﻿import { XMediaCategory, XMediaType } from './twitter.enum'
+import { XMediaCategory, XMediaType } from './twitter.enum'
 
 export interface TwitterOAuthCredential {
   access_token: string
@@ -274,4 +274,5 @@ export interface XDeleteTweetResponse {
   data: XDeleteTweetData
   errors?: TwitterAPIError[]
 }
+
 

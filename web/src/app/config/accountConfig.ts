@@ -1,4 +1,4 @@
-﻿// 账号状态
+// 账号状态
 export enum AccountStatus {
   // 未失效
   USABLE = 1,
@@ -13,4 +13,5 @@ export enum XhsAccountAbnormal {
   // 账号异常（无法发布视频）
   Abnormal = 2,
 }
+
 

@@ -1,4 +1,4 @@
-﻿import http from '@/utils/request'
+import http from '@/utils/request'
 
 // 创建媒体资源组
 export function createMediaGroup(data: {
@@ -65,4 +65,5 @@ export function apiAddUseCount(id: string) {
 export function apiAddUseCountOfList(ids: string[]) {
   return http.put(`media/addUseCountOfList`, { data: { ids } })
 }
+
 

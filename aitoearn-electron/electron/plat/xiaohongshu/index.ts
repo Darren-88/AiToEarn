@@ -1,4 +1,4 @@
-﻿import { screen, BrowserWindow, net, session } from 'electron';
+import { screen, BrowserWindow, net, session } from 'electron';
 import * as crypto from 'crypto';
 import sizeOf from 'image-size';
 import { CommonUtils } from '../../util/common';
@@ -1702,4 +1702,5 @@ export class XiaohongshuService {
 
 // 导出服务实例
 export const xiaohongshuService = new XiaohongshuService();
+
 

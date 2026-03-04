@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-03-04 10:40:22
  * @LastEditors: nevin
@@ -21,4 +21,5 @@ export interface OssNewFilePath {
   permanent?: boolean;
   newName?: string;
 }
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 平台交互统一类型定义
  */
 
@@ -396,4 +396,5 @@ export interface CommentListResult extends BaseResult {
   /** 评论总数（可选，部分平台不提供） */
   total?: number
 }
+
 

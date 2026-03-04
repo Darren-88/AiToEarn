@@ -1,4 +1,4 @@
-﻿interface TopicsInfoDto {
+interface TopicsInfoDto {
   view_num: number;
   type: string;
   smart: boolean;
@@ -216,4 +216,5 @@ export type XhsCommentPostResponse = {
   };
   code: number; // 0;
 };
+
 

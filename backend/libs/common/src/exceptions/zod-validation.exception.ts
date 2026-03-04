@@ -1,4 +1,4 @@
-﻿import type { ZodError } from 'zod'
+import type { ZodError } from 'zod'
 import {
   BadRequestException,
   HttpStatus,
@@ -40,4 +40,5 @@ export const createZodValidationException: ZodExceptionCreator = (error) => {
 export const createZodSerializationException: ZodExceptionCreator = (error) => {
   return new ZodSerializationException(error)
 }
+
 

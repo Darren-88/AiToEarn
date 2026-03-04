@@ -1,4 +1,4 @@
-﻿import type { Platform } from '../hot'
+import type { Platform } from '../hot'
 
 export interface HotValueHistory {
   updateTime: string // 记录时间
@@ -19,4 +19,5 @@ export interface HotTopic {
   createTime: Date
   updateTime: Date
 }
+
 

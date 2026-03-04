@@ -1,4 +1,4 @@
-﻿import { useParams } from 'next/navigation'
+import { useParams } from 'next/navigation'
 import { fallbackLng, languages } from '@/app/i18n/settings'
 
 export function useGetClientLng() {
@@ -12,4 +12,5 @@ export function useGetClientLng() {
 
   return fallbackLng
 }
+
 

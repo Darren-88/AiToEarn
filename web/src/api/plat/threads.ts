@@ -1,4 +1,4 @@
-﻿// Threads API接口
+// Threads API接口
 import http from '@/utils/request'
 
 export interface ThreadsLocationItem {
@@ -27,4 +27,5 @@ export function apiGetThreadsLocations(accountId: string, keyword?: string) {
     params,
   )
 }
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - 类型定义
  * 全局 AI Agent 任务管理的类型定义
  */
@@ -271,4 +271,5 @@ export interface ICreateTaskParams {
   /** 需要登录回调 */
   onLoginRequired?: () => void
 }
+
 

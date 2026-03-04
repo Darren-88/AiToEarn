@@ -1,4 +1,4 @@
-﻿import { ChannelAccountDataBulk, ChannelAccountDataCube, ChannelArcDataBulk, ChannelArcDataCube } from './common'
+import { ChannelAccountDataBulk, ChannelAccountDataCube, ChannelArcDataBulk, ChannelArcDataCube } from './common'
 
 export abstract class DataCubeBase {
   // 获取账号的统计数据
@@ -27,4 +27,5 @@ export abstract class DataCubeBase {
     pageId?: string, // 可选参数，适用于Facebook等平台
   ): Promise<ChannelArcDataBulk>
 }
+
 

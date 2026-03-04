@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Logger, Post } from '@nestjs/common'
+import { Body, Controller, Logger, Post } from '@nestjs/common'
 import { AppException, ResponseCode } from '@yikart/common'
 import { PublishStatus } from '../../libs/database/schema/publishTask.schema'
 import {
@@ -108,4 +108,5 @@ export class PublishingController {
     return res
   }
 }
+
 

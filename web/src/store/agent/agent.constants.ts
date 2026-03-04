@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - 常量定义
  * 状态配置、进度配置等常量
  */
@@ -34,4 +34,5 @@ export const GENERATING_STATUSES = [
   'GENERATING_VIDEO',
   'GENERATING_TEXT',
 ]
+
 

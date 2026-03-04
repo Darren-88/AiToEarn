@@ -1,4 +1,4 @@
-﻿import path from 'node:path'
+import path from 'node:path'
 import {
   type ElectronApplication,
   type Page,
@@ -62,4 +62,5 @@ if (process.platform === 'linux') {
     })
   })
 }
+
 

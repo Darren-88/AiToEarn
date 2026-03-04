@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Delete, Get, Post, Put } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Post, Put } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { ManagerService } from './manager.service';
 import {
@@ -90,4 +90,5 @@ export class ManagerController {
     return this.managerService.delete(token.id);
   }
 }
+
 

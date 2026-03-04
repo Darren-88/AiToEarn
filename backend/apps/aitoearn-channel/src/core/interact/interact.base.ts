@@ -1,4 +1,4 @@
-﻿import { PublishRecord } from '@yikart/aitoearn-server-client'
+import { PublishRecord } from '@yikart/aitoearn-server-client'
 import { Account } from '../../libs/database/schema/account.schema'
 
 export abstract class InteracteBase {
@@ -28,4 +28,5 @@ export abstract class InteracteBase {
   // 删除评论
   abstract delComment(accountId: string, commentId: string): Promise<boolean>
 }
+
 

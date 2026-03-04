@@ -1,4 +1,4 @@
-﻿import { Injectable, UnauthorizedException } from '@nestjs/common'
+import { Injectable, UnauthorizedException } from '@nestjs/common'
 import { TokenInfo } from '@yikart/aitoearn-auth'
 import { AliGreenApiService } from '@yikart/ali-green'
 import * as _ from 'lodash'
@@ -40,4 +40,5 @@ export class AliGreenService {
     return this.aliGreenApiService.getVideoResult(data.taskId)
   }
 }
+
 

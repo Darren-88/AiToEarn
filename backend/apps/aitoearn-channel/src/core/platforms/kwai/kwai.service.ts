@@ -1,4 +1,4 @@
-﻿/* eslint-disable antfu/consistent-list-newline */
+/* eslint-disable antfu/consistent-list-newline */
 import { Injectable, Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { AccountStatus, AccountType, NewAccount } from '@yikart/aitoearn-server-client'
@@ -342,4 +342,5 @@ export class KwaiService extends PlatformBaseService {
     return res === 1
   }
 }
+
 

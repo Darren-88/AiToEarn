@@ -1,4 +1,4 @@
-﻿import { BrowserWindow, screen, session } from 'electron';
+import { BrowserWindow, screen, session } from 'electron';
 import { CommonUtils } from '../../util/common';
 import path from 'path';
 import { FileUtils } from '../../util/file';
@@ -2608,4 +2608,5 @@ export class DouyinService {
 
 // 导出服务实例
 export const douyinService = new DouyinService();
+
 

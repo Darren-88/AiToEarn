@@ -1,4 +1,4 @@
-﻿import { MigrationInterface, QueryRunner } from 'typeorm';
+import { MigrationInterface, QueryRunner } from 'typeorm';
 
 export class InitialMigration1707791500000 implements MigrationInterface {
   name = 'InitialMigration1707791500000';
@@ -148,4 +148,5 @@ export class InitialMigration1707791500000 implements MigrationInterface {
     await queryRunner.query(`DROP TABLE "user"`);
   }
 }
+
 

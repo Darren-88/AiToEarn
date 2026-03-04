@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const md2cardConfigSchema = z.object({
@@ -8,4 +8,5 @@ export const md2cardConfigSchema = z.object({
 })
 
 export class Md2cardConfig extends createZodDto(md2cardConfigSchema) {}
+
 

@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import { InteractionRecord, InteractionRecordSchema } from '../../libs/database/schema/interactionRecord.schema'
 import { ReplyCommentRecord, ReplyCommentRecordSchema } from '../../libs/database/schema/replyCommentRecord.schema'
@@ -25,4 +25,5 @@ import { WxGzhInteractService } from './wx-gzh-interact.service'
   exports: [WxGzhInteractService],
 })
 export class InteracteModule {}
+
 

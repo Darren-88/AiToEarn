@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-20 22:02:54
  * @LastEditTime: 2025-03-31 11:30:32
@@ -21,4 +21,5 @@ export class AppController {
     return this.toolsService.getAppInfo();
   }
 }
+
 

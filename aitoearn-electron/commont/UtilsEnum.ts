@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-03-01 19:27:31
  * @LastEditTime: 2025-03-23 19:39:34
@@ -22,4 +22,5 @@ export enum SendChannelEnum {
   // 视频发布完成后待审核变成审核的事件
   VideoAuditFinish = 'VideoAuditFinish',
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { Redis } from 'ioredis'
 
 @Injectable()
@@ -81,4 +81,5 @@ export class RedisService {
     return result === 'OK'
   }
 }
+
 

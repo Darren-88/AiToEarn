@@ -1,4 +1,4 @@
-﻿import { Logger } from '@nestjs/common'
+import { Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { Pagination, RangeFilter } from '@yikart/common'
 import dayjs from 'dayjs'
@@ -407,4 +407,5 @@ export class PointsRecordRepository extends BaseRepository<PointsRecord> {
     await this.deleteMany({ userId })
   }
 }
+
 

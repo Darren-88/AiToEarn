@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AxiosRequestConfig } from 'axios'
 import { Material, MaterialGroup, MaterialTask, NewMaterialTask } from '../interfaces'
 import { BaseService } from './base.service'
@@ -87,4 +87,5 @@ export class ContentService extends BaseService {
     return this.request<boolean>(url, config)
   }
 }
+
 

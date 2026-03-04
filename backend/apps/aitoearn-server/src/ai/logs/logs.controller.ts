@@ -1,4 +1,4 @@
-﻿import { Controller, Get, Query } from '@nestjs/common'
+import { Controller, Get, Query } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc, UserType } from '@yikart/common'
@@ -29,4 +29,5 @@ export class LogsController {
     return new LogsListResponseVo(list, total, query)
   }
 }
+
 

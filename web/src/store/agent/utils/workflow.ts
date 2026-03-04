@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - 工作流工具
  * 管理 AI 工作流步骤（工具调用、结果等）
  *
@@ -239,4 +239,5 @@ export function createWorkflowUtils(ctx: IWorkflowContext) {
 }
 
 export type WorkflowUtils = ReturnType<typeof createWorkflowUtils>
+
 

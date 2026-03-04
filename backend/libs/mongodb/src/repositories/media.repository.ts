@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { UserType } from '@yikart/common'
 import { FilterQuery, Model, RootFilterQuery, Types } from 'mongoose'
@@ -124,4 +124,5 @@ export class MediaRepository extends BaseRepository<Media> {
     return res.modifiedCount > 0
   }
 }
+
 

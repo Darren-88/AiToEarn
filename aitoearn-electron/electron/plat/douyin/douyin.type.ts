@@ -1,4 +1,4 @@
-﻿interface TopicSug {
+interface TopicSug {
   cha_name: string;
   view_count: number;
   cid: string;
@@ -769,4 +769,5 @@ export interface DouyinGetMixListResponse {
     ban_episode_count: number;
   }[];
 }
+
 

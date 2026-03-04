@@ -1,4 +1,4 @@
-﻿import { forwardRef, Inject, Injectable } from '@nestjs/common'
+import { forwardRef, Inject, Injectable } from '@nestjs/common'
 import { AccountGroup, AccountGroupRepository } from '@yikart/mongodb'
 import { FingerprintService } from '../fingerprint/fingerprint.service'
 import { AccountService } from './account.service'
@@ -84,4 +84,5 @@ export class AccountGroupService {
     return success
   }
 }
+
 

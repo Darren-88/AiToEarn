@@ -1,4 +1,4 @@
-﻿export default () => ({
+export default () => ({
   SMS_CONFIG: {
     config: {
       accessKeyId: process.env.SMS_ACCESS_KEY_ID || 'xxxx',
@@ -12,4 +12,5 @@
     },
   },
 });
+
 

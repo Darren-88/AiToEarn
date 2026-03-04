@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Get, Param, Post, Put, Query } from '@nestjs/common'
+import { Body, Controller, Get, Param, Post, Put, Query } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc, AppException, ResponseCode } from '@yikart/common'
@@ -225,4 +225,5 @@ export class AccountController {
     return this.accountService.sortRank(token.id, body.groupId, body.list)
   }
 }
+
 

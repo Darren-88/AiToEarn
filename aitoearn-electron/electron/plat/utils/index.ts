@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 import sharp from 'sharp';
 import * as path from 'path';
 import requestNet from '../requestNet';
@@ -46,4 +46,5 @@ export async function getImageBaseInfo(filePath: string) {
 export const CookieToString = (cookies: Electron.Cookie[]) => {
   return cookies.map((cookie) => `${cookie.name}=${cookie.value}`).join('; ');
 };
+
 

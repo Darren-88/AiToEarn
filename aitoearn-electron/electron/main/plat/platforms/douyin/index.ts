@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-08 11:40:45
  * @LastEditTime: 2025-03-31 09:42:25
@@ -693,4 +693,5 @@ export class Douyin extends PlatformBase {
 
 const douyin = new Douyin();
 export default douyin;
+
 

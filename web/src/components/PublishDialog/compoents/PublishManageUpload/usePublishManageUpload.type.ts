@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   UploadTaskStatusEnum,
   UploadTaskTypeEnum,
 } from './publishManageUpload.enum'
@@ -70,4 +70,5 @@ export interface IPublishManageUploadState {
   tasks: Record<string, UploadTask>
   md5Cache: Record<string, UploadCacheItem>
 }
+
 

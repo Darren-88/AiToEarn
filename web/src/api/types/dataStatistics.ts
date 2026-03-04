@@ -1,4 +1,4 @@
-﻿// getStatisticsPeriodApi 入参
+// getStatisticsPeriodApi 入参
 import type { PlatType } from '@/app/config/platConfig'
 
 export interface StatisticsPeriodApiParams {
@@ -70,4 +70,5 @@ export interface Records {
   forwardCount: number
   workCount: number
 }
+
 

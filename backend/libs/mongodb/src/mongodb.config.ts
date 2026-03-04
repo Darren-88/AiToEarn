@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const mongodbConfigSchema = z.object({
@@ -9,4 +9,5 @@ export const mongodbConfigSchema = z.object({
 })
 
 export class MongodbConfig extends createZodDto(mongodbConfigSchema) {}
+
 

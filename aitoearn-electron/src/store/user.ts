@@ -1,4 +1,4 @@
-﻿import { createPersistStore } from '@/utils/createPersistStore';
+import { createPersistStore } from '@/utils/createPersistStore';
 import { IRefreshToken, IUserInfo } from '@/api/types/user-t';
 import { userApi } from '@/api/user';
 import { StoreKey } from '@/utils/StroeEnum';
@@ -82,4 +82,5 @@ export const useUserStore = createPersistStore(
     name: StoreKey.User,
   },
 );
+
 

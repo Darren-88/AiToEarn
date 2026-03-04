@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const openaiConfigSchema = z.object({
@@ -8,4 +8,5 @@ export const openaiConfigSchema = z.object({
 })
 
 export class OpenaiConfig extends createZodDto(openaiConfigSchema) {}
+
 

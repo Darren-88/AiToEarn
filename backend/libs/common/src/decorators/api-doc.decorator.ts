@@ -1,4 +1,4 @@
-﻿import type { Type } from '@nestjs/common'
+import type { Type } from '@nestjs/common'
 import type { ReferenceObject, SchemaObject } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface'
 import type { ZodType } from 'zod'
 import { applyDecorators } from '@nestjs/common'
@@ -159,4 +159,5 @@ export function ApiDoc(options: ApiDocOptions) {
 
   return applyDecorators(...decorators)
 }
+
 

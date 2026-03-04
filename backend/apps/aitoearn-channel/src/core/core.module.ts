@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { AliGreenModule } from '../core/ali-green/ali-green.module'
 import { AccountModule } from './account/account.module'
 import { DataCubeModule } from './data-cube/data-cube.module'
@@ -34,4 +34,5 @@ import { SkKeyModule } from './sk-key/sk-key.module'
   providers: [],
 })
 export class CoreModule {}
+
 

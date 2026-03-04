@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AccountDataRepository } from '@yikart/statistics-db'
 import { getDayRangeUTC } from '../../common/utils'
 
@@ -99,4 +99,5 @@ export class AccountDataService {
     return this.accountDataRepository.getChannelDeltaByUids(queries)
   }
 }
+
 

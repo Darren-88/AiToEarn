@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 19:19:07
  * @LastEditTime: 2024-09-05 15:18:26
@@ -25,4 +25,5 @@ import { Video, VideoSchema } from 'src/db/schema/video.schema';
   controllers: [PublishController, VideoController],
 })
 export class PublishModule {}
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 小红书平台特定类型定义
  */
 
@@ -223,4 +223,5 @@ export interface XhsSubCommentListResponse extends XhsBaseResponse {
     xsec_token: string
   }
 }
+
 

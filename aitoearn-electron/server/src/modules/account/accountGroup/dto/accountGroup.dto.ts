@@ -1,4 +1,4 @@
-﻿// 创建组 Dto
+// 创建组 Dto
 import { IsArray, IsNumber, IsOptional, IsString } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 import { Expose } from 'class-transformer';
@@ -30,4 +30,5 @@ export class DeleteAccountGroupDto {
   @Expose()
   ids: number[];
 }
+
 

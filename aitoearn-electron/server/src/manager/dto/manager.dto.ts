@@ -1,4 +1,4 @@
-﻿import { ApiProperty } from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsOptional, IsString } from 'class-validator';
 
 export class LoginDto {
@@ -61,4 +61,5 @@ export class UpdateManagerDto {
   @IsOptional()
   salt?: string;
 }
+
 

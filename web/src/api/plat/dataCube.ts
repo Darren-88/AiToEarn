@@ -1,4 +1,4 @@
-﻿// 渠道数据
+// 渠道数据
 import http from '@/utils/request'
 
 /**
@@ -20,4 +20,5 @@ export function apiGetAccountDataBulk(accountId: string) {
     `channel/dataCube/getAccountDataBulk/${accountId}`,
   )
 }
+
 

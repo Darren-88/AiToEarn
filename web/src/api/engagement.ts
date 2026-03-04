@@ -1,4 +1,4 @@
-﻿import type { CommentRepliesParams, CommentRepliesResponse, EngagementCommentsParams, EngagementCommentsResponse, EngagementPostsParams, EngagementPostsResponse, EngagementReplyParams, PostCommentsParamsV2, PostCommentsResponseV2, PublishCommentReplyParams, PublishPostCommentParams } from './types/engagement'
+import type { CommentRepliesParams, CommentRepliesResponse, EngagementCommentsParams, EngagementCommentsResponse, EngagementPostsParams, EngagementPostsResponse, EngagementReplyParams, PostCommentsParamsV2, PostCommentsResponseV2, PublishCommentReplyParams, PublishPostCommentParams } from './types/engagement'
 import http from '@/utils/request'
 
 export async function apiGetEngagementnew(params: any) {
@@ -34,4 +34,5 @@ export async function apiPublishCommentReply(params: PublishCommentReplyParams) 
 export async function apiGetCommentReplies(params: CommentRepliesParams) {
   return http.post<CommentRepliesResponse>('channel/engagement/comment/replies', params)
 }
+
 

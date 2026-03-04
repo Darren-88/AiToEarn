@@ -1,4 +1,4 @@
-﻿import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 import { TempModel } from './temp';
 
 /**
@@ -40,4 +40,5 @@ export class AccountGroupModel extends TempModel {
   })
   proxyOpen!: boolean;
 }
+
 

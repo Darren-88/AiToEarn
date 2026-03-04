@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - Action 处理器模块
  * 使用策略模式处理不同的任务结果操作
  *
@@ -689,4 +689,5 @@ export const ActionRegistry = {
 }
 
 export default ActionRegistry
+
 

@@ -1,4 +1,4 @@
-﻿import { Inject, Injectable, Logger } from '@nestjs/common'
+import { Inject, Injectable, Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { RedisService } from '@yikart/redis'
 import { Model } from 'mongoose'
@@ -86,4 +86,5 @@ export class MetaBaseService extends PlatformBaseService {
     return credential.expires_in > getCurrentTimestamp() ? 1 : 0
   }
 }
+
 

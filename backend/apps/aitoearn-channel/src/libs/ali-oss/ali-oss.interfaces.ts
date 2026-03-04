@@ -1,4 +1,4 @@
-﻿export interface AliOSSModuleOptions {
+export interface AliOSSModuleOptions {
   accessKeyId: string
   accessKeySecret: string
   bucket: string
@@ -17,4 +17,5 @@ export interface AliOSSModuleAsyncOptions {
   ) => Promise<AliOSSModuleOptions> | AliOSSModuleOptions
   inject?: any[]
 }
+
 

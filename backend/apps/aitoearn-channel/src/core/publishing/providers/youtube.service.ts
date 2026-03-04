@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { youtube_v3 } from 'googleapis'
 import { z } from 'zod'
 import { chunkedDownloadFile, getFileSizeFromUrl } from '../../../common'
@@ -147,4 +147,5 @@ export class YoutubePubService extends PublishService {
     }
   }
 }
+
 

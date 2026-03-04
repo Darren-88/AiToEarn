@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-27 12:12:19
  * @LastEditTime: 2025-02-27 16:38:08
@@ -58,4 +58,5 @@ export class SplashWindow {
     }
   }
 }
+
 

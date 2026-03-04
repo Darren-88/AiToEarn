@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Post, UseGuards } from '@nestjs/common'
+import { Body, Controller, Post, UseGuards } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { Public } from '@yikart/aitoearn-auth'
 import { ApiDoc } from '@yikart/common'
@@ -60,4 +60,5 @@ export class WxPlatController {
     return 'success'
   }
 }
+
 

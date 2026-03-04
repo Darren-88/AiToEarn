@@ -1,4 +1,4 @@
-﻿export interface AccountGroup {
+export interface AccountGroup {
   id: string
   userId: string
   isDefault: boolean
@@ -10,4 +10,5 @@
   createAt: Date
   updatedAt: Date
 }
+
 

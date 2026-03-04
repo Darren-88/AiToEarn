@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { NotificationType, UserType } from '@yikart/common'
 import { Types } from 'mongoose'
 import * as mongoose from 'mongoose'
@@ -95,4 +95,5 @@ export const NotificationSchema = SchemaFactory.createForClass(Notification)
 
 NotificationSchema.index({ userId: 1, status: 1 })
 NotificationSchema.index({ userId: 1, deletedAt: 1, createdAt: -1 })
+
 

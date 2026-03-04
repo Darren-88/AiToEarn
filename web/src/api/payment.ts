@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   Order,
   OrderListParams,
   PaginatedResponse,
@@ -339,4 +339,5 @@ export function getConnectedAccountDashboardLinkApi(accountId: string) {
     method: 'GET',
   })
 }
+
 

@@ -1,4 +1,4 @@
-﻿export const NatsApi = {
+export const NatsApi = {
   manager: {
     manager: {
       createByAccount: 'manager.manager.createByAccount',
@@ -340,4 +340,5 @@
     },
   },
 }
+
 

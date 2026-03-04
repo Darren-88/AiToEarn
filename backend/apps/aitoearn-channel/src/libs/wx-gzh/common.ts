@@ -1,4 +1,4 @@
-﻿export enum MediaType {
+export enum MediaType {
   image = 'image',
   voice = 'voice',
   video = 'video',
@@ -52,4 +52,5 @@ export interface WechatApiCommonResponse {
 }
 
 export type WechatApiResponse<T> = T & WechatApiCommonResponse
+
 

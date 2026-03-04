@@ -1,4 +1,4 @@
-﻿interface NotificationOptions {
+interface NotificationOptions {
   key?: string
   id?: string
   duration?: number
@@ -80,4 +80,5 @@ export const notification = {
 }
 
 export default notification
+
 

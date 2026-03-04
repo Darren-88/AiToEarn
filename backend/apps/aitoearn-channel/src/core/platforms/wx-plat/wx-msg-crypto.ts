@@ -1,4 +1,4 @@
-﻿import * as crypto from 'node:crypto'
+import * as crypto from 'node:crypto'
 
 const ALGORITHM = 'aes-256-cbc' // 使用的加密算法
 const MSG_LENGTH_SIZE = 4 // 存放消息体尺寸的空间大小。单位：字节
@@ -51,4 +51,5 @@ export function genSign(
   const signature = crypto.createHash('sha1').update(rawStr).digest('hex') // 计算签名
   return signature
 }
+
 

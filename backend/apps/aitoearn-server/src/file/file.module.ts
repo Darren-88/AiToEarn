@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-03-03 16:50:53
  * @LastEditors: nevin
@@ -21,4 +21,5 @@ import { FileService } from './file.service'
   exports: [FileService],
 })
 export class FileModule {}
+
 

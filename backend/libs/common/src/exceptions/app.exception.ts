@@ -1,4 +1,4 @@
-﻿import { HttpException, HttpStatus } from '@nestjs/common'
+import { HttpException, HttpStatus } from '@nestjs/common'
 import { getLocale } from '../interceptors/request-context.interceptor'
 import { getCodeMessage } from '../utils'
 
@@ -35,4 +35,5 @@ export class AppException extends HttpException {
     )
   }
 }
+
 

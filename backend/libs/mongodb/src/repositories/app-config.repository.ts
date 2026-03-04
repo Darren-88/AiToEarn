@@ -1,4 +1,4 @@
-﻿import { InjectModel } from '@nestjs/mongoose'
+import { InjectModel } from '@nestjs/mongoose'
 import { Pagination } from '@yikart/common'
 import { FilterQuery, Model, RootFilterQuery } from 'mongoose'
 import { AppConfig } from '../schemas'
@@ -189,4 +189,5 @@ export class AppConfigRepository extends BaseRepository<AppConfig> {
     return result.deletedCount
   }
 }
+
 

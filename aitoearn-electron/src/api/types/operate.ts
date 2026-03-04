@@ -1,4 +1,4 @@
-﻿export interface Banner {
+export interface Banner {
   _id: string;
   id: string;
   dataId: string;
@@ -10,4 +10,5 @@
   createTime: string;
   updateTime: string;
 }
+
 

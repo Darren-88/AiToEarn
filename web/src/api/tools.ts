@@ -1,4 +1,4 @@
-﻿import type { AiCreateType } from './types/tools'
+import type { AiCreateType } from './types/tools'
 /*
  * @Author: nevin
  * @Date: 2025-02-22 12:02:55
@@ -80,4 +80,5 @@ export const toolsApi = {
     return res
   },
 }
+
 

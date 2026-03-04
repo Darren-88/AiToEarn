@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: white
  * @Date: 2025-06-20 22:42:27
  * @LastEditors: white
@@ -13,4 +13,5 @@ import { PinterestApiService } from './pinterestApi.service'
   exports: [PinterestApiService],
 })
 export class PinterestApiModule {}
+
 

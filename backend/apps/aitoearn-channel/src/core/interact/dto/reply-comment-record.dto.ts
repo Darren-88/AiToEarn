@@ -1,4 +1,4 @@
-﻿import { AccountType } from '@yikart/aitoearn-server-client'
+import { AccountType } from '@yikart/aitoearn-server-client'
 import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
@@ -28,4 +28,5 @@ export const ReplyCommentRecordListSchema = z.object({
   }),
 })
 export class ReplyCommentRecordListDto extends createZodDto(ReplyCommentRecordListSchema) {}
+
 

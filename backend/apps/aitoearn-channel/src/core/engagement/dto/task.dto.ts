@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 import { EngagementTargetScope, EngagementTaskStatus, EngagementTaskType } from '../../../libs/database/schema/engagement.task.schema'
 
@@ -33,4 +33,5 @@ export const EngagementSubTask = z.object({
 
 export class CreateEngagementTaskDto extends createZodDto(EngagementTask) {}
 export class CreateEngagementSubTaskDto extends createZodDto(EngagementSubTask) {}
+
 

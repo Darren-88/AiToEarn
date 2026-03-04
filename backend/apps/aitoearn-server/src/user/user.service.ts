@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { QueueService } from '@yikart/aitoearn-queue'
 import { AppException, ResponseCode } from '@yikart/common'
 import { MaterialGroupRepository, MediaGroupRepository, User, UserAiInfo, UserRepository, UserStatus } from '@yikart/mongodb'
@@ -325,4 +325,5 @@ export class UserService {
     return res
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-20 16:24:16
  * @LastEditTime: 2025-03-23 09:27:54
@@ -49,4 +49,5 @@ export class InteractionRecordModel extends TempModel {
   @Column({ type: 'tinyint', nullable: false, comment: '是否收藏' })
   isCollect!: 0 | 1;
 }
+
 

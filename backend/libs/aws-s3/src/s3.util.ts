@@ -1,4 +1,4 @@
-﻿import { z } from 'zod'
+import { z } from 'zod'
 
 export function buildUrl(endpoint: string, objectPath: string) {
   const normalizedPath = String(objectPath ?? '').trim()
@@ -46,4 +46,5 @@ export function zodTrimHost(endpoint: string) {
       return url.replace(validatedEndpoint, '').replace(/^\/+/, '')
     })
 }
+
 

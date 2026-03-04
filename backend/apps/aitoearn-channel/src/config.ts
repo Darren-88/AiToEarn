@@ -1,4 +1,4 @@
-﻿import { aitoearnServerClientConfigSchema } from '@yikart/aitoearn-server-client'
+import { aitoearnServerClientConfigSchema } from '@yikart/aitoearn-server-client'
 import { s3ConfigSchema } from '@yikart/aws-s3'
 import { baseConfig, createZodDto, selectConfig } from '@yikart/common'
 import { redisConfigSchema } from '@yikart/redis'
@@ -120,4 +120,5 @@ export const configSchema = z.object({
 export class AppConfig extends createZodDto(configSchema) {}
 
 export const config = selectConfig(AppConfig)
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 构建 Prompt 工具
  * 将用户输入的文本和媒体文件转换为 Claude Prompt 格式
  */
@@ -70,4 +70,5 @@ export function buildPromptForAPI(
   // 否则返回 Claude Prompt 格式数组
   return buildClaudePrompt(text, medias)
 }
+
 

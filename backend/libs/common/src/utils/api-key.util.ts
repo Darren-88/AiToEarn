@@ -1,4 +1,4 @@
-﻿import * as crypto from 'node:crypto'
+import * as crypto from 'node:crypto'
 
 export function base64UrlEncode(buffer: Uint8Array): string {
   return Buffer.from(buffer).toString('base64').replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_')
@@ -12,4 +12,5 @@ export function generateApiKey(prefix = 'sk', category = ''): string {
   }
   return `${prefix}-${token}`
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { IErrorContext, SocialMediaError } from '../exception'
+import { IErrorContext, SocialMediaError } from '../exception'
 
 export interface PinterestRawError {
   message?: string
@@ -52,4 +52,5 @@ export class PinterestError extends SocialMediaError<PinterestRawError> {
     return `Failed to ${operation}. ${rawError.message || 'Unknown error'}, error code: ${rawError.code || 'N/A'}`
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { app } from 'electron';
+import { app } from 'electron';
 import path from 'path';
 import fs from 'fs/promises';
 import { exportDatabase, importDatabase } from '../../db';
@@ -57,4 +57,5 @@ export class BackupService {
     }
   }
 }
+
 

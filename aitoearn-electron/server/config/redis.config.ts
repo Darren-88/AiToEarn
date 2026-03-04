@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-20 11:05:02
  * @LastEditors: nevin
@@ -16,4 +16,5 @@ export default (): { REDIS_CONFIG: RedisOptions } => ({
     connectTimeout: 10000,
   },
 });
+
 

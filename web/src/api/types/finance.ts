@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-03-02 21:06:59
  * @LastEditTime: 2025-03-02 22:12:36
@@ -32,4 +32,5 @@ export interface UserWalletRecord {
   createdAt: string
   updatedAt: string
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-07 09:48:29
  * @LastEditTime: 2025-02-08 20:13:55
@@ -50,4 +50,5 @@ export class PublishVideoResult {
     this.previewVideoLink = previewVideoLink;
   }
 }
+
 

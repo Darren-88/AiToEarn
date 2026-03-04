@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-18 20:28:01
  * @LastEditTime: 2025-02-19 02:11:04
@@ -50,4 +50,5 @@ export function jsonToQueryString(json: Record<string, any>): string {
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(json[key]))
     .join('&');
 }
+
 

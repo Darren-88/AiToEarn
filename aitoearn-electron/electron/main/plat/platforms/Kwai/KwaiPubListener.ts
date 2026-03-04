@@ -1,4 +1,4 @@
-﻿import { kwaiPub } from '../../../../plat/Kwai';
+import { kwaiPub } from '../../../../plat/Kwai';
 import { EtEvent } from '../../../../global/event';
 import windowOperate from '../../../../util/windowOperate';
 import { SendChannelEnum } from '../../../../../commont/UtilsEnum';
@@ -121,4 +121,5 @@ export default class KwaiPubListener {
     KwaiPubListener.started = false;
   }
 }
+
 

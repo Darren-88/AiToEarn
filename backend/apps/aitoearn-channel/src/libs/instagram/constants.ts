@@ -1,4 +1,4 @@
-﻿export const InstagramOAuth2Config = {
+export const InstagramOAuth2Config = {
   pkce: false,
   shortLived: true,
   apiBaseUrl: 'https://graph.instagram.com',
@@ -25,4 +25,5 @@
   },
   scopesSeparator: ' ',
 }
+
 

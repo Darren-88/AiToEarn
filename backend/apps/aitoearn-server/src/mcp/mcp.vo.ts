@@ -1,4 +1,4 @@
-﻿import { createPaginationVo, createZodDto } from '@yikart/common'
+import { createPaginationVo, createZodDto } from '@yikart/common'
 import { APIKeyStatus, APIKeyType } from '@yikart/mongodb'
 import { z } from 'zod'
 
@@ -21,4 +21,5 @@ const mcpApiKeyDetailResponseSchema = z.object({
 })
 
 export class McpApiKeyDetailResponseVo extends createZodDto(mcpApiKeyDetailResponseSchema) {}
+
 

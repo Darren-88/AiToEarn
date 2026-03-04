@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AccountService } from '../../account/account.service'
 import { CreateAccountDto, UpdateAccountDto, UpdateAccountStatisticsDto } from '../../account/dto/account.dto'
 
@@ -58,4 +58,5 @@ export class AccountInternalService {
     )
   }
 }
+
 

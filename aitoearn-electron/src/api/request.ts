@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-17 20:21:04
  * @LastEditTime: 2025-02-27 16:57:37
@@ -152,4 +152,5 @@ export const http = getAxiosRequest(import.meta.env.VITE_APP_URL);
 export const hotHttp = getAxiosRequest(import.meta.env.VITE_APP_HOT_URL);
 
 export default http;
+
 

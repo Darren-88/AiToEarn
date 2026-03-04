@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2021-12-24 13:46:31
  * @LastEditors: nevin
@@ -40,4 +40,5 @@ export class PublishInfo extends WithTimestampSchema {
 }
 
 export const PublishInfoSchema = SchemaFactory.createForClass(PublishInfo)
+
 

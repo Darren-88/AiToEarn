@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-11-16 22:04:18
  * @LastEditTime: 2025-04-14 17:40:15
@@ -52,4 +52,5 @@ export class QaRecord extends TimeTemp {
 }
 
 export const QaRecordSchema = SchemaFactory.createForClass(QaRecord);
+
 

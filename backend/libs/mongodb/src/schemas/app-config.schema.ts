@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-11-16 22:04:18
  * @LastEditTime: 2024-11-22 09:53:38
@@ -48,4 +48,5 @@ export class AppConfig extends WithTimestampSchema {
 
 export const AppConfigSchema = SchemaFactory.createForClass(AppConfig)
 AppConfigSchema.index({ appId: 1, key: 1 }, { unique: true })
+
 

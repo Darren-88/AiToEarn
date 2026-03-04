@@ -1,4 +1,4 @@
-﻿import { createHash, randomBytes } from 'node:crypto'
+import { createHash, randomBytes } from 'node:crypto'
 import { Injectable, Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { AccountStatus, AccountType, NewAccount } from '@yikart/aitoearn-server-client'
@@ -711,4 +711,5 @@ export class TwitterService extends PlatformBaseService {
     return { success: resp.data.deleted }
   }
 }
+
 

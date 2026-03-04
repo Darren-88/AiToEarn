@@ -1,4 +1,4 @@
-﻿import { AudioType, DocumentType, ImageType, TextType, VideoType } from '../enums'
+import { AudioType, DocumentType, ImageType, TextType, VideoType } from '../enums'
 
 export function getExtByMimeType(mimeType: ImageType | DocumentType | VideoType | AudioType | TextType) {
   return {
@@ -34,4 +34,5 @@ export function getExtByMimeType(mimeType: ImageType | DocumentType | VideoType 
     [TextType.CSV]: 'csv',
   }[mimeType]
 }
+
 

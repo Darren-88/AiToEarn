@@ -1,4 +1,4 @@
-﻿import { Body, Controller } from '@nestjs/common'
+import { Body, Controller } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { ApiDoc } from '@yikart/common'
 import { GenerateFingerprintDto } from './dto/fingerprint.dto'
@@ -18,4 +18,5 @@ export class FingerprintController {
     return null
   }
 }
+
 

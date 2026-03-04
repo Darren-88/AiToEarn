@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-14 18:23:16
  * @LastEditTime: 2025-03-24 20:55:11
@@ -57,4 +57,5 @@ export class FFmpegVideoUtil {
     });
   }
 }
+
 

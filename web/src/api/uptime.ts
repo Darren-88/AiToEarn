@@ -1,4 +1,4 @@
-﻿import type { UptimeItem, UptimeModule, UptimeType } from '@/api/types/uptime'
+import type { UptimeItem, UptimeModule, UptimeType } from '@/api/types/uptime'
 import http from '@/utils/request'
 
 /**
@@ -24,4 +24,5 @@ export function getUptimeListApi(params: {
     }
   >('uptime/list', params)
 }
+
 

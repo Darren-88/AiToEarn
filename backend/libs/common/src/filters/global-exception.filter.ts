@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   ArgumentsHost,
   ExceptionFilter,
 } from '@nestjs/common'
@@ -73,4 +73,5 @@ export class GlobalExceptionFilter<T> implements ExceptionFilter<T> {
     response.status(200).json(payload)
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-22 12:27:40
  * @LastEditTime: 2025-03-03 17:59:13
@@ -89,4 +89,5 @@ export interface Task<T extends TaskDataInfo> extends TimeTemp {
   isAccepted?: boolean; // 是否已经接受任务
   requirement?: string;
 }
+
 

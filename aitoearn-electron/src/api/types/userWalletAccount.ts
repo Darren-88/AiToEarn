@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-03-01 19:27:35
  * @LastEditTime: 2025-03-01 19:39:02
@@ -33,4 +33,5 @@ export interface CreateUserWalletAccountParams {
   phone: string; // 绑定的手机号
   type: WalletAccountType;
 }
+
 

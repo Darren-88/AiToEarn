@@ -1,4 +1,4 @@
-﻿import { User } from '@yikart/mongodb'
+import { User } from '@yikart/mongodb'
 import { getRandomString } from '../../common/utils'
 
 export enum UserCreateType {
@@ -23,4 +23,5 @@ export class NewUser extends User {
       this.googleAccount = params as User['googleAccount']
   }
 }
+
 

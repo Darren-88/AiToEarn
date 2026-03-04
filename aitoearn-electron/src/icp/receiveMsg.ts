@@ -1,4 +1,4 @@
-﻿// 接收主进程发来的消息
+// 接收主进程发来的消息
 import { SendChannelEnum } from '../../commont/UtilsEnum';
 import { PublishProgressRes } from '../../electron/main/plat/pub/PubItemVideo';
 import IpcRendererEvent = Electron.IpcRendererEvent;
@@ -83,4 +83,5 @@ export const onImgTextPublishProgress = (
     },
   );
 };
+
 

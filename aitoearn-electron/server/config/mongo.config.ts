@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-08-30 14:58:16
  * @LastEditTime: 2025-02-25 16:52:34
@@ -13,4 +13,5 @@ export default (): { MONGO_CONFIG: MongooseModuleFactoryOptions } => ({
     dbName: process.env.MONGO_DB || '',
   },
 });
+
 

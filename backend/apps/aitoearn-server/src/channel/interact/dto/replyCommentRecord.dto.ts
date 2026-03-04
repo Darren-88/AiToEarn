@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const AddReplyCommentRecordSchema = z.object({
@@ -27,4 +27,5 @@ export const ReplyCommentRecordListSchema = z.object({
   }),
 })
 export class ReplyCommentRecordListDto extends createZodDto(ReplyCommentRecordListSchema) {}
+
 

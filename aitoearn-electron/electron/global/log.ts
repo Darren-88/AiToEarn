@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-10 22:20:15
  * @LastEditTime: 2025-02-22 19:21:08
@@ -80,4 +80,5 @@ ipcMain.handle('GLOBAL_LOG_GET_FLIES', async (event, days) => {
   const res = getLogFilePaths(days || 7);
   return res;
 });
+
 

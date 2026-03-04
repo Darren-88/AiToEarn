@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-20 09:20:31
  * @LastEditors: nevin
@@ -29,4 +29,5 @@ import { MailerModule } from '@nestjs-modules/mailer';
   exports: [MailService],
 })
 export class MailModule {}
+
 

@@ -1,4 +1,4 @@
-﻿import { InstagramInsightsMetricTimeframe, InstagramInsightsMetricType, InstagramInsightsResultBreakdown, InstagramMediaInsightsResultBreakdown, InstagramMediaType } from './instagram.enum'
+import { InstagramInsightsMetricTimeframe, InstagramInsightsMetricType, InstagramInsightsResultBreakdown, InstagramMediaInsightsResultBreakdown, InstagramMediaType } from './instagram.enum'
 
 export interface ProductTag {
   product_id: string
@@ -205,4 +205,5 @@ export interface IGCommentsResponse {
 export interface IGCommonResponse {
   id: string
 }
+
 

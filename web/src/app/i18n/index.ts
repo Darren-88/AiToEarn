@@ -1,4 +1,4 @@
-﻿import type { FlatNamespace, KeyPrefix, Namespace } from 'i18next'
+import type { FlatNamespace, KeyPrefix, Namespace } from 'i18next'
 import type { FallbackNs } from 'react-i18next'
 import { createInstance } from 'i18next'
 import resourcesToBackend from 'i18next-resources-to-backend'
@@ -46,4 +46,5 @@ export async function useTranslation<
     i18n: i18nextInstance,
   }
 }
+
 

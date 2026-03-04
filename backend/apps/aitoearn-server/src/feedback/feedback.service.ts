@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 /*
  * @Author: nevin
  * @Date: 2024-06-17 19:19:15
@@ -18,4 +18,5 @@ export class FeedbackService {
     return res
   }
 }
+
 

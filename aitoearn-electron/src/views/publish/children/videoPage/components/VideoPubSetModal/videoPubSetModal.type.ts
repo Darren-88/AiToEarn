@@ -1,4 +1,5 @@
-﻿export interface IVideoPubSetModalChildRef {}
+export interface IVideoPubSetModalChildRef {}
 
 export interface IVideoPubSetModalChildProps {}
+
 

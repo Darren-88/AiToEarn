@@ -1,4 +1,4 @@
-﻿import { Inject, Injectable, Logger } from '@nestjs/common'
+import { Inject, Injectable, Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/aitoearn-server-client'
 import { RedisService } from '@yikart/redis'
@@ -77,4 +77,5 @@ export class CredentialInvalidationService {
     await this.deleteDbCredential(accountId, accountType)
   }
 }
+
 

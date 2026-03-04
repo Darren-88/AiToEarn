@@ -1,4 +1,4 @@
-﻿// Base class.
+// Base class.
 export { SocialMediaError } from './base'
 
 // Interfaces.
@@ -9,4 +9,5 @@ export type {
 
 // Utility functions.
 export { generateOperation } from './utils'
+
 

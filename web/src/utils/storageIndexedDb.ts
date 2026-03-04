@@ -1,4 +1,4 @@
-﻿import type { StateStorage } from 'zustand/middleware'
+import type { StateStorage } from 'zustand/middleware'
 
 /**
  * 检查是否在浏览器环境中
@@ -106,4 +106,5 @@ class IndexedDBStorage implements StateStorage {
 }
 
 export const indexedDBStorage = new IndexedDBStorage()
+
 

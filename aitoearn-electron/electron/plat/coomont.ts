@@ -1,4 +1,4 @@
-﻿import requestNet from './requestNet';
+import requestNet from './requestNet';
 
 // 代理地址有效性检测
 export async function proxyCheck(proxy: string) {
@@ -18,4 +18,5 @@ export async function proxyCheck(proxy: string) {
     return false;
   }
 }
+
 

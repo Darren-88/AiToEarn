@@ -1,4 +1,4 @@
-﻿import { ApiHideProperty } from '@nestjs/swagger';
+import { ApiHideProperty } from '@nestjs/swagger';
 import { Exclude } from 'class-transformer';
 
 export class OperatorDto {
@@ -10,4 +10,5 @@ export class OperatorDto {
   @Exclude()
   updateBy: number;
 }
+
 

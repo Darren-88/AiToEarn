@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { OnEvent } from '@nestjs/event-emitter'
 import { AccountType, AitoearnServerClientService } from '@yikart/aitoearn-server-client'
 import { InstagramInsightsRequest, InstagramMediaInsightsRequest } from '../../libs/instagram/instagram.interfaces'
@@ -71,4 +71,5 @@ export class InstagramDataService extends DataCubeBase {
     }
   }
 }
+
 

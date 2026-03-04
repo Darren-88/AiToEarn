@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { WithTimestampSchema } from './timestamp.schema'
 
 @Schema({
@@ -74,4 +74,5 @@ export class AccountGroup extends WithTimestampSchema {
 }
 
 export const AccountGroupSchema = SchemaFactory.createForClass(AccountGroup)
+
 

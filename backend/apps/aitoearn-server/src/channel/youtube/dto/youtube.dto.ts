@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 /**
@@ -307,4 +307,5 @@ const SearchSchema = z.object({
   videoCategoryId: z.string().optional(),
 })
 export class SearchDto extends createZodDto(SearchSchema) {}
+
 

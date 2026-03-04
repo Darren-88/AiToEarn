@@ -1,4 +1,4 @@
-﻿import * as crypto from 'node:crypto'
+import * as crypto from 'node:crypto'
 import { XMLParser } from 'fast-xml-parser'
 
 class StrUtil {
@@ -35,4 +35,5 @@ class StrUtil {
   }
 }
 export const strUtil = new StrUtil()
+
 

@@ -1,4 +1,4 @@
-﻿import { Injectable, UnauthorizedException } from '@nestjs/common'
+import { Injectable, UnauthorizedException } from '@nestjs/common'
 import { JwtService } from '@nestjs/jwt'
 import { TokenInfo } from './aitoearn-auth.interface'
 
@@ -45,4 +45,5 @@ export class AitoearnAuthService {
     }
   }
 }
+
 

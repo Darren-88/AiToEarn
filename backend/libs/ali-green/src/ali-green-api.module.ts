@@ -1,4 +1,4 @@
-﻿import Credential, { Config } from '@alicloud/credentials'
+import Credential, { Config } from '@alicloud/credentials'
 import Green20220302 from '@alicloud/green20220302'
 import * as $OpenApi from '@alicloud/openapi-client'
 import { DynamicModule, Module } from '@nestjs/common'
@@ -37,4 +37,5 @@ export class AliGreenApiModule {
     }
   }
 }
+
 

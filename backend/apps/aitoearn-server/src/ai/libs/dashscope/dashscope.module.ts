@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { DashscopeConfig } from './dashscope.config'
 import { DashscopeService } from './dashscope.service'
 
@@ -19,4 +19,5 @@ export class DashscopeModule {
     }
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { IErrorContext, SocialMediaError } from '../exception'
+import { IErrorContext, SocialMediaError } from '../exception'
 
 export interface WxGZHRawError {
   errcode?: number
@@ -52,4 +52,5 @@ export class WxGZHError extends SocialMediaError<WxGZHRawError> {
     return `Failed to ${operation}. ${rawError.errmsg || 'Unknown error'}, error code: ${rawError.errcode || 'N/A'}`
   }
 }
+
 

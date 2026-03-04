@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { InjectConnection } from '@nestjs/mongoose'
 import { Connection, Model } from 'mongoose'
 import { TaskSettlementLog } from '../schemas'
@@ -22,4 +22,5 @@ export class SettlementLogRepository {
     return res
   }
 }
+
 

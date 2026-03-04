@@ -1,4 +1,4 @@
-﻿export enum VipStatus {
+export enum VipStatus {
   none = 'none',
   expired = 'expired',
   trialing = 'trialing',
@@ -17,4 +17,5 @@ export const VipActiveStatusArr = [
   VipStatus.active_yearly,
   VipStatus.active_nonrenewing,
 ]
+
 

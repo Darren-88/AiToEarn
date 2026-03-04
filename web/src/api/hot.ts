@@ -1,4 +1,4 @@
-﻿import type { Pagination } from './types'
+import type { Pagination } from './types'
 import type { HotTopic } from './types/hotTopic'
 import type {
   GetAiToolsRankingApiParams,
@@ -414,4 +414,5 @@ export const platformApi = {
     })
   },
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { z } from 'zod'
+import { z } from 'zod'
 
 export const natsConfig = z.object({
   name: z.string().optional(),
@@ -77,4 +77,5 @@ export const baseConfig = z.object({
 })
 
 export type BaseConfig = z.infer<typeof baseConfig>
+
 

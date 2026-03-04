@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { PostModule } from '../../statistics/post/post.module'
 import { PostService } from '../../statistics/post/post.service'
 import { EngagementController } from './engagement.controller'
@@ -12,4 +12,5 @@ import { EngagementService } from './engagement.service'
 })
 
 export class EngagementModule { }
+
 

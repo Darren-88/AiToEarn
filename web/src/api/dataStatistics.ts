@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   StatisticsPeriodApiParams,
   StatisticsPeriodModel,
 } from '@/api/types/dataStatistics'
@@ -19,4 +19,5 @@ export function getDouyinTopicsApi(keyword: string) {
     language: 'en',
   })
 }
+
 

@@ -1,4 +1,4 @@
-﻿import type { WithdrawRecord } from './types/withdraw'
+import type { WithdrawRecord } from './types/withdraw'
 import { request } from '@/utils/request'
 
 /**
@@ -11,4 +11,5 @@ export function apiGetWithdrawRecordList(page: { pageNo: number, pageSize: numbe
     params,
   })
 }
+
 

@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import mimeTypes from 'mime-types';
 import ffmpeg from 'fluent-ffmpeg';
 import path from 'path';
@@ -324,4 +324,5 @@ export class FileUtils {
     });
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿// 平台类型
+// 平台类型
 export enum AccountType {
   Douyin = 'douyin', // 抖音
   Xhs = 'xhs', // 小红书
@@ -115,4 +115,5 @@ export interface PublishRecord {
   createdAt: Date
   updatedAt: Date
 }
+
 

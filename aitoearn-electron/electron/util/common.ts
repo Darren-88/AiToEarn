@@ -1,4 +1,4 @@
-﻿import * as xml2js from 'xml2js';
+import * as xml2js from 'xml2js';
 // 公共工具类
 export class CommonUtils {
   /**
@@ -115,4 +115,5 @@ export class CommonUtils {
     return url.toString();
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   IPublishManageUploadState,
   StartUploadOptions,
   UploadCacheItem,
@@ -337,4 +337,5 @@ export const usePublishManageUpload = create(
     }
   }),
 )
+
 

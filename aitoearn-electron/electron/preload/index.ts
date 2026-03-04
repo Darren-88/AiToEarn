@@ -1,4 +1,4 @@
-﻿import { contextBridge, ipcRenderer } from 'electron';
+import { contextBridge, ipcRenderer } from 'electron';
 import { exposeUIKit } from '@electron-uikit/core/preload';
 
 try {
@@ -133,4 +133,5 @@ window.onmessage = (ev) => {
 };
 
 setTimeout(removeLoading, 4999);
+
 

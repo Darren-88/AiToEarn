@@ -1,4 +1,4 @@
-﻿export enum VideoUTypes {
+export enum VideoUTypes {
   Little = 0,
   Big = 1,
 }
@@ -11,4 +11,5 @@ export interface AccessToken {
   token_type: string;
   id_token: string;
 }
+
 

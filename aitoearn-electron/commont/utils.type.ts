@@ -1,4 +1,4 @@
-﻿export interface ProxyInfo {
+export interface ProxyInfo {
   // 协议: 如 http, socks5
   protocol: string;
   // IP+端口: 如 192.168.0.1:8000
@@ -12,4 +12,5 @@
   // 备注: 可选
   remark?: string;
 }
+
 

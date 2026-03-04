@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 登录弹窗全局状态管理
  * 用于在任何地方触发登录弹窗
  */
@@ -62,4 +62,5 @@ export function openLoginModal(onSuccess?: () => void) {
 export function closeLoginModal() {
   useLoginModalStore.getState().closeLoginModal()
 }
+
 

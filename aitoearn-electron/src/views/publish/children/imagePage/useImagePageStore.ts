@@ -1,4 +1,4 @@
-﻿import { create } from 'zustand';
+import { create } from 'zustand';
 import { combine } from 'zustand/middleware';
 import { getImgFile, IImgFile } from '../../../../components/Choose/ImgChoose';
 import { IImageAccountItem } from './imagePage.type';
@@ -300,4 +300,5 @@ export const useImagePageStore = create(
     },
   ),
 );
+
 

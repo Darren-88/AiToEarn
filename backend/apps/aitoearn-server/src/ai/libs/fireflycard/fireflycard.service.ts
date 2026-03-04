@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AppException, ResponseCode } from '@yikart/common'
 import { FireflycardConfig } from './fireflycard.config'
 
@@ -130,4 +130,5 @@ export class FireflycardService {
     return response
   }
 }
+
 

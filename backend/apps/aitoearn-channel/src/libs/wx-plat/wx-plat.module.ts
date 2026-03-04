@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { WxPlatApiService } from './wx-plat.service'
 
 @Module({
@@ -7,4 +7,5 @@ import { WxPlatApiService } from './wx-plat.service'
   exports: [WxPlatApiService],
 })
 export class WxPlatApiModule {}
+
 

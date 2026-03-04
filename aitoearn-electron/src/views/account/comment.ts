@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-21 15:58:41
  * @LastEditTime: 2025-02-12 17:38:55
@@ -140,4 +140,5 @@ export const AccountPlatInfoMap = new Map<PlatType, IAccountPlatInfo>([
 ]);
 
 export type AccountInfo = AccountModel;
+
 

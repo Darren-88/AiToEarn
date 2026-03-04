@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-11-16 22:04:18
  * @LastEditTime: 2024-11-27 13:01:10
@@ -40,4 +40,5 @@ export class RealAuth extends TimeTemp {
 }
 
 export const RealAuthSchema = SchemaFactory.createForClass(RealAuth);
+
 

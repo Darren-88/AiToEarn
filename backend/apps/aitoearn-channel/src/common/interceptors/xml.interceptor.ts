@@ -1,4 +1,4 @@
-﻿import {
+import {
   CallHandler,
   ExecutionContext,
   Injectable,
@@ -30,4 +30,5 @@ export class XmlParseInterceptor implements NestInterceptor {
     )
   }
 }
+
 

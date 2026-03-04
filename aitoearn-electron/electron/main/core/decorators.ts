@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-24 17:55:22
  * @LastEditTime: 2025-03-19 14:31:34
@@ -126,4 +126,5 @@ export function Scheduled(cron: string, key?: string) {
     return descriptor;
   };
 }
+
 

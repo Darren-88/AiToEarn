@@ -1,4 +1,4 @@
-﻿import { Global, Module } from '@nestjs/common'
+import { Global, Module } from '@nestjs/common'
 import { FingerprintController } from './fingerprint.controller'
 import { FingerprintService } from './fingerprint.service'
 
@@ -8,4 +8,5 @@ import { FingerprintService } from './fingerprint.service'
   controllers: [FingerprintController],
 })
 export class FingerprintModule {}
+
 

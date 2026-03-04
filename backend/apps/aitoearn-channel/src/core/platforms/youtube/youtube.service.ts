@@ -1,4 +1,4 @@
-﻿import { Readable } from 'node:stream'
+import { Readable } from 'node:stream'
 import { Injectable, Logger } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { AccountStatus, AccountType, NewAccount } from '@yikart/aitoearn-server-client'
@@ -2076,4 +2076,5 @@ export class YoutubeService extends PlatformBaseService {
     return 0
   }
 }
+
 

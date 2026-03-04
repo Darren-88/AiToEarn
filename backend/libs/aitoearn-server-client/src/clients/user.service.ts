@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { VipStatus } from '@yikart/common'
 import { AxiosRequestConfig } from 'axios'
 import { BaseService } from './base.service'
@@ -66,4 +66,5 @@ export class UserService extends BaseService {
     return this.request<void>(url, config)
   }
 }
+
 

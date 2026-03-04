@@ -1,4 +1,4 @@
-﻿interface VersionInfo {
+interface VersionInfo {
   update: boolean;
   version: string;
   newVersion?: string;
@@ -8,4 +8,5 @@ interface ErrorType {
   message: string;
   error: Error;
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { AccountInfo } from '@/views/account/comment';
+import { AccountInfo } from '@/views/account/comment';
 import { IVideoFile } from '@/components/Choose/VideoChoose';
 import { IImgFile } from '@/components/Choose/ImgChoose';
 import { VisibleTypeEnum } from '@@/publish/PublishEnum';
@@ -42,4 +42,5 @@ export interface IVideoChooseItem {
   // 唯一id
   id: string;
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { AitoearnServerClientConfig } from './aitoearn-server-client.config'
 import { AitoearnServerClientService } from './aitoearn-server-client.service'
 import { AccountService, AiService, ContentService, NotificationService, PublishingService, PublishRecordService, UserService } from './clients'
@@ -29,4 +29,5 @@ export class AitoearnServerClientModule {
     }
   }
 }
+
 

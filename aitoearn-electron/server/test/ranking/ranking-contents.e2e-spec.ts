@@ -1,4 +1,4 @@
-﻿import { Agent } from '../agent';
+import { Agent } from '../agent';
 import { platform, ranking } from '../mockData';
 import { ContentStatus, ContentType } from '../../src/db/schema/content.schema';
 import { ObjectId } from 'mongodb';
@@ -182,4 +182,5 @@ describe('RankingContents (e2e)', () => {
     });
   });
 });
+
 

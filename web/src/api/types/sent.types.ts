@@ -1,4 +1,4 @@
-﻿// Sent界面相关的类型定义
+// Sent界面相关的类型定义
 
 export interface SentPost {
   id: string
@@ -45,4 +45,5 @@ export interface SentPostsParams {
   page: number
   pageSize: number
 }
+
 

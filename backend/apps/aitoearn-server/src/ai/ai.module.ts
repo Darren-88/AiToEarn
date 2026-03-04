@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { config } from '../config'
 import { ChatModule } from './chat'
 import { ImageModule } from './image'
@@ -23,4 +23,5 @@ import { VideoModule } from './video'
   exports: [ChatModule, LogsModule, ImageModule, VideoModule, ModelsConfigModule],
 })
 export class AiModule { }
+
 

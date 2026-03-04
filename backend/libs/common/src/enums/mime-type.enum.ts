@@ -1,4 +1,4 @@
-﻿export enum ImageType {
+export enum ImageType {
   JPEG = 'image/jpeg',
   WEBP = 'image/webp',
   PNG = 'image/png',
@@ -42,4 +42,5 @@ export enum TextType {
   TEXT = 'text/plain',
   CSV = 'text/csv',
 }
+
 

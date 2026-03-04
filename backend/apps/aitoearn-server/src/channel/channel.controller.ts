@@ -1,4 +1,4 @@
-﻿import { Controller, Delete, Param } from '@nestjs/common'
+import { Controller, Delete, Param } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc } from '@yikart/common'
@@ -21,4 +21,5 @@ export class ChannelController {
     return await this.channelService.deletePost(accountId, token.id, postId)
   }
 }
+
 

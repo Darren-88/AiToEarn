@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 发布任务数据
  */
 export interface PostPublishData {
@@ -11,4 +11,5 @@ export interface PostPublishData {
   /** 超时时间（毫秒，可选） */
   timeout?: number
 }
+
 

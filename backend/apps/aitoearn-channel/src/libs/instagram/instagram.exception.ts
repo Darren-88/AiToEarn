@@ -1,4 +1,4 @@
-﻿import { IErrorContext, SocialMediaError } from '../exception'
+import { IErrorContext, SocialMediaError } from '../exception'
 
 export interface InstagramRawError {
   message: string
@@ -57,4 +57,5 @@ export class InstagramError extends SocialMediaError<InstagramRawError> {
     return `Failed to ${operation}. ${rawError.error_user_title || rawError.message}, error code: ${rawError.code}`
   }
 }
+
 

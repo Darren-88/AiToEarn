@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Manager, ManagerStatus } from '../db/schema/manager.schema';
@@ -54,4 +54,5 @@ export class ManagerService {
     );
   }
 }
+
 

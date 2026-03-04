@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { AccountModule } from '../account/account.module'
 import { AiModule } from '../ai/ai.module'
 import { ChatModule } from '../ai/chat'
@@ -40,4 +40,5 @@ import { UserInternalController } from './user.controller'
   ],
 })
 export class InternalModule {}
+
 

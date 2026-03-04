@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 // 定义类型
@@ -293,4 +293,5 @@ const SearchSchema = AccountIdSchema.extend({
   videoCategoryId: z.string().optional().describe('视频类别 ID'),
 })
 export class SearchDto extends createZodDto(SearchSchema) {}
+
 

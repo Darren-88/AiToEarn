@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { WxGzhController } from './wxGzh.controller'
 import { WxGzhService } from './wxGzh.service'
 import { WxPlatController } from './wxPlat.controller'
@@ -10,4 +10,5 @@ import { WxPlatController } from './wxPlat.controller'
   exports: [WxGzhService],
 })
 export class WxGzhModule {}
+
 

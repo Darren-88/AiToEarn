@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AccountType } from '@yikart/common'
 import { Job, UnrecoverableError } from 'bullmq'
 import { PublishStatus } from '../../libs/database/schema/publishTask.schema'
@@ -73,4 +73,5 @@ export class PublishingErrorHandler {
     throw new UnrecoverableError(message)
   }
 }
+
 

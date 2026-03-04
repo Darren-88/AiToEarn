@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common'
+import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { ApiDoc } from '@yikart/common'
 import { BilibiliService } from './bilibili.service'
@@ -169,4 +169,5 @@ export class BilibiliController {
     return await this.bilibiliService.deletePost(accountId, archiveId)
   }
 }
+
 

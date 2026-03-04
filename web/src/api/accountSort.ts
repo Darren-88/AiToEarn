@@ -1,4 +1,4 @@
-﻿// 账户和分组排序API接口
+// 账户和分组排序API接口
 import http from '@/utils/request'
 
 export interface SortRankItem {
@@ -32,4 +32,5 @@ export function apiUpdateAccountGroupSortRank(data: SortRankRequest) {
 export function apiUpdateAccountSortRank(data: AccountSortRankRequest) {
   return http.put('account/sortRank', data)
 }
+
 

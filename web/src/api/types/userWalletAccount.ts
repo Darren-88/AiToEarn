@@ -1,4 +1,4 @@
-﻿// 旧类型（保留兼容）
+// 旧类型（保留兼容）
 export type WalletType = 'ZFB' | 'WX_PAY'
 
 export interface UserWalletAccountCreateDto {
@@ -74,4 +74,5 @@ export interface WalletAccountListResponse {
   total: number
   list: WalletAccount[]
 }
+
 

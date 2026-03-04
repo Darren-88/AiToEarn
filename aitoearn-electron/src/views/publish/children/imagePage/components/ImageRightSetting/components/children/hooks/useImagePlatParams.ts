@@ -1,4 +1,4 @@
-﻿import { useImagePageStore } from '../../../../../useImagePageStore';
+import { useImagePageStore } from '../../../../../useImagePageStore';
 import { useShallow } from 'zustand/react/shallow';
 import { useMemo } from 'react';
 
@@ -18,4 +18,5 @@ export function useImagePlatParams() {
     imageAccountItem,
   };
 }
+
 

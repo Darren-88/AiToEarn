@@ -1,4 +1,4 @@
-﻿import z, { ZodType } from 'zod'
+import z, { ZodType } from 'zod'
 
 export type RangeFilter<T> = [T, T] | [undefined, T] | [T, undefined]
 
@@ -9,4 +9,5 @@ export function createRangeFilter<TOutput = unknown, TInput = TOutput>(schema: Z
     z.tuple([schema, z.undefined()]),
   ])
 }
+
 

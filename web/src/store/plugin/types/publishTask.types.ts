@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 发布任务相关类型定义
  */
 
@@ -95,4 +95,5 @@ export interface PublishTaskListConfig {
   /** 自动清理的时间（毫秒，默认24小时） */
   cleanAfter?: number
 }
+
 

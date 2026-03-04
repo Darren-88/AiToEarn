@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-06 12:10:04
  * @LastEditTime: 2025-02-06 14:10:51
@@ -69,4 +69,5 @@ export class ManagerGuard implements CanActivate {
     return type === 'Bearer' ? token : undefined;
   }
 }
+
 

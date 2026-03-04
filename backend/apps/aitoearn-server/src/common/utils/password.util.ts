@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-21 09:50:47
  * @LastEditors: nevin
@@ -62,4 +62,5 @@ export function validatePassWord(
     return false
   return userPassword === res.password
 }
+
 

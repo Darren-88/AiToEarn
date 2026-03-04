@@ -1,4 +1,4 @@
-﻿import type { BiblPartItem } from '@/components/PublishDialog/publishDialog.type'
+import type { BiblPartItem } from '@/components/PublishDialog/publishDialog.type'
 // 创建或更新账户
 import http from '@/utils/request'
 
@@ -48,4 +48,5 @@ export function apiGetBilibiliPartitions(accountId: string) {
     `plat/bilibili/archive/type/list/${accountId}`,
   )
 }
+
 

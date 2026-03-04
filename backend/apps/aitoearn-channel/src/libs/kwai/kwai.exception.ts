@@ -1,4 +1,4 @@
-﻿import { IErrorContext, SocialMediaError } from '../exception'
+import { IErrorContext, SocialMediaError } from '../exception'
 
 export interface KwaiRawError {
   result?: number
@@ -52,4 +52,5 @@ export class KwaiError extends SocialMediaError<KwaiRawError> {
     return `Failed to ${operation}. ${rawError.error_msg || 'Unknown error'}, error code: ${rawError.result || 'N/A'}`
   }
 }
+
 

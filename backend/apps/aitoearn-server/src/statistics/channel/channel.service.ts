@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AccountType } from '@yikart/common'
 import { RedisService } from '@yikart/redis'
 import { ChannelRepository, JobTaskStatus, PostRepository } from '@yikart/statistics-db'
@@ -191,4 +191,5 @@ export class ChannelService {
     return this.channelRepository.setNewChannels(platform, uid)
   }
 }
+
 

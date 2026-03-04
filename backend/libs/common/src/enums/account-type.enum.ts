@@ -1,4 +1,4 @@
-﻿export enum AccountType {
+export enum AccountType {
   Douyin = 'douyin', // 抖音
   Xhs = 'xhs', // 小红书
   WxSph = 'wxSph', // 微信视频号
@@ -14,4 +14,5 @@
   PINTEREST = 'pinterest', // pinterest
   LINKEDIN = 'linkedin', // linkedin
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { customAlphabet } from 'nanoid'
+import { customAlphabet } from 'nanoid'
 
 /**
  * Generate a secure password using nanoid
@@ -11,4 +11,5 @@ export function generateSecurePassword(length = 12): string {
   const nanoidCustom = customAlphabet(alphabet, length)
   return nanoidCustom()
 }
+
 

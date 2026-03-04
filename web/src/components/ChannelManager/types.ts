@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ChannelManager - 频道管理器类型定义
  * 包含三页面视图状态、授权状态、侧边栏状态等类型
  */
@@ -93,4 +93,5 @@ export const DEFAULT_AUTH_COUNTDOWN = 300
 
 /** 轮询间隔（毫秒） */
 export const POLLING_INTERVAL = 2000
+
 

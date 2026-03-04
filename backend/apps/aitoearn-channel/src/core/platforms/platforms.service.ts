@@ -1,4 +1,4 @@
-﻿import { Inject, Injectable, Logger } from '@nestjs/common'
+import { Inject, Injectable, Logger } from '@nestjs/common'
 import { AccountType, AppException, ResponseCode } from '@yikart/common'
 import { RedisService } from '@yikart/redis'
 import { AccountStatus } from '../../libs/database/schema/account.schema'
@@ -63,4 +63,5 @@ export class PlatformService {
     return res
   }
 }
+
 

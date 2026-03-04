@@ -1,4 +1,4 @@
-﻿import md5 from 'blueimp-md5'
+import md5 from 'blueimp-md5'
 import { useUserStore } from '@/store/user'
 import { request } from '@/utils/request'
 
@@ -157,4 +157,5 @@ export async function uploadToOss(file: File | Blob, options?: UploadToOssOption
     throw error
   }
 }
+
 

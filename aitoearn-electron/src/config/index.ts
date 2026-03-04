@@ -1,4 +1,4 @@
-﻿export const config = {
+export const config = {
   imageCDN: 'https://yika-bj.oss-cn-beijing.aliyuncs.com/',
   apiBaseURL: 'https://ttgufwxxqyow.sealosbja.site/api',
 };
@@ -9,4 +9,5 @@ export const getImageUrl = (path: string) => {
   if (path.startsWith('http')) return path;
   return `${config.imageCDN}${path}`;
 };
+
 

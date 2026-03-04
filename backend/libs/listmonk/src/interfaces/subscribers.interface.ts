@@ -1,4 +1,4 @@
-﻿export interface SubscriberAttribs {
+export interface SubscriberAttribs {
   [key: string]: any
 }
 
@@ -44,4 +44,5 @@ export interface Subscriber {
   status: SubscriberStatus
   lists: number[]
 }
+
 

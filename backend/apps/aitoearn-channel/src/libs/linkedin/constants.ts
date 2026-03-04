@@ -1,4 +1,4 @@
-﻿export const LinkedinOAuth2Config = {
+export const LinkedinOAuth2Config = {
   pkce: false,
   apiBaseUrl: 'https://api.linkedin.com/v2',
   authURL: 'https://www.linkedin.com/oauth/v2/authorization',
@@ -18,4 +18,5 @@
   ],
   scopesSeparator: ' ',
 }
+
 

@@ -1,4 +1,4 @@
-﻿export interface Template {
+export interface Template {
   id: number
   created_at: string
   updated_at: string
@@ -9,4 +9,5 @@
   is_default: boolean
   subject?: string
 }
+
 

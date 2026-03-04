@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios'
 import { MetaOAuthLongLivedCredential } from '../../core/platforms/meta/meta.interfaces'
 import { ThreadsOAuth2Config } from './constants'
@@ -255,4 +255,5 @@ export class ThreadsService {
     return await this.request<ThreadsDeletePostResponse>(url, config, { operation: 'deletePost' })
   }
 }
+
 

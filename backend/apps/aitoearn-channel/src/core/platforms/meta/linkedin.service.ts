@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { getCurrentTimestamp } from '../../../common'
 import { LinkedInShareRequest, LinkedInUploadRequest, MemberNetworkVisibility, ShareMediaCategory, UploadRecipe } from '../../../libs/linkedin/linkedin.interface'
 import { LinkedinService as LinkedinAPIService } from '../../../libs/linkedin/linkedin.service'
@@ -122,7 +122,7 @@ export class LinkedinService extends MetaBaseService {
     const initUploadResp = await this.linkedinAPIService.initMediaUpload(credential.access_token, initMediaUploadReq)
     const uploadURL = initUploadResp.value.uploadMechanism['com.linkedin.digitalmedia.uploading.MediaUploadHttpRequest'].uploadUrl
 
-    await this.linkedinAPIService.streamUpload(credential.access_token, uploadURL, 'https://aitoearn.s3.ap-southeast-1.amazonaws.com/production/temp/uploads/9287ddb9-2180-4a3a-9cb2-91fadc1e50be.mp4')
+    await this.linkedinAPIService.streamUpload(credential.access_token, uploadURL, 'https://aitoearn.ai/s3/production/temp/uploads/9287ddb9-2180-4a3a-9cb2-91fadc1e50be.mp4')
     const createShareReq: LinkedInShareRequest = {
       author: this.generateURN(accountId),
       lifecycleState: 'PUBLISHED',
@@ -154,4 +154,6 @@ export class LinkedinService extends MetaBaseService {
     return true
   }
 }
+
+
 

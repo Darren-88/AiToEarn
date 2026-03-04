@@ -1,4 +1,4 @@
-﻿import path from 'node:path'
+import path from 'node:path'
 import { OnWorkerEvent, Processor, WorkerHost } from '@nestjs/bullmq'
 import { Logger, OnModuleDestroy } from '@nestjs/common'
 import { QueueName } from '@yikart/aitoearn-queue'
@@ -74,4 +74,5 @@ export class DumpAvatarConsumer extends WorkerHost implements OnModuleDestroy {
     this.logger.log('DumpAvatarConsumer closed successfully')
   }
 }
+
 

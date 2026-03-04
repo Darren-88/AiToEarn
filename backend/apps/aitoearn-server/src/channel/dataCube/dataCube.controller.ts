@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-15 20:59:55
  * @LastEditTime: 2025-04-27 18:00:18
@@ -87,4 +87,5 @@ export class DataCubeController {
     return dataCube.getArcDataBulk(accountId, dataId)
   }
 }
+
 

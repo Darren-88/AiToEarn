@@ -1,4 +1,4 @@
-﻿// 订单状态枚举 (根据实际API返回)
+// 订单状态枚举 (根据实际API返回)
 export enum OrderStatus {
   OPEN = 'open', // 待支付
   COMPLETE = 'complete', // 已完成
@@ -112,4 +112,5 @@ export interface PaginatedResponse<T> {
   count: number
   list: T[]
 }
+
 

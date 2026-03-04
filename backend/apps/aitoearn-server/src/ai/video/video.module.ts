@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { config } from '../../config'
 import { DashscopeModule } from '../libs/dashscope'
 import { KlingModule } from '../libs/kling'
@@ -21,4 +21,5 @@ import { VideoService } from './video.service'
   exports: [VideoService],
 })
 export class VideoModule {}
+
 

@@ -1,4 +1,4 @@
-﻿import { AccountType } from '@yikart/aitoearn-server-client'
+import { AccountType } from '@yikart/aitoearn-server-client'
 import { createZodDto } from '@yikart/common'
 import { ObjectId } from 'mongodb'
 import { v4 as uuid } from 'uuid'
@@ -249,4 +249,5 @@ export const GetPublishRecordDetailSchema = z.object({
 })
 
 export class GetPublishRecordDetailDto extends createZodDto(GetPublishRecordDetailSchema) {}
+
 

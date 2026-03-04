@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Logger, Param, Post } from '@nestjs/common'
+import { Body, Controller, Logger, Param, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { AccountStatus } from '@yikart/aitoearn-server-client'
 import { AccountType, ApiDoc } from '@yikart/common'
@@ -42,4 +42,5 @@ export class PlatformController {
     return await this.platformService.deletePost(data.accountId, data.platform, data.postId)
   }
 }
+
 

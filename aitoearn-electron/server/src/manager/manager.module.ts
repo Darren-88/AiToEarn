@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { ManagerController } from './manager.controller';
 import { ManagerService } from './manager.service';
 import { MongooseModule } from '@nestjs/mongoose';
@@ -13,4 +13,5 @@ import { Manager, ManagerSchema } from '../db/schema/manager.schema';
   exports: [ManagerService],
 })
 export class ManagerModule {}
+
 

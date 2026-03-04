@@ -1,4 +1,4 @@
-﻿import supertest from 'supertest';
+import supertest from 'supertest';
 import { Agent } from '../agent';
 import { platform, platform2 } from '../mockData';
 
@@ -39,4 +39,5 @@ describe('HotTopicController (e2e)', () => {
     });
   });
 });
+
 

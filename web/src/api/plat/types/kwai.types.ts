@@ -1,4 +1,4 @@
-﻿export interface GetKwaiAuthStatusRes {
+export interface GetKwaiAuthStatusRes {
   taskId: string
   transpond?: string
   accountAddPath?: string
@@ -8,4 +8,5 @@
   status: -1 | 0 | 1
   error?: string
 }
+
 

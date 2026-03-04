@@ -1,4 +1,4 @@
-﻿import type { SocialAccount } from '@/api/types/account.type'
+import type { SocialAccount } from '@/api/types/account.type'
 
 export interface IImgFile {
   id: string
@@ -143,4 +143,5 @@ export interface YouTubeCategoryItem {
     description?: string
   }
 }
+
 

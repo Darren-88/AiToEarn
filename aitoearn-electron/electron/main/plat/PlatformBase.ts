@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-07 09:48:29
  * @LastEditTime: 2025-03-24 15:14:58
@@ -259,4 +259,5 @@ export abstract class PlatformBase {
   // 获取@用户数据
   abstract getUsers(params: IGetUsersParams): Promise<IGetUsersResponse>;
 }
+
 

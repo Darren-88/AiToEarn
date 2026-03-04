@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { redisConfigSchema } from '@yikart/redis'
 import { z } from 'zod'
 
@@ -10,4 +10,5 @@ export const redlockConfigSchema = z.object({
 })
 
 export class RedlockConfig extends createZodDto(redlockConfigSchema) {}
+
 

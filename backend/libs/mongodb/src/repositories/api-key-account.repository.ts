@@ -1,4 +1,4 @@
-﻿import { InjectModel } from '@nestjs/mongoose'
+import { InjectModel } from '@nestjs/mongoose'
 import { Pagination } from '@yikart/common'
 import { FilterQuery, Model } from 'mongoose'
 import { ApiKeyAccount } from '../schemas'
@@ -42,4 +42,5 @@ export class ApiKeyAccountRepository extends BaseRepository<ApiKeyAccount> {
     return await this.find(filter)
   }
 }
+
 

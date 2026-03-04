@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   AccountGroupItem,
   SocialAccount,
   UpdateAccountStatisticsParams,
@@ -83,4 +83,5 @@ export async function getAccountGroupApi() {
 
   return res
 }
+
 

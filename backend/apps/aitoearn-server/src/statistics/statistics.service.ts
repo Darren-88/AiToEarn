@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AccountStatus } from '@yikart/mongodb'
 import axios from 'axios'
 import { ChannelService } from './channel/channel.service'
@@ -29,4 +29,5 @@ export class StatisticsService {
     return res.data
   }
 }
+
 

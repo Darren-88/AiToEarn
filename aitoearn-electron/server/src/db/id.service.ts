@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2021-12-24 13:49:52
  * @LastEditors: nevin
@@ -52,4 +52,5 @@ export class IdService {
     return <T>id;
   }
 }
+
 

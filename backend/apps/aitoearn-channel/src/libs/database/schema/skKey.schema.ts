@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { BaseTemp } from './time.tamp'
 
 export enum SkKeyStatus {
@@ -39,4 +39,5 @@ export class SkKey extends BaseTemp {
 }
 
 export const SkKeySchema = SchemaFactory.createForClass(SkKey)
+
 

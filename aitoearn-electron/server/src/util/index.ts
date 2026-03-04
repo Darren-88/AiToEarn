@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-07-04 15:15:28
  * @LastEditTime: 2024-11-26 18:39:44
@@ -28,4 +28,5 @@ export function getRandomString(length: number, onlyNum = false): string {
   }
   return result;
 }
+
 

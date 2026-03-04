@@ -1,2 +1,3 @@
-﻿// Pinterest API 相关类型定义 - 最少化类型使用，多使用any
+// Pinterest API 相关类型定义 - 最少化类型使用，多使用any
+
 

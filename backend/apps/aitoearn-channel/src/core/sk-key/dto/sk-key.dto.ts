@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const CreateSkKeySchema = z.object({
@@ -37,4 +37,5 @@ export const GetRefAccountListSchema = z.object({
   pageSize: z.number().default(10),
 })
 export class GetRefAccountListDto extends createZodDto(GetRefAccountListSchema) {}
+
 

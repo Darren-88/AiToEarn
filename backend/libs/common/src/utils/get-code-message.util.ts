@@ -1,4 +1,4 @@
-﻿import type { Locale } from '../i18n/messages'
+import type { Locale } from '../i18n/messages'
 import { ResponseCode } from '../enums/response-code.enum'
 import { messages } from '../i18n/messages'
 
@@ -21,4 +21,5 @@ export function getCodeMessage(code: ResponseCode, data?: unknown, locale: Local
     return locale === 'zh-CN' ? `消息渲染失败: ${e}` : `Message render failed: ${e}`
   }
 }
+
 

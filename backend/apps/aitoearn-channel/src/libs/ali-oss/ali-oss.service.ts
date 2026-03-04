@@ -1,4 +1,4 @@
-﻿import { Inject, Injectable, OnModuleInit } from '@nestjs/common'
+import { Inject, Injectable, OnModuleInit } from '@nestjs/common'
 import * as OSS from 'ali-oss'
 import { ALI_OSS_CLIENT } from './ali-oss.constants'
 
@@ -33,4 +33,5 @@ export class AliOSSService implements OnModuleInit {
     return this.ossClient.list(query)
   }
 }
+
 

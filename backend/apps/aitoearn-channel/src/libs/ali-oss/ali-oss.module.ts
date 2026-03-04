@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module, Provider } from '@nestjs/common'
+import { DynamicModule, Module, Provider } from '@nestjs/common'
 import { ConfigModule } from '@nestjs/config'
 import OSS from 'ali-oss'
 import { ALI_OSS_CLIENT, ALI_OSS_MODULE_OPTIONS } from './ali-oss.constants'
@@ -60,4 +60,5 @@ export class AliOSSModule {
     }
   }
 }
+
 

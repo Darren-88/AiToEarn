@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { GenderEnum } from '@yikart/mongodb'
 /*
  * @Author: nevin
@@ -52,4 +52,5 @@ export const SetAiConfigItemSchema = z.object({
   }),
 })
 export class SetAiConfigItemDto extends createZodDto(SetAiConfigItemSchema) {}
+
 

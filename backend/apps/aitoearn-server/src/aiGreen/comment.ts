@@ -1,4 +1,4 @@
-﻿export interface PinterestApp {
+export interface PinterestApp {
   id: string
   secret: string
   authBackHost: string
@@ -58,4 +58,5 @@ export interface SourceType {
   image_url: 'image_url' //
   video_id: 'video_id' //
 }
+
 

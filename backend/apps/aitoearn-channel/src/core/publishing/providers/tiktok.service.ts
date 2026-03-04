@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { chunkedDownloadFile, getFileTypeFromUrl, getRemoteFileSize } from '../../../common'
 import { config } from '../../../config'
 import { PublishStatus, PublishTask } from '../../../libs/database/schema/publishTask.schema'
@@ -182,4 +182,5 @@ export class TiktokPubService extends PublishService {
     }
   }
 }
+
 

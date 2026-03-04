@@ -1,4 +1,4 @@
-﻿import { forwardRef, Module } from '@nestjs/common'
+import { forwardRef, Module } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { Account, AccountSchema } from '../../libs/database/schema/account.schema'
@@ -121,4 +121,5 @@ import { EnqueuePublishingTaskScheduler } from './scheduler/enqueue-publishing-t
   exports: [PublishingService],
 })
 export class PublishModule {}
+
 

@@ -1,4 +1,4 @@
-﻿import { UserType } from '@yikart/common'
+import { UserType } from '@yikart/common'
 import { FileMetadata } from '@yikart/mongodb'
 
 export enum PubStatus {
@@ -208,4 +208,5 @@ export interface UpdateMaterialGroup {
   name: string
   readonly desc?: string
 }
+
 

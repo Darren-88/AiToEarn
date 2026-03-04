@@ -1,4 +1,4 @@
-﻿export enum PubStatus {
+export enum PubStatus {
   UNPUBLISH = 0, // 未发布/草稿
   RELEASED = 1, // 已发布
   FAIL = 2, // 发布失败
@@ -192,4 +192,5 @@ export interface UpdateMaterialGroup {
   name: string
   readonly desc?: string
 }
+
 

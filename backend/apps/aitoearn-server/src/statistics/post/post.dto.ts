@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import z from 'zod'
 
 export const FetchPostsRequestSchema = z.object({
@@ -37,4 +37,5 @@ export const FetchAllPostsRequestSchema = z.object({
 })
 
 export class FetchAllPostsRequestDto extends createZodDto(FetchAllPostsRequestSchema) { }
+
 

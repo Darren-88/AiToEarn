@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { RedisModule } from '@yikart/redis'
 import { RedlockConfig } from './redlock.config'
 import { RedlockInjector } from './redlock.injector'
@@ -25,4 +25,5 @@ export class RedlockModule {
     }
   }
 }
+
 

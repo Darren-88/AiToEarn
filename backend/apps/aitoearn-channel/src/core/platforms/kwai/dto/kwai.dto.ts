@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 const UserIdSchema = z.object({
@@ -41,4 +41,5 @@ const GetPohotListSchema = AccountIdSchema.extend({
   count: z.coerce.number().min(1).max(200).optional().describe('数量，默认20，最大200'),
 })
 export class GetPohotListDto extends createZodDto(GetPohotListSchema) {}
+
 

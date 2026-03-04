@@ -1,4 +1,4 @@
-﻿import type { DynamicModule, Provider } from '@nestjs/common'
+import type { DynamicModule, Provider } from '@nestjs/common'
 import { S3Client } from '@aws-sdk/client-s3'
 import { Global, Module } from '@nestjs/common'
 import { S3Config } from './s3.config'
@@ -32,4 +32,5 @@ export class S3Module {
     }
   }
 }
+
 

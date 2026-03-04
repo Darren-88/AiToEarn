@@ -1,4 +1,4 @@
-﻿export interface NotificationDetail {
+export interface NotificationDetail {
   id: string
   userId: string
   title: string
@@ -23,4 +23,5 @@ export interface UnreadCountResult {
 export interface OperationResult {
   affectedCount?: number
 }
+
 

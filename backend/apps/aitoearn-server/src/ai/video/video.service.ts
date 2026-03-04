@@ -1,4 +1,4 @@
-﻿import path from 'node:path'
+import path from 'node:path'
 import { BadRequestException, Injectable, Logger } from '@nestjs/common'
 import { S3Service } from '@yikart/aws-s3'
 import { AppException, ResponseCode, UserType } from '@yikart/common'
@@ -1343,4 +1343,5 @@ export class VideoService {
     }
   }
 }
+
 

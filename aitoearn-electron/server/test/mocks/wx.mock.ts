@@ -1,4 +1,4 @@
-﻿import { WeChatPayModule } from 'nest-wechatpay-node-v3';
+import { WeChatPayModule } from 'nest-wechatpay-node-v3';
 import { DynamicModule } from '@nestjs/common';
 
 const mockWxPayService = {
@@ -16,4 +16,5 @@ export const mockWxPayModule: DynamicModule = {
   ],
   exports: [WeChatPayModule],
 };
+
 

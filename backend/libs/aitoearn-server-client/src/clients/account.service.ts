@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AccountGroup } from '@yikart/mongodb'
 import { AxiosRequestConfig } from 'axios'
 import { Account, UpdateAccountStatisticsData } from '../interfaces'
@@ -118,4 +118,5 @@ export class AccountService extends BaseService {
     return this.request<AccountGroup>(url, config)
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import dayjs from 'dayjs';
+import dayjs from 'dayjs';
 import { getFilePathNameCommon, sleep } from '../../commont/utils';
 import { message } from 'antd';
 /**
@@ -103,4 +103,5 @@ export async function sensitivityLoading() {
   }
   message.destroy(key);
 }
+
 

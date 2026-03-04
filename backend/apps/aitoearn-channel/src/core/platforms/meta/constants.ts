@@ -1,4 +1,4 @@
-﻿import { FacebookOAuth2Config } from '../../../libs/facebook/constants'
+import { FacebookOAuth2Config } from '../../../libs/facebook/constants'
 import { InstagramOAuth2Config } from '../../../libs/instagram/constants'
 import { LinkedinOAuth2Config } from '../../../libs/linkedin/constants'
 import { ThreadsOAuth2Config } from '../../../libs/threads/constants'
@@ -58,4 +58,5 @@ export const metaOAuth2ConfigMap: MetaOAuth2ConfigMap = {
   instagram: InstagramOAuth2Config as MetaOAuth2Config,
   linkedin: LinkedinOAuth2Config as MetaOAuth2Config,
 }
+
 

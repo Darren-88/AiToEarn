@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { VolcengineConfig } from './volcengine.config'
 import { VolcengineService } from './volcengine.service'
 
@@ -19,4 +19,5 @@ export class VolcengineModule {
     }
   }
 }
+
 

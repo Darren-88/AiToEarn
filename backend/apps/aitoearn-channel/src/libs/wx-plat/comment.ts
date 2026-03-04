@@ -1,4 +1,4 @@
-﻿export interface ComponentVerifyTicketData {
+export interface ComponentVerifyTicketData {
   AppId: string
   CreateTime: number
   InfoType: 'component_verify_ticket'
@@ -76,4 +76,5 @@ export interface WechatApiCommonResponse {
 }
 
 export type WechatApiResponse<T> = T & WechatApiCommonResponse
+
 

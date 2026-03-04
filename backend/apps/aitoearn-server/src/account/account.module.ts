@@ -1,4 +1,4 @@
-﻿import { forwardRef, Global, Module } from '@nestjs/common'
+import { forwardRef, Global, Module } from '@nestjs/common'
 import { ChannelModule } from '../channel/channel.module'
 import { FingerprintController } from '../fingerprint/fingerprint.controller'
 import { FingerprintService } from '../fingerprint/fingerprint.service'
@@ -16,4 +16,5 @@ import { AccountGroupService } from './accountGroup.service'
   exports: [AccountService, AccountGroupService],
 })
 export class AccountModule { }
+
 

@@ -1,4 +1,4 @@
-﻿import type { RequestParams } from '@/utils/FetchService/types'
+import type { RequestParams } from '@/utils/FetchService/types'
 import { directTrans } from '@/app/i18n/client'
 import { CONTACT } from '@/constant'
 import { notification } from '@/lib/notification'
@@ -144,4 +144,5 @@ export default {
     })
   },
 }
+
 

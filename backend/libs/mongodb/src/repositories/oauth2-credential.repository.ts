@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { Model } from 'mongoose'
@@ -25,4 +25,5 @@ export class OAuth2CredentialRepository extends BaseRepository<OAuth2Credential>
     return await this.find({ accountId: { $in: accountIds } })
   }
 }
+
 

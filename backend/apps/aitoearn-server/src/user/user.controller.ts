@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Get, Param, Put, Query } from '@nestjs/common'
+import { Body, Controller, Get, Param, Put, Query } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { GetToken, Public, TokenInfo } from '@yikart/aitoearn-auth'
 import { ApiDoc, AppException, ResponseCode, TableDto } from '@yikart/common'
@@ -88,4 +88,5 @@ export class UserController {
     return this.userService.setAiConfigItem(token.id, body.type, body.value)
   }
 }
+
 

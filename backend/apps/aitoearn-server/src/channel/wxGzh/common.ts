@@ -1,4 +1,4 @@
-﻿export enum VideoUTypes {
+export enum VideoUTypes {
   Little = 0,
   Big = 1,
 }
@@ -60,4 +60,5 @@ export interface CallbackMsgData {
   // 当发布状态为2或4时，返回不通过的文章编号，第一篇为 1；其他发布状态则为空
   fail_idx?: number
 }
+
 

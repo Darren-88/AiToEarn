@@ -1,4 +1,4 @@
-﻿import { AccountType } from '@yikart/common'
+import { AccountType } from '@yikart/common'
 import { AccountStatus, PublishType } from '@yikart/mongodb'
 import { BilibiliPublishOption } from '../transports/channel/api/bilibili.common'
 import { FacebookPostOptions, InstagramPostOptions, ThreadsPostOptions } from '../transports/channel/api/meta.common'
@@ -67,4 +67,5 @@ export interface NewPublishRecordData {
   workLink?: string // 作品链接
   option: any
 }
+
 

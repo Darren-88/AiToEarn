@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-08 11:40:45
  * @LastEditTime: 2025-03-24 23:35:16
@@ -671,4 +671,5 @@ export class Xhs extends PlatformBase {
 
 const xhs = new Xhs();
 export default xhs;
+
 

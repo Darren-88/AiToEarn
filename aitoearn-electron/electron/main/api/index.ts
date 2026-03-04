@@ -1,4 +1,4 @@
-﻿import { net } from 'electron';
+import { net } from 'electron';
 import { getUserToken } from '../user/comment';
 
 export interface IRequestNetResult<T> {
@@ -84,4 +84,5 @@ const netRequest = <T = any>({
 };
 
 export default netRequest;
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 进度事件类型定义
  */
 
@@ -103,4 +103,5 @@ export interface ErrorEvent extends ProgressEvent {
     error: Error
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger, OnModuleInit } from '@nestjs/common'
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common'
 import { AppConfigRepository } from '@yikart/mongodb'
 import { merge } from 'lodash'
 import { config } from '../../config'
@@ -143,4 +143,5 @@ export class ModelsConfigService implements OnModuleInit {
     })
   }
 }
+
 

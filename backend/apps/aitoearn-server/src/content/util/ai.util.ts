@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { UserType } from '@yikart/common'
 import OpenAI from 'openai'
 import { ChatMessageDto, ChatService, UserChatCompletionDto } from '../../ai/chat'
@@ -174,4 +174,5 @@ export class ContentAiUtil {
     return res.content as string || ''
   }
 }
+
 

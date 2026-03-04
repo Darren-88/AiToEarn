@@ -1,4 +1,4 @@
-﻿import { join } from 'node:path'
+import { join } from 'node:path'
 import { startApplication } from '@yikart/common'
 import { AppModule } from './app.module'
 import { config } from './config'
@@ -12,4 +12,5 @@ startApplication(AppModule, config, {
     app.useStaticAssets(join(__dirname, 'public'))
   },
 })
+
 

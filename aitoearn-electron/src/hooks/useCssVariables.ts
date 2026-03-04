@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 /**
  * 自定义 Hook，用于获取多个 CSS 变量的值。
@@ -65,4 +65,5 @@ const useCssVariables = (
 };
 
 export default useCssVariables;
+
 

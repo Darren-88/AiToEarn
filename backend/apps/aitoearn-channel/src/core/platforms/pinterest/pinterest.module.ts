@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import { OAuth2Credential, OAuth2CredentialSchema } from '../../../libs/database/schema/oauth2Credential.schema'
 import { PinterestApiModule } from '../../../libs/pinterest/pinterestApi.module'
@@ -17,4 +17,5 @@ import { PinterestService } from './pinterest.service'
   exports: [PinterestService],
 })
 export class PinterestModule {}
+
 

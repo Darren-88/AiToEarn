@@ -1,4 +1,4 @@
-﻿import CryptoJS from 'crypto-js'
+import CryptoJS from 'crypto-js'
 
 /** 生成任务 ID（优先使用 crypto.randomUUID） */
 export function createTaskId() {
@@ -25,4 +25,5 @@ export async function computeFileMd5(file: Blob): Promise<string> {
   const wordArray = CryptoJS.lib.WordArray.create(new Uint8Array(buffer))
   return CryptoJS.MD5(wordArray).toString()
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { InstagramService } from './instagram.service'
 
 @Module({
@@ -7,4 +7,5 @@ import { InstagramService } from './instagram.service'
   exports: [InstagramService],
 })
 export class InstagramModule {}
+
 

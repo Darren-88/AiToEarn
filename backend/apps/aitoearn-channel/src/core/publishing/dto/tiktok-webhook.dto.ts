@@ -1,4 +1,4 @@
-﻿import { z } from 'zod'
+import { z } from 'zod'
 
 export const TiktokWebhookSchema = z.object({
   client_key: z.string(),
@@ -9,4 +9,5 @@ export const TiktokWebhookSchema = z.object({
 })
 
 export type TiktokWebhookDto = z.infer<typeof TiktokWebhookSchema>
+
 

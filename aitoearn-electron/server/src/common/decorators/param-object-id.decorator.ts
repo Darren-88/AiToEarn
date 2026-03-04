@@ -1,4 +1,4 @@
-﻿import { Param, PipeTransform, BadRequestException } from '@nestjs/common';
+import { Param, PipeTransform, BadRequestException } from '@nestjs/common';
 import { isValidObjectId } from 'mongoose';
 
 export class ObjectIdPipe implements PipeTransform {
@@ -13,4 +13,5 @@ export class ObjectIdPipe implements PipeTransform {
 export function ParamObjectId(property: string = 'id') {
   return Param(property, new ObjectIdPipe());
 }
+
 

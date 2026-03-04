@@ -1,4 +1,4 @@
-﻿import type { PubType } from '@/app/config/publishConfig'
+import type { PubType } from '@/app/config/publishConfig'
 import http from '@/utils/request'
 
 export interface MaterialMedia {
@@ -117,4 +117,5 @@ export function apiUpdateMaterial(id: string, data: {
 }) {
   return http.put(`material/info/${id}`, data)
 }
+
 

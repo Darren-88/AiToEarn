@@ -1,4 +1,4 @@
-﻿/**
+/**
  * LayoutSidebar - 侧边栏共享类型定义
  */
 
@@ -59,4 +59,5 @@ export interface IconBarProps extends SidebarCommonProps {
   /** 打开设置弹框 */
   onOpenSettings: (defaultTab?: SettingsTab) => void
 }
+
 

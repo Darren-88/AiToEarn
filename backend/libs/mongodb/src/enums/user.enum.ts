@@ -1,4 +1,4 @@
-﻿export enum UserStatus {
+export enum UserStatus {
   STOP = 0,
   OPEN = 1,
 }
@@ -36,4 +36,5 @@ export const VipActiveStatusArr = [
   VipStatus.active_yearly,
   VipStatus.active_nonrenewing,
 ]
+
 

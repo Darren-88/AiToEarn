@@ -1,4 +1,4 @@
-﻿import type { MetadataScanner, ModulesContainer } from '@nestjs/core'
+import type { MetadataScanner, ModulesContainer } from '@nestjs/core'
 import { PATTERN_METADATA, TRANSPORT_METADATA } from '@nestjs/microservices/constants'
 import { Transport } from '@nestjs/microservices/enums/transport.enum'
 
@@ -46,4 +46,5 @@ export function setupNatsPattern(
     }
   }
 }
+
 

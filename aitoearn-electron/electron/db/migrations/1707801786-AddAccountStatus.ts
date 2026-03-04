@@ -1,4 +1,4 @@
-﻿import { MigrationInterface, QueryRunner } from 'typeorm';
+import { MigrationInterface, QueryRunner } from 'typeorm';
 
 export class AddAccountStatus1707801786000 implements MigrationInterface {
   name = 'AddAccountStatus1707801786000';
@@ -13,4 +13,5 @@ export class AddAccountStatus1707801786000 implements MigrationInterface {
     await queryRunner.query(`ALTER TABLE "account" DROP COLUMN "status"`);
   }
 }
+
 

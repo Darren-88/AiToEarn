@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { TableDto } from '@yikart/common'
 import { ChannelBaseApi } from '../../channelBase.api'
 import { AccessToken, AddArchiveData, ArchiveStatus } from './bilibili.common'
@@ -204,4 +204,5 @@ export class PlatBilibiliNatsApi extends ChannelBaseApi {
     return res
   }
 }
+
 

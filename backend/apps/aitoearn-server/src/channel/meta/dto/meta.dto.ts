@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 enum SubMetaPlatform {
@@ -29,4 +29,5 @@ const CreateAccountAndSetAccessTokenSchema = z.object({
   state: z.string({ message: '状态码不能为空' }),
 })
 export class CreateAccountAndSetAccessTokenDto extends createZodDto(CreateAccountAndSetAccessTokenSchema) {}
+
 

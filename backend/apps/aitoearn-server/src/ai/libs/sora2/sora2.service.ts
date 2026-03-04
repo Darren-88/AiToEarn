@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import axios, { AxiosInstance, AxiosResponse } from 'axios'
 import { Sora2Config } from './sora2.config'
 import {
@@ -60,4 +60,5 @@ export class Sora2Service {
     return response.data
   }
 }
+
 

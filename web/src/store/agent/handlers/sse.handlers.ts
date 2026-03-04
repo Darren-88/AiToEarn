@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - SSE 消息处理器
  * 使用职责链模式处理不同类型的 SSE 消息
  */
@@ -398,4 +398,5 @@ export const SSEHandlerRegistry = {
     return sseHandlers.map(h => h.name)
   },
 }
+
 

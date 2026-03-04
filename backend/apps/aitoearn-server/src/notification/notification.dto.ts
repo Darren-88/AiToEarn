@@ -1,4 +1,4 @@
-﻿import { createZodDto, NotificationType } from '@yikart/common'
+import { createZodDto, NotificationType } from '@yikart/common'
 import { NotificationStatus } from '@yikart/mongodb'
 import { z } from 'zod'
 
@@ -44,4 +44,5 @@ const CreateToUserSchema = z.object({
   data: z.any().optional(),
 })
 export class CreateToUserDto extends createZodDto(CreateToUserSchema) { }
+
 

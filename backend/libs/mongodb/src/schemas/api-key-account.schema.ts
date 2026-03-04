@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { APIKeyStatus } from '../enums'
 import { WithTimestampSchema } from './timestamp.schema'
@@ -45,4 +45,5 @@ export class ApiKeyAccount extends WithTimestampSchema {
 }
 
 export const ApiKeyAccountSchema = SchemaFactory.createForClass(ApiKeyAccount)
+
 

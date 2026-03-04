@@ -1,4 +1,4 @@
-﻿// 通用响应类型
+// 通用响应类型
 export interface KlingResponse<T> {
   /** 错误码；具体定义见错误码 */
   code: number
@@ -743,4 +743,5 @@ export interface VideoExtendGetTaskResponseData {
 
 // 视频延长查询任务列表响应数据接口
 export type VideoExtendGetTasksResponseData = VideoExtendGetTaskResponseData[]
+
 

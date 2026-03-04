@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { OnEvent } from '@nestjs/event-emitter'
 import { AccountType } from '@yikart/common'
 import { TaskRepository } from '@yikart/statistics-db'
@@ -29,4 +29,5 @@ export class TaskService {
     return this.taskRepository.getTaskPostsSummary(taskId)
   }
 }
+
 

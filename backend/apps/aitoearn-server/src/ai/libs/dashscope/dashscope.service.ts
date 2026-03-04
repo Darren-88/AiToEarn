@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import axios, { AxiosInstance, AxiosResponse } from 'axios'
 import { DashscopeConfig } from './dashscope.config'
 import {
@@ -86,4 +86,5 @@ export class DashscopeService {
     return response.data
   }
 }
+
 

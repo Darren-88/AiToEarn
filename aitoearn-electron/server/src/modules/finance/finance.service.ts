@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-15 20:59:55
  * @LastEditTime: 2025-04-27 14:05:49
@@ -288,4 +288,5 @@ export class FinanceService {
     return result.length > 0 ? result[0].totalBalance : 0;
   }
 }
+
 

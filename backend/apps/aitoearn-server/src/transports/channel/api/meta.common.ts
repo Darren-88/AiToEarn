@@ -1,4 +1,4 @@
-﻿export interface FacebookPostOptions {
+export interface FacebookPostOptions {
   content_category: string
   content_tags?: string[]
   custom_labels?: string[]
@@ -47,4 +47,5 @@ export interface TiktokPostOptions {
   brand_organic_toggle?: boolean
   brand_content_toggle?: boolean
 }
+
 

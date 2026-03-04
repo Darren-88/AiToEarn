@@ -1,4 +1,4 @@
-﻿export interface PostData {
+export interface PostData {
   id: string // '记录ID',
   accountId: string // '账户ID',
   postId: string // '帖子ID',
@@ -19,4 +19,5 @@
   updatedAt: Date// .describe('更新时间'),
   snapshotDate?: string // .describe('快照日期，格式: YYYY-MM-DD'),
 }
+
 

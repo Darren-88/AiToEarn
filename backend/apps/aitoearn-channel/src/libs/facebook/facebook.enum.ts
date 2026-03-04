@@ -1,4 +1,4 @@
-﻿// see https://developers.facebook.com/docs/graph-api/guides/upload/
+// see https://developers.facebook.com/docs/graph-api/guides/upload/
 export enum FacebookMediaType {
   JPEG = 'image/jpeg',
   JPG = 'image/jpg',
@@ -6,4 +6,5 @@ export enum FacebookMediaType {
   VIDEO = 'video/mp4',
   PDF = 'application/pdf',
 }
+
 

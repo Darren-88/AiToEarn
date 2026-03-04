@@ -1,4 +1,4 @@
-﻿// 发布类型
+// 发布类型
 export enum PubType {
   VIDEO = 'video', // 视频
   ARTICLE = 'article', // 文章
@@ -22,3 +22,4 @@ export enum PubStatus {
   PartSuccess = 3, // 部分成功
   Audit = 4, // 审核中
 }
+

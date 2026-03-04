@@ -1,4 +1,4 @@
-﻿import { HttpModule } from '@nestjs/axios'
+import { HttpModule } from '@nestjs/axios'
 import { Module } from '@nestjs/common'
 import { InteractController } from './interact.controller'
 import { InteractionRecordController } from './interactionRecord.controller'
@@ -12,4 +12,5 @@ import { ReplyCommentRecordController } from './replyCommentRecord.controller'
   exports: [InteractionRecordService],
 })
 export class InteractModule { }
+
 

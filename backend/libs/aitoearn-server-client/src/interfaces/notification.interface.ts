@@ -1,4 +1,4 @@
-﻿import { NotificationType, UserType } from '@yikart/common'
+import { NotificationType, UserType } from '@yikart/common'
 
 export enum NotificationStatus {
   Unread = 'unread',
@@ -13,4 +13,5 @@ export interface NewNotification {
   type: NotificationType
   relatedId: string
 }
+
 

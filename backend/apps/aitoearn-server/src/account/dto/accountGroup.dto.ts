@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import z from 'zod'
 
 const CreateAccountGroupSchema = z.object({
@@ -41,4 +41,5 @@ export const SortRankSchema = z.object({
   list: z.array(SortRankItemSchema),
 })
 export class SortRankDto extends createZodDto(SortRankSchema) {}
+
 

@@ -1,4 +1,4 @@
-﻿import { Pagination } from './types';
+import { Pagination } from './types';
 import { HotTopic } from './types/hotTopic';
 import { Topic } from './types/topic';
 import { ViralTitle } from './types/viralTitles';
@@ -356,4 +356,5 @@ export const platformApi = {
     });
   },
 };
+
 

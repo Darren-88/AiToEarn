@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { KwaiApiService } from './kwai.service'
 
 @Module({
@@ -7,4 +7,5 @@ import { KwaiApiService } from './kwai.service'
   exports: [KwaiApiService],
 })
 export class KwaiApiModule {}
+
 

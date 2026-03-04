@@ -1,4 +1,4 @@
-﻿import * as supertest from 'supertest';
+import * as supertest from 'supertest';
 import { INestApplication } from '@nestjs/common';
 
 export class Agent {
@@ -25,4 +25,5 @@ export class Agent {
     this._agent.set('Authorization', `Bearer ${token}`);
   }
 }
+
 

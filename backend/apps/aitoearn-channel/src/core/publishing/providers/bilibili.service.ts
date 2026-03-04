@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import {
   chunkedDownloadFile,
   fileUrlToBase64,
@@ -88,4 +88,5 @@ export class BilibiliPubService extends PublishService {
     }
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿export enum KlingAction {
+export enum KlingAction {
   Text2Video = 'text2video',
   Image2video = 'image2video',
   MultiImage2video = 'multi-image2video',
@@ -7,4 +7,5 @@
   LipSync = 'lip-sync',
   Effects = 'effects',
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-17 16:12:27
  * @LastEditTime: 2025-02-25 09:47:37
@@ -20,4 +20,5 @@ import { AlicloudRealAuthService } from './realAuth.service';
   exports: [AlicloudRealAuthService],
 })
 export class RealAuthModule {}
+
 

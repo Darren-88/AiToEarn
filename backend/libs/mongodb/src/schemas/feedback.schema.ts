@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-11-16 22:04:18
  * @LastEditTime: 2024-11-22 09:53:38
@@ -52,4 +52,5 @@ export class Feedback extends WithTimestampSchema {
 }
 
 export const FeedbackSchema = SchemaFactory.createForClass(Feedback)
+
 

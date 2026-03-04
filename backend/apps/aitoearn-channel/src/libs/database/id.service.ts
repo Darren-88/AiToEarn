@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 /*
  * @Author: nevin
@@ -50,4 +50,5 @@ export class IdService {
     return <T>id
   }
 }
+
 

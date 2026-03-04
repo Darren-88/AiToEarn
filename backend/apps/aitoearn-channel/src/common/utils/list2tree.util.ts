@@ -1,4 +1,4 @@
-﻿export type TreeNode<T = any> = T & {
+export type TreeNode<T = any> = T & {
   id: number
   parentId: number
   children?: TreeNode<T>[]
@@ -81,4 +81,5 @@ export function deleteEmptyChildren(arr: any) {
     else deleteEmptyChildren(node.children)
   })
 }
+
 

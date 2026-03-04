@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 import { PublishStatus } from '@yikart/mongodb'
 import { z } from 'zod'
 import { PublishingChannel } from '../../transports/channel/common'
@@ -39,4 +39,5 @@ export const PostHistoryItemVoSchema = PublishRecordItemVoSchema.extend({
   engagement: PostEngagementVoSchema.describe('作品互动统计数据'),
 })
 export class PostHistoryItemVo extends createZodDto(PostHistoryItemVoSchema) {}
+
 

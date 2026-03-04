@@ -1,4 +1,4 @@
-﻿import type { SettingsTab } from './index'
+import type { SettingsTab } from './index'
 import { create } from 'zustand'
 
 interface SettingsModalState {
@@ -26,4 +26,5 @@ export const useSettingsModalStore = create<SettingsModalState>(set => ({
       settingsDefaultTab: undefined,
     }),
 }))
+
 

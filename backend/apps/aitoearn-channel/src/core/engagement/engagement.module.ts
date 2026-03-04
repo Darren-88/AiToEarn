@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { MongooseModule } from '@nestjs/mongoose'
 import { EngagementSubTask, EngagementSubTaskSchema, EngagementTask, EngagementTaskSchema } from '../../libs/database/schema/engagement.task.schema'
 import { MetaModule } from '../platforms/meta/meta.module'
@@ -46,4 +46,5 @@ import { EngagementReplyToCommentConsumer } from './workers/reply-to-comment.con
   ],
 })
 export class EngagementModule {}
+
 

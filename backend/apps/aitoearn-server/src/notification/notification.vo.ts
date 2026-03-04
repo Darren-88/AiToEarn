@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 const notificationVoSchema = z.object({
@@ -33,4 +33,5 @@ export class NotificationListVo extends createZodDto(
 ) {}
 export class UnreadCountVo extends createZodDto(unreadCountVoSchema) {}
 export class OperationResultVo extends createZodDto(operationResultVoSchema) {}
+
 

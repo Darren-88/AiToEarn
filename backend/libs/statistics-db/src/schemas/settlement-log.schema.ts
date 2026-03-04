@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { WithTimestampSchema } from './timestamp.schema'
 
 @Schema({ collection: 'task_settlement_logs', versionKey: false, timestamps: true })
@@ -37,4 +37,5 @@ export class TaskSettlementLog extends WithTimestampSchema {
 }
 
 export const TaskSettlementLogSchema = SchemaFactory.createForClass(TaskSettlementLog)
+
 

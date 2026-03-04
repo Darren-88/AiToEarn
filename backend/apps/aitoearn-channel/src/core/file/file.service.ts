@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { S3Service } from '@yikart/aws-s3'
 import * as mime from 'mime-types'
 import moment from 'moment'
@@ -189,4 +189,5 @@ export class FileService {
     return `${config.awsS3.endpoint}/${url}`
   }
 }
+
 

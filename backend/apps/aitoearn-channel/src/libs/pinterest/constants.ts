@@ -1,4 +1,4 @@
-﻿// Pinterest API v5 endpoints
+// Pinterest API v5 endpoints
 // Docs:
 // - Overview: https://developers.pinterest.com/docs/api/v5/
 // - OAuth: https://developers.pinterest.com/docs/api/v5/#tag/OAuth
@@ -15,4 +15,5 @@ export const PinterestAPIConfig = {
   pinsURL: 'https://api.pinterest.com/v5/pins',
   mediaURL: 'https://api.pinterest.com/v5/media',
 } as const
+
 

@@ -1,4 +1,4 @@
-﻿import { DynamicModule, Module } from '@nestjs/common'
+import { DynamicModule, Module } from '@nestjs/common'
 import { Md2cardConfig } from './md2card.config'
 import { Md2cardService } from './md2card.service'
 
@@ -18,4 +18,5 @@ export class Md2cardModule {
     }
   }
 }
+
 

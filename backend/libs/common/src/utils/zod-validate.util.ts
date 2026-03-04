@@ -1,4 +1,4 @@
-﻿import type { ZodType } from 'zod'
+import type { ZodType } from 'zod'
 import type { ZodExceptionCreator } from '../exceptions'
 import type { ZodDto } from './zod-dto.util'
 import { createZodValidationException } from '../exceptions'
@@ -22,4 +22,5 @@ export function zodValidate<
 
   return result.data as TOutput
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { Schema as MongooseSchema } from 'mongoose'
 import { BaseTemp } from './time.tamp'
@@ -67,4 +67,5 @@ export class Account extends BaseTemp {
 
 export const AccountSchema = SchemaFactory.createForClass(Account)
 AccountSchema.index({ type: 1, uid: 1 }, { unique: true })
+
 

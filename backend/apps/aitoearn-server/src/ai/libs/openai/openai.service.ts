@@ -1,4 +1,4 @@
-﻿import { AIMessageChunk, BaseMessage } from '@langchain/core/messages'
+import { AIMessageChunk, BaseMessage } from '@langchain/core/messages'
 import { ChatOpenAI, OpenAIChatInput } from '@langchain/openai'
 import { Injectable, Logger } from '@nestjs/common'
 import OpenAI from 'openai'
@@ -89,4 +89,5 @@ export class OpenaiService {
     return client.images.createVariation(variationParams)
   }
 }
+
 

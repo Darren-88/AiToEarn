@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { redisConfigSchema } from '@yikart/redis'
 import { z } from 'zod'
 
@@ -30,4 +30,5 @@ export const queueConfigSchema = z.object({
  * 队列配置类
  */
 export class QueueConfig extends createZodDto(queueConfigSchema) {}
+
 

@@ -1,4 +1,4 @@
-﻿import type { DynamicModule } from '@nestjs/common'
+import type { DynamicModule } from '@nestjs/common'
 import { Cluster, Redis } from 'ioredis'
 
 import { RedisConfig } from './redis.config'
@@ -37,4 +37,5 @@ export class RedisModule {
     }
   }
 }
+
 

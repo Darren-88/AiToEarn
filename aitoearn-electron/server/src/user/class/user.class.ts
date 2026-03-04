@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-06-28 11:00:39
  * @LastEditTime: 2025-02-26 09:37:18
@@ -49,4 +49,5 @@ export class NewUserByWx extends User {
     this.name = `用户_${getRandomString(8)}`;
   }
 }
+
 

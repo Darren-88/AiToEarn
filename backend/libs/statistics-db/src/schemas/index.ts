@@ -1,4 +1,4 @@
-﻿import { Account, AccountSchema, AuthorDatas, AuthorDatasSchema, ChannelCookie, ChannelCookieSchema, NewChannel, NewChannelSchema } from './account.schema'
+import { Account, AccountSchema, AuthorDatas, AuthorDatasSchema, ChannelCookie, ChannelCookieSchema, NewChannel, NewChannelSchema } from './account.schema'
 import { PostDatas, PostDatasSchema, PostsRecord, PostsRecordSchema } from './posts.schema'
 import { TaskSettlementLog, TaskSettlementLogSchema } from './settlement-log.schema'
 import { UserTaskPosts, UserTaskPostsSchema } from './task.schema'
@@ -18,4 +18,5 @@ export const schemas = [
   { name: ChannelCookie.name, schema: ChannelCookieSchema, collection: 'channel_cookie' },
   { name: TaskSettlementLog.name, schema: TaskSettlementLogSchema },
 ] as const
+
 

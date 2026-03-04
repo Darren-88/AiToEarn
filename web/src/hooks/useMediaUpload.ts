@@ -1,4 +1,4 @@
-﻿/**
+/**
  * useMediaUpload - 媒体文件上传 Hook
  * 功能：封装媒体文件上传逻辑，支持进度显示、中断上传、移除媒体
  * 复用场景：HomeChat、ChatDetailPage 等需要上传媒体的组件
@@ -174,4 +174,5 @@ export function useMediaUpload(options?: IUseMediaUploadOptions): IUseMediaUploa
 }
 
 export default useMediaUpload
+
 

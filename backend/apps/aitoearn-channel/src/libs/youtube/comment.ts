@@ -1,4 +1,4 @@
-﻿export interface AccessToken {
+export interface AccessToken {
   access_token: string // 'd30bedaa4d8eb3128cf35ddc1030e27d';
   expires_in?: number // 1630220614;
   refresh_token?: string // 'WxFDKwqScZIQDm4iWmKDvetyFugM6HkX';
@@ -26,4 +26,5 @@ export interface GetVideosListParams {
   maxResults?: number
   pageToken?: string
 }
+
 

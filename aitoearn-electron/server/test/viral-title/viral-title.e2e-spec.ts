@@ -1,4 +1,4 @@
-﻿import supertest from 'supertest';
+import supertest from 'supertest';
 import { Agent } from '../agent';
 import { platform, platform2 } from '../mockData';
 
@@ -149,4 +149,5 @@ describe('ViralTitleController (e2e)', () => {
     });
   });
 });
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * PublishingException
  * - message: user-facing error summary (safe to display to end users)
  * - details: developer-facing diagnostics (stack, cause, context, etc.)
@@ -37,4 +37,5 @@ export class PublishingException extends Error {
 export function isPublishingException(e: unknown): e is PublishingException {
   return e instanceof PublishingException
 }
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * PromptGallery 常量定义
  */
 
@@ -27,4 +27,5 @@ export const MASONRY_BREAKPOINTS = {
   640: 2, // <= 640px 时 2 列
   480: 1, // <= 480px 时 1 列
 }
+
 

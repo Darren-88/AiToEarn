@@ -1,4 +1,4 @@
-﻿export interface TwitterOAuthTokenResponse {
+export interface TwitterOAuthTokenResponse {
   token_type: 'bearer';
   expires_in: number; // typically 7200 seconds (2 hours)
   access_token: string;
@@ -30,3 +30,4 @@ export interface TwitterStoredTokenInfo {
   expiresAt: Date;
   scopes: string[];
 }
+

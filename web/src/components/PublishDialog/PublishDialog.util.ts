@@ -1,4 +1,4 @@
-﻿import type { RcFile } from 'antd/es/upload'
+import type { RcFile } from 'antd/es/upload'
 import type {
   IImgFile,
   IVideoFile,
@@ -186,4 +186,5 @@ export function isAspectRatioInRange(
   const actualRatio = width / height
   return actualRatio >= minRatio - threshold && actualRatio <= maxRatio + threshold
 }
+
 

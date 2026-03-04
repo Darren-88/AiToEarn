@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-03-17 18:14:52
  * @LastEditors: nevin
@@ -26,4 +26,5 @@ export class TableResDto {
   @ApiProperty({ title: '总数', description: '总数' })
   readonly count: number = 0
 }
+
 

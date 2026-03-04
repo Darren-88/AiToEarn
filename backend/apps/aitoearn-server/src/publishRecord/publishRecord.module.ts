@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { ContentModule } from '../content/content.module'
 import { PublishRecordService } from './publishRecord.service'
 
@@ -12,4 +12,5 @@ import { PublishRecordService } from './publishRecord.service'
   exports: [PublishRecordService],
 })
 export class PublishModule {}
+
 

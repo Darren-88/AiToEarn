@@ -1,4 +1,4 @@
-﻿import {
+import {
   CompleteMultipartUploadCommand,
   CreateMultipartUploadCommand,
   DeleteObjectCommand,
@@ -162,4 +162,5 @@ export class S3Service {
     return buildUrl(this.publicEndpoint, objectPath)
   }
 }
+
 

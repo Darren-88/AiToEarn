@@ -1,4 +1,4 @@
-﻿import { screen, BrowserWindow, session } from 'electron';
+import { screen, BrowserWindow, session } from 'electron';
 import { CommonUtils } from '../../util/common';
 import path from 'path';
 import { FileUtils } from '../../util/file';
@@ -1529,4 +1529,5 @@ export class ShipinhaoService {
 
 // 导出服务实例
 export const shipinhaoService = new ShipinhaoService();
+
 

@@ -1,4 +1,4 @@
-﻿import type { CloudWatchLogsClientConfig, Entity } from '@aws-sdk/client-cloudwatch-logs'
+import type { CloudWatchLogsClientConfig, Entity } from '@aws-sdk/client-cloudwatch-logs'
 import type { DestinationStream } from 'pino'
 import * as os from 'node:os'
 import { debuglog } from 'node:util'
@@ -91,4 +91,5 @@ export class CloudWatchLogger implements DestinationStream {
     return this.writeQueue
   }
 }
+
 

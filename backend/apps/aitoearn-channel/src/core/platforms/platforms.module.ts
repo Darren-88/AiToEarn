@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { AccountType } from '@yikart/common'
 import { BilibiliModule } from './bilibili/bilibili.module'
 import { BilibiliService } from './bilibili/bilibili.service'
@@ -79,4 +79,5 @@ import { YoutubeService } from './youtube/youtube.service'
   exports: [],
 })
 export class PlatModule {}
+
 

@@ -1,4 +1,4 @@
-﻿import { AccountDataRepository } from './accountData.repository'
+import { AccountDataRepository } from './accountData.repository'
 import { ChannelRepository } from './channel.repository'
 import { PostRepository } from './post.repository'
 import { SettlementLogRepository } from './settlement-log.repository'
@@ -18,4 +18,5 @@ export const repositories = [
   TaskRepository,
   SettlementLogRepository,
 ] as const
+
 

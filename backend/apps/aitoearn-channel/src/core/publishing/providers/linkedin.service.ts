@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 
 import { LinkedinService } from '../../../core/platforms/meta/linkedin.service'
 import {
@@ -175,4 +175,5 @@ export class LinkedinPublishService extends PublishService {
     }
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { createZodDto, UserType } from '@yikart/common'
+import { createZodDto, UserType } from '@yikart/common'
 import { z } from 'zod'
 import { FireflycardTempTypes } from '../libs/fireflycard'
 
@@ -145,4 +145,5 @@ const imageEditModelsQuerySchema = z.object({
 })
 
 export class ImageEditModelsQueryDto extends createZodDto(imageEditModelsQuerySchema) {}
+
 

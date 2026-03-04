@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AppException, COMMON_PROPAGATION_HEADERS, CommonResponse, propagationContext } from '@yikart/common'
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios'
 import { AitoearnServerClientConfig } from '../aitoearn-server-client.config'
@@ -54,4 +54,5 @@ export class BaseService {
     return response.data.data!
   }
 }
+
 

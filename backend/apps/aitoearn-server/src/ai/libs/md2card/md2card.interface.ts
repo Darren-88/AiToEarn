@@ -1,4 +1,4 @@
-﻿export interface GenerateCardParams {
+export interface GenerateCardParams {
   markdown: string
   theme?: string
   themeMode?: string
@@ -15,4 +15,5 @@ export interface GenerateCardResult {
     fileName: string
   }[]
 }
+
 

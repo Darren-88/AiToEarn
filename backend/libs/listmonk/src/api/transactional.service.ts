@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { TransactionalMessage } from '../interfaces'
 import { BaseService } from './base.service'
 
@@ -15,4 +15,5 @@ export class TransactionalService extends BaseService {
     return res
   }
 }
+
 

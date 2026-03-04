@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-20 11:05:02
  * @LastEditors: nevin
@@ -26,4 +26,5 @@ export const mailConfig: MailerOptions = {
 export default () => ({
   MAIL_CONFIG: mailConfig,
 });
+
 

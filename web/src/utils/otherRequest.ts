@@ -1,4 +1,4 @@
-﻿import type { RequestParams } from '@/utils/FetchService/types'
+import type { RequestParams } from '@/utils/FetchService/types'
 import FetchService from '@/utils/FetchService/FetchService'
 import { request } from '@/utils/request'
 
@@ -59,4 +59,5 @@ const requestPlatapi = new OtherRequest('')
 export async function requestPlatApi<T = any>(params: RequestParams) {
   return await requestPlatapi.request(params)
 }
+
 

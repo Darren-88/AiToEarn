@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-11-16 22:04:18
  * @LastEditTime: 2024-11-27 13:01:10
@@ -46,4 +46,5 @@ export class Banner extends TimeTemp {
 }
 
 export const BannerSchema = SchemaFactory.createForClass(Banner);
+
 

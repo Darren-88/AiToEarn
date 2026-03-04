@@ -1,4 +1,4 @@
-﻿import { forwardRef, Inject, Injectable, Logger } from '@nestjs/common'
+import { forwardRef, Inject, Injectable, Logger } from '@nestjs/common'
 import { QueueService } from '@yikart/aitoearn-queue'
 import { AccountType, AppException, ResponseCode, TableDto } from '@yikart/common'
 import { Account, AccountRepository, AccountStatus } from '@yikart/mongodb'
@@ -366,4 +366,5 @@ export class AccountService {
     return res
   }
 }
+
 

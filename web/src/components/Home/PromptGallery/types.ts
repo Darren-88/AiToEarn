@@ -1,4 +1,4 @@
-﻿/**
+/**
  * PromptGallery 类型定义
  */
 
@@ -42,4 +42,5 @@ export interface ApplyPromptData {
   image?: string
   mode: 'edit' | 'generate'
 }
+
 

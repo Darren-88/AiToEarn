@@ -1,4 +1,4 @@
-﻿import { TiktokPrivacyLevel } from './tiktok.enum'
+import { TiktokPrivacyLevel } from './tiktok.enum'
 
 // 基础发布信息
 interface TiktokBasePostInfo {
@@ -172,4 +172,5 @@ export interface TikTokListVideosParams {
   cursor?: number
   max_count?: number
 }
+
 

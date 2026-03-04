@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Auto-generates operation name from HTTP method and URL.
  *
  * Examples:
@@ -27,4 +27,5 @@ export function generateOperation(method?: string, url?: string): string {
     return `${method.toUpperCase()} ${url}`
   }
 }
+
 

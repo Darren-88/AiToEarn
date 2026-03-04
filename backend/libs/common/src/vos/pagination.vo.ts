@@ -1,4 +1,4 @@
-﻿import z from 'zod'
+import z from 'zod'
 import { Pagination } from '../dtos'
 import { createZodDto } from '../utils'
 
@@ -34,4 +34,5 @@ export interface PaginationVo<T> {
   total: number
   list: T[]
 }
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * useIsMobile Hook
  *
  * 功能描述: 检测当前设备是否为移动端（屏幕宽度 < 768px）
@@ -31,4 +31,5 @@ export function useIsMobile() {
 
   return isMobile
 }
+
 

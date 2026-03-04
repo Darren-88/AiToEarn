@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import axios, { AxiosResponse } from 'axios'
 import { getCurrentTimestamp } from '../../../common'
 import {
@@ -489,4 +489,5 @@ export class FacebookService extends MetaBaseService {
     return await this.facebookAPIService.updatePost(postId, credential.access_token, req)
   }
 }
+
 

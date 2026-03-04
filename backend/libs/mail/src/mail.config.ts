@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const mailConfigSchema = z.object({
@@ -18,4 +18,5 @@ export const mailConfigSchema = z.object({
 })
 
 export class MailConfig extends createZodDto(mailConfigSchema) {}
+
 

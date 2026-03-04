@@ -1,4 +1,4 @@
-﻿export interface ChannelAccountDataCube {
+export interface ChannelAccountDataCube {
   // 粉丝数
   fensNum?: number
   // 播放量
@@ -44,4 +44,5 @@ export interface ChannelArcDataBulk extends ChannelAccountDataCube {
   // 每天
   list: ChannelArcDataCube[]
 }
+
 

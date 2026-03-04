@@ -1,4 +1,4 @@
-﻿import {
+import {
   CanActivate,
   createParamDecorator,
   ExecutionContext,
@@ -43,4 +43,5 @@ export class SkKeyAuthGuard implements CanActivate {
     return true
   }
 }
+
 

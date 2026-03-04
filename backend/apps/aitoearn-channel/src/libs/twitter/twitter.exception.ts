@@ -1,4 +1,4 @@
-﻿import { IErrorContext, SocialMediaError } from '../exception'
+import { IErrorContext, SocialMediaError } from '../exception'
 
 /**
  * Twitter API 原始错误格式
@@ -57,4 +57,5 @@ export class TwitterError extends SocialMediaError<TwitterRawError> {
     return `Failed to ${operation}. ${rawError.title || rawError.detail || 'Unknown error'}, error code: ${rawError.type || 'N/A'}`
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { ApiProperty } from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 
 export class ResOp<T = any> {
   @ApiProperty({ type: 'object', additionalProperties: true })
@@ -35,4 +35,5 @@ export class TreeResult<T> {
   @ApiProperty()
   children?: TreeResult<T>[];
 }
+
 

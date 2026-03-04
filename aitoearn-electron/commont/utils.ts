@@ -1,4 +1,4 @@
-﻿// 根据文件路径获取文件名和后缀
+// 根据文件路径获取文件名和后缀
 import { ProxyInfo } from '@@/utils.type';
 
 // 提取路径中的文件名
@@ -73,4 +73,5 @@ export function parseProxyString(proxyString: string): ProxyInfo | false {
     remark,
   };
 }
+
 

@@ -1,4 +1,4 @@
-﻿import type { YouTubeCategoryItem } from '@/components/PublishDialog/publishDialog.type'
+import type { YouTubeCategoryItem } from '@/components/PublishDialog/publishDialog.type'
 import { request } from '@/utils/request'
 
 // 获取YouTube国区参数
@@ -23,4 +23,5 @@ export function apiGetYouTubeCategories(accountId: string, regionCode: string) {
     },
   })
 }
+
 

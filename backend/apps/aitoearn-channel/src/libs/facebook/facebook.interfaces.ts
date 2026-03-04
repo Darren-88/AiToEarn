@@ -1,4 +1,4 @@
-﻿export interface FacebookInitialVideoUploadRequest {
+export interface FacebookInitialVideoUploadRequest {
   upload_phase: 'start' | 'transfer' | 'finish' | 'cancel'
   file_size: number
   published: boolean
@@ -425,4 +425,5 @@ export interface UpdatePostResponse {
 export interface FacebookDeletePostResponse {
   success: boolean
 }
+
 

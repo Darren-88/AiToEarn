@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const InitMultipartUploadSchema = z.object({
@@ -38,4 +38,5 @@ const getUploadPartUrlSchema = z.object({
   expiresIn: z.number().optional().describe('过期时间'),
 })
 export class GetUploadPartUrlUrlDto extends createZodDto(getUploadPartUrlSchema) {}
+
 

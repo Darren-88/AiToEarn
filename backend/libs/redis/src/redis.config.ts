@@ -1,4 +1,4 @@
-﻿import { z } from 'zod'
+import { z } from 'zod'
 
 export const redisConfigSchema = z.object({
   nodes: z.object({
@@ -23,4 +23,5 @@ export const redisConfigSchema = z.object({
 )
 
 export type RedisConfig = z.infer<typeof redisConfigSchema>
+
 

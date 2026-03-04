@@ -1,4 +1,4 @@
-﻿export enum ResponseCode {
+export enum ResponseCode {
   Success = 0,
 
   // ========================================
@@ -107,4 +107,5 @@
   // 16000-16099: aitoearn-mcp（MCP 服务）
   ApiKeyNotFound = 16000,
 }
+
 

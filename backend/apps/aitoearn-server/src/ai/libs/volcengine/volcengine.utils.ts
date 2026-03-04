@@ -1,4 +1,4 @@
-﻿// 导入类型定义
+// 导入类型定义
 import type { Ratio, Resolution } from './volcengine.interface'
 
 /**
@@ -117,4 +117,5 @@ export function parseModelTextCommand(text: string): {
     params,
   }
 }
+
 

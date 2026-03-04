@@ -1,4 +1,4 @@
-﻿// copy from tiktok constants, keep the same thresholds
+// copy from tiktok constants, keep the same thresholds
 export class TwitterRedisKeys {
   private static readonly PREFIX = 'twitter:'
 
@@ -18,4 +18,5 @@ export const TWITTER_TIME_CONSTANTS = {
   TOKEN_REFRESH_MARGIN: 10 * 60, // margin for token refresh
   TOKEN_REFRESH_THRESHOLD: 15 * 60, // threshold for token refresh
 } as const
+
 

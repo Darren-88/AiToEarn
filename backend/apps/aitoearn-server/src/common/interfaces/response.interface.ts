@@ -1,4 +1,4 @@
-﻿export interface CommonResponse<T> {
+export interface CommonResponse<T> {
   data?: T
   code: number
   message: string
@@ -11,4 +11,5 @@ export interface HttpResult<T> {
   code: number // 自定义code
   url: string // 错误的url地址
 }
+
 

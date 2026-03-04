@@ -1,4 +1,4 @@
-﻿import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { getUnreadCount } from '@/api/notification'
 import { useUserStore } from '@/store/user'
 
@@ -49,4 +49,5 @@ export function useNotification() {
     refreshUnreadCount: fetchUnreadCount,
   }
 }
+
 

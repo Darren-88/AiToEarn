@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { AppException, ResponseCode } from '@yikart/common'
 import { PlatTiktokNatsApi } from '../../transports/channel/api/tiktok.natsApi'
 
@@ -67,4 +67,5 @@ export class TiktokService {
     }
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿export interface ArchiveTypeChild {
+export interface ArchiveTypeChild {
   description: string
   id: number
   name: string
@@ -134,4 +134,5 @@ export interface etagData {
 }
 
 export interface DeleteVideoData {}
+
 

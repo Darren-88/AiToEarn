@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2021-12-24 13:46:31
  * @LastEditors: nevin
@@ -69,4 +69,5 @@ export class ReplyCommentRecord extends BaseTemp {
 }
 
 export const ReplyCommentRecordSchema = SchemaFactory.createForClass(ReplyCommentRecord)
+
 

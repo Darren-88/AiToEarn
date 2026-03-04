@@ -1,4 +1,4 @@
-﻿/// <reference types="vite-electron-plugin/electron-env" />
+/// <reference types="vite-electron-plugin/electron-env" />
 
 declare namespace NodeJS {
   interface ProcessEnv {
@@ -21,4 +21,5 @@ declare namespace NodeJS {
     VITE_PUBLIC: string;
   }
 }
+
 

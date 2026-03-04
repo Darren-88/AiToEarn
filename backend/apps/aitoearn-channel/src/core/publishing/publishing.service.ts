@@ -1,4 +1,4 @@
-﻿import { Inject, Injectable, Logger, OnModuleDestroy } from '@nestjs/common'
+import { Inject, Injectable, Logger, OnModuleDestroy } from '@nestjs/common'
 import { InjectModel } from '@nestjs/mongoose'
 import { QueueService } from '@yikart/aitoearn-queue'
 import { AccountType, PublishRecord, PublishStatus } from '@yikart/aitoearn-server-client'
@@ -470,4 +470,5 @@ export class PublishingService implements OnModuleDestroy {
     this.logger.log('Publish queue closed successfully')
   }
 }
+
 

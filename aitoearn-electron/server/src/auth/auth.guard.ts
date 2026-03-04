@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2024-12-22 21:14:15
  * @LastEditTime: 2025-02-25 21:33:04
@@ -66,4 +66,5 @@ export class AuthGuard implements CanActivate {
     return type === 'Bearer' ? token : undefined;
   }
 }
+
 

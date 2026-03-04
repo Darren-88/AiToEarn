@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 浏览器插件模块统一导出
  */
 
@@ -80,4 +80,5 @@ export {
   validateFileType,
   withRetry,
 } from './utils'
+
 

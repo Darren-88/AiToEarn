@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 小红书签名初始化脚本
  * 设置必要的环境变量并初始化 mnsv2 函数
  */
@@ -41,4 +41,5 @@ window.xsecappid = 'xhs-pc-web';
   
   console.log('[XhsSign Init] 环境变量设置完成');
 })();
+
 

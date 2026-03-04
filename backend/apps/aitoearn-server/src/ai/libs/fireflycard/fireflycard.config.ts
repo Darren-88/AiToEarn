@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const fireflycardConfigSchema = z.object({
@@ -6,4 +6,5 @@ export const fireflycardConfigSchema = z.object({
 })
 
 export class FireflycardConfig extends createZodDto(fireflycardConfigSchema) {}
+
 

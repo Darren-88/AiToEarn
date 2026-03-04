@@ -1,4 +1,4 @@
-﻿import {
+import {
   registerDecorator,
   ValidationArguments,
   ValidatorConstraint,
@@ -29,4 +29,5 @@ export function IsValidImageUrl() {
     });
   };
 }
+
 

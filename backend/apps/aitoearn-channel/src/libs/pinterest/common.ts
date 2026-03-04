@@ -1,4 +1,4 @@
-﻿export interface PinterestApp {
+export interface PinterestApp {
   id: string
   secret: string
   authBackHost: string
@@ -92,4 +92,5 @@ export interface UserInfo {
   following_count?: number
   monthly_views?: number
 }
+
 

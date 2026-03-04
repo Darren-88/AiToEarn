@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { PinterestDataService } from '../../core/data-cube/pinterest-data.service'
 import { PinterestModule } from '../../core/platforms/pinterest/pinterest.module'
 import { AccountModule } from '../account/account.module'
@@ -21,4 +21,5 @@ import { YoutubeDataService } from './youtube-data.service'
   exports: [BilibiliDataService, FacebookDataService, InstagramDataService, ThreadsDataService, YoutubeDataService, WxGzhDataService, PinterestDataService],
 })
 export class DataCubeModule {}
+
 

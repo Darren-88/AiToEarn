@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import z from 'zod'
 import { Country, Currency, SourceType } from '../../../libs/pinterest/common'
 
@@ -56,4 +56,5 @@ const WebhookSchema = z.object({
 })
 
 export class WebhookDto extends createZodDto(WebhookSchema) {}
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-19 17:54:53
  * @LastEditTime: 2025-03-25 13:18:41
@@ -584,4 +584,5 @@ export class Kwai extends PlatformBase {
 
 const kwai = new Kwai();
 export default kwai;
+
 

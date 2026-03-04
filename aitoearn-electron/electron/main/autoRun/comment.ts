@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-21 21:12:52
  * @LastEditTime: 2025-03-19 15:10:28
@@ -86,4 +86,5 @@ export function hasTriggered(
       return false;
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-22 12:07:07
  * @LastEditTime: 2025-02-22 12:07:24
@@ -24,4 +24,5 @@ export class Pagination<T> {
     public readonly meta: IPaginationMeta,
   ) {}
 }
+
 

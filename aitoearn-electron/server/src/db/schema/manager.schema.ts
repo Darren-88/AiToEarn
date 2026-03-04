@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { TimeTemp } from './time.tamp';
 
 export enum ManagerStatus {
@@ -40,4 +40,5 @@ export class Manager extends TimeTemp {
 }
 
 export const ManagerSchema = SchemaFactory.createForClass(Manager);
+
 

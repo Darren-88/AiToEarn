@@ -1,4 +1,4 @@
-﻿import { createPaginationVo, createZodDto } from '@yikart/common'
+import { createPaginationVo, createZodDto } from '@yikart/common'
 import { AiLogChannel } from '@yikart/mongodb'
 import { z } from 'zod'
 import {
@@ -176,4 +176,5 @@ const sora2TaskStatusResponseSchema = z.object({
 })
 
 export class Sora2TaskStatusResponseVo extends createZodDto(sora2TaskStatusResponseSchema) {}
+
 

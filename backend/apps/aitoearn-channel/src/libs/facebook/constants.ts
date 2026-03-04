@@ -1,4 +1,4 @@
-﻿export const FacebookOAuth2Config = {
+export const FacebookOAuth2Config = {
   pkce: false,
   shortLived: true,
   apiBaseUrl: 'https://graph.facebook.com/',
@@ -32,4 +32,5 @@
   },
   scopesSeparator: ' ',
 }
+
 

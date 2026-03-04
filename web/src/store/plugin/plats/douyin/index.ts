@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 抖音平台交互实现
  *
  * 实现策略：
@@ -237,4 +237,5 @@ export type { DouyinHomeFeedItem, DouyinHomeFeedResponse } from './types'
 
 // 导出工具方法
 export { getWorkDetailFromListItem } from './workDetail'
+
 

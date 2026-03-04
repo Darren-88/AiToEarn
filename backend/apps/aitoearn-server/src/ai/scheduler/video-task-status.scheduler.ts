@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 import { Cron, CronExpression } from '@nestjs/schedule'
 import { AiLog, AiLogChannel, AiLogRepository, AiLogStatus, AiLogType } from '@yikart/mongodb'
 import { DashscopeService } from '../libs/dashscope'
@@ -72,4 +72,5 @@ export class VideoTaskStatusScheduler {
     }
   }
 }
+
 

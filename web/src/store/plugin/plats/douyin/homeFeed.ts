@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 抖音首页列表功能模块
  *
  * 通过插件调用抖音 API 获取首页推荐作品列表
@@ -315,4 +315,5 @@ export async function getHomeFeedList(params: HomeFeedListParams): Promise<HomeF
     }
   }
 }
+
 

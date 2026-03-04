@@ -1,4 +1,4 @@
-﻿import type { ClientType } from '@/app/[lng]/accounts/accounts.enums'
+import type { ClientType } from '@/app/[lng]/accounts/accounts.enums'
 import type { PlatType } from '@/app/config/platConfig'
 
 export enum AccountType {
@@ -67,4 +67,5 @@ export interface AccountGroupItem {
   ip?: string
   location?: string
 }
+
 

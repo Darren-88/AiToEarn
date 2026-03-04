@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 抖音作品详情功能模块
  *
  * 抖音不需要额外请求详情API，直接从list的item数据获取详情
@@ -210,4 +210,5 @@ export function getWorkDetailFromListItem(listItemOrigin: any): GetWorkDetailRes
     }
   }
 }
+
 

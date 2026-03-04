@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { QueueService } from '@yikart/aitoearn-queue'
 import { AitoearnServerClientService, UserChatCompletionDto } from '@yikart/aitoearn-server-client'
 import { AppException, ResponseCode, UserType } from '@yikart/common'
@@ -165,4 +165,5 @@ export class EngagementService {
     return { id: task.id }
   }
 }
+
 

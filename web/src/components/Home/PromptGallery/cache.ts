@@ -1,4 +1,4 @@
-﻿/**
+/**
  * PromptGallery 缓存管理
  * 用于保存弹框状态（跨组件生命周期）
  */
@@ -37,4 +37,5 @@ export function resetGalleryCache(): void {
   galleryCache.scrollTop = 0
   galleryCache.displayCount = LOAD_MORE_COUNT
 }
+
 

@@ -1,4 +1,4 @@
-﻿import { AccountType } from '@yikart/common'
+import { AccountType } from '@yikart/common'
 import { PublishStatus } from '@yikart/mongodb'
 
 export interface PublishRecordItem {
@@ -26,4 +26,5 @@ export interface PublishDayInfo {
   createAt: Date
   updatedAt: Date
 }
+
 

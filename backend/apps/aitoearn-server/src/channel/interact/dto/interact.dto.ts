@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 
 export const AddArcCommentSchema = z.object({
@@ -20,4 +20,5 @@ export const DelCommentSchema = z.object({
   commentId: z.string().min(1, { message: '评论ID不能为空' }),
 })
 export class DelCommentDto extends createZodDto(DelCommentSchema) {}
+
 

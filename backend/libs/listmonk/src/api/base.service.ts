@@ -1,4 +1,4 @@
-﻿import { Inject, Injectable, Logger } from '@nestjs/common'
+import { Inject, Injectable, Logger } from '@nestjs/common'
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios'
 import { ListmonkConfig } from '../interfaces'
 
@@ -45,4 +45,5 @@ export class BaseService {
     }
   }
 }
+
 

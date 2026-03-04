@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-18 20:27:42
  * @LastEditTime: 2025-01-20 10:34:52
@@ -71,4 +71,5 @@ export class SystemTray {
     }
   }
 }
+
 

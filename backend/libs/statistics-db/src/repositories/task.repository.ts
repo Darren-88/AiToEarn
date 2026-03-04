@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger, OnModuleInit } from '@nestjs/common'
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common'
 import { InjectConnection } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import { Connection, Model } from 'mongoose'
@@ -323,4 +323,5 @@ export class TaskRepository extends BaseRepository<UserTaskPosts> implements OnM
     return { day7Posts, day30Posts, postIdToAccount }
   }
 }
+
 

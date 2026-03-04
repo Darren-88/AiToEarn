@@ -1,4 +1,4 @@
-﻿import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { AccountType } from '@yikart/common'
 import mongoose from 'mongoose'
 import { PlatPulOption } from '../../../core/publishing/common'
@@ -182,4 +182,5 @@ export class PublishTask extends BaseTemp {
 }
 
 export const PublishTaskSchema = SchemaFactory.createForClass(PublishTask)
+
 

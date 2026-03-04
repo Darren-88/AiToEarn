@@ -1,4 +1,4 @@
-﻿import { BaseMessage, ChatMessage } from '@langchain/core/messages'
+import { BaseMessage, ChatMessage } from '@langchain/core/messages'
 import { OpenAIClient } from '@langchain/openai'
 import { Injectable, Logger } from '@nestjs/common'
 import { AppException, ResponseCode, UserType } from '@yikart/common'
@@ -174,4 +174,5 @@ export class ChatService {
     return this.modelsConfigService.config.chat
   }
 }
+
 

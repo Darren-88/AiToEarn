@@ -1,4 +1,4 @@
-﻿import { Global, Module } from '@nestjs/common'
+import { Global, Module } from '@nestjs/common'
 import { S3Module } from '@yikart/aws-s3'
 import { AiModule } from '../ai/ai.module'
 import { config } from '../config'
@@ -25,4 +25,5 @@ import { ContentAiUtil } from './util/ai.util'
   exports: [MediaService, MediaGroupService, MaterialGroupService, MaterialService, MaterialTaskService, ContentAiUtil],
 })
 export class ContentModule { }
+
 

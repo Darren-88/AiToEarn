@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AxiosRequestConfig } from 'axios'
 import { PublishRecord } from '../interfaces'
 import { BaseService } from './base.service'
@@ -159,4 +159,5 @@ export class PublishRecordService extends BaseService {
     return res
   }
 }
+
 

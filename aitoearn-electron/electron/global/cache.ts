@@ -1,4 +1,4 @@
-﻿import NodeCache from 'node-cache';
+import NodeCache from 'node-cache';
 
 class Cache {
   private static instance: Cache;
@@ -51,4 +51,5 @@ class Cache {
 }
 
 export const GlobleCache = Cache.getInstance();
+
 

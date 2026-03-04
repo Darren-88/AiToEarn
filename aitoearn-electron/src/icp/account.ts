@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-23 15:48:14
  * @LastEditTime: 2025-02-21 11:47:00
@@ -162,4 +162,5 @@ export async function icpAccountEditGroup(id: number, groupId: number) {
 export async function icpProxyCheck(proxy: string) {
   return await window.ipcRenderer.invoke('ICP_ACCOUNTS_PROXY_CHECK', proxy);
 }
+
 

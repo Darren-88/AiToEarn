@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-20 16:24:16
  * @LastEditTime: 2025-01-21 21:35:35
@@ -25,4 +25,5 @@ export class UserModel extends TempModel {
   @Column({ type: 'datetime', nullable: false, comment: '登录时间' })
   loginTime!: Date;
 }
+
 

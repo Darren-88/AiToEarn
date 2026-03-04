@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-02-07 20:00:47
  * @LastEditTime: 2025-03-19 14:27:53
@@ -97,4 +97,5 @@ export class PubItemVideo extends PubItemBase {
     EtEvent.emit('ET_PUBLISH_UPDATE_VIDEO_PUL', this.videoModel);
   }
 }
+
 

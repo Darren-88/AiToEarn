@@ -1,4 +1,4 @@
-﻿import { HttpService } from '@nestjs/axios'
+import { HttpService } from '@nestjs/axios'
 import { Injectable } from '@nestjs/common'
 import { AccountType, TableDto } from '@yikart/common'
 import axios from 'axios'
@@ -72,4 +72,5 @@ export class InteractionRecordService {
     return res.data
   }
 }
+
 

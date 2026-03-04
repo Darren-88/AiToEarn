@@ -1,4 +1,4 @@
-﻿import type { DestinationStream } from 'pino'
+import type { DestinationStream } from 'pino'
 import crypto from 'node:crypto'
 import { Logger } from '@nestjs/common'
 
@@ -40,4 +40,5 @@ export class FeishuLogger implements DestinationStream {
       .catch(e => this.logger.error(121232, e))
   }
 }
+
 

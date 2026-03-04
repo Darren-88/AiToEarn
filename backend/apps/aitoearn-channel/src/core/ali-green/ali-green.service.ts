@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AliGreenApiService } from '../../libs/ali-green/ali-green-api.service'
 
 @Injectable()
@@ -27,4 +27,5 @@ export class AliGreenService {
     return result?.body?.data || {}
   }
 }
+
 

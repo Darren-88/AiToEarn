@@ -1,4 +1,4 @@
-﻿import path from 'node:path';
+import path from 'node:path';
 import * as fs from 'node:fs';
 
 enum Type {
@@ -71,4 +71,5 @@ export function saveFile(base64String: string, path: string, fileName: string) {
     });
   });
 }
+
 

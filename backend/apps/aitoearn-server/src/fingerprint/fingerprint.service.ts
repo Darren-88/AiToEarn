@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { FingerprintGenerator } from 'fingerprint-generator'
 import { Device } from 'header-generator/header-generator'
 
@@ -27,4 +27,5 @@ export class FingerprintService {
     }
   }
 }
+
 

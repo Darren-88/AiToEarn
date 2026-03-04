@@ -1,4 +1,4 @@
-﻿export interface MetaOAuth2TaskInfo {
+export interface MetaOAuth2TaskInfo {
   pkce: boolean
   platform: string
   state: string
@@ -110,4 +110,5 @@ export interface MetaFacebookPage {
 export interface MetaFacebookPageResponse {
   pages: MetaFacebookPage[]
 }
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * useGitHubStars - 获取 GitHub 仓库 star 数量
  */
 
@@ -28,4 +28,5 @@ export function useGitHubStars() {
 
   return starCount
 }
+
 

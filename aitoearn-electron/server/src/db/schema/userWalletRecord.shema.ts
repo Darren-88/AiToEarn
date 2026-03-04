@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-11-16 22:04:18
  * @LastEditTime: 2025-03-24 21:44:35
@@ -91,4 +91,5 @@ export class UserWalletRecord extends TimeTemp {
 
 export const UserWalletRecordSchema =
   SchemaFactory.createForClass(UserWalletRecord);
+
 

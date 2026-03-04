@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Credits API - 用户余额相关接口
  * 包含余额查询和使用记录查询
  */
@@ -88,4 +88,5 @@ export function formatAmountChange(cents: number): string {
   const usd = centsToUsd(Math.abs(cents))
   return cents >= 0 ? `+$${usd}` : `-$${usd}`
 }
+
 

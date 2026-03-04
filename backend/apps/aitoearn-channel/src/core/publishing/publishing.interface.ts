@@ -1,4 +1,4 @@
-﻿import { PostCategory, PostMediaStatus } from '../../libs/database/schema/postMediaContainer.schema'
+import { PostCategory, PostMediaStatus } from '../../libs/database/schema/postMediaContainer.schema'
 import { PublishStatus } from '../../libs/database/schema/publishTask.schema'
 
 export interface PublishingTaskResult {
@@ -20,4 +20,5 @@ export interface MediaProcessingStatusResult {
   isCompleted: boolean
   hasFailed: boolean
 }
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 平台交互管理器
  * 统一管理所有平台的交互操作
  */
@@ -178,4 +178,5 @@ class PlatformInteractionManager {
  * 管理器实例
  */
 export const platformManager = new PlatformInteractionManager()
+
 

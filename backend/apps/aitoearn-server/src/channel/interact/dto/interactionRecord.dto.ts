@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto } from '@yikart/common'
+import { AccountType, createZodDto } from '@yikart/common'
 
 import { z } from 'zod'
 
@@ -33,4 +33,5 @@ export const InteractionRecordListSchema = z.object({
   }),
 })
 export class InteractionRecordListDto extends createZodDto(InteractionRecordListSchema) {}
+
 

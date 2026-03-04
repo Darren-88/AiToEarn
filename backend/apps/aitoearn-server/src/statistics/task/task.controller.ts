@@ -1,4 +1,4 @@
-﻿import { Body, Controller, Post } from '@nestjs/common'
+import { Body, Controller, Post } from '@nestjs/common'
 import { ApiTags } from '@nestjs/swagger'
 import { ApiDoc } from '@yikart/common'
 import { PostService } from '../post/post.service'
@@ -58,4 +58,5 @@ export class TaskController {
     return await this.postService.getPostDataByDateRange({ platform: data.platform, postId: data.postId, page: 1, pageSize: 90 })
   }
 }
+
 

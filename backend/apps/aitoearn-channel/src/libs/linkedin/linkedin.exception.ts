@@ -1,4 +1,4 @@
-﻿import { IErrorContext, SocialMediaError } from '../exception'
+import { IErrorContext, SocialMediaError } from '../exception'
 
 export interface LinkedInRawError {
   message?: string
@@ -53,4 +53,5 @@ export class LinkedInError extends SocialMediaError<LinkedInRawError> {
     return `Failed to ${operation}. ${rawError.message || 'Unknown error'}, error code: ${rawError.serviceErrorCode || 'N/A'}`
   }
 }
+
 

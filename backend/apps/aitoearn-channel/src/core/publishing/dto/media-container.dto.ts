@@ -1,4 +1,4 @@
-﻿import { createZodDto } from '@yikart/common'
+import { createZodDto } from '@yikart/common'
 import { z } from 'zod'
 import { PostCategory, PostMediaStatus, PostSubCategory } from '../../../libs/database/schema/postMediaContainer.schema'
 
@@ -16,4 +16,5 @@ export const MediaContainer = z.object({
 })
 
 export class CreateMediaContainerDto extends createZodDto(MediaContainer) {}
+
 

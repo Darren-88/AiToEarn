@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AppException, ResponseCode } from '@yikart/common'
 import { AiLogRepository } from '@yikart/mongodb'
 import { LogDetailQueryDto, LogListQueryDto } from './logs.dto'
@@ -35,4 +35,5 @@ export class LogsService {
     return log
   }
 }
+
 

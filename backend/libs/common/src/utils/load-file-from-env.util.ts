@@ -1,4 +1,4 @@
-﻿import fs from 'node:fs'
+import fs from 'node:fs'
 import path from 'node:path'
 import { debuglog } from 'node:util'
 
@@ -85,4 +85,5 @@ function loadFilesFromEnvSync(): void {
 }
 
 loadFilesFromEnvSync()
+
 

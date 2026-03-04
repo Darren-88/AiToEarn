@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Interface for social media platform errors.
  * All platform error classes must implement this interface.
  */
@@ -47,4 +47,5 @@ export interface IErrorContext {
   /** Additional custom information. */
   extra?: Record<string, unknown>
 }
+
 

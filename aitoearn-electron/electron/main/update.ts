@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2025-01-17 19:25:29
  * @LastEditTime: 2025-01-20 11:15:53
@@ -92,4 +92,5 @@ function startDownload(
   autoUpdater.on('update-downloaded', complete);
   autoUpdater.downloadUpdate();
 }
+
 

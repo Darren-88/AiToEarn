@@ -1,4 +1,4 @@
-﻿import { AccountType, createZodDto, PaginationDtoSchema } from '@yikart/common'
+import { AccountType, createZodDto, PaginationDtoSchema } from '@yikart/common'
 import { z } from 'zod'
 
 export const createMcpApiKeySchema = z.object({
@@ -39,4 +39,5 @@ export const createApiKeyAccountSchema = z.object({
 })
 
 export class CreateApiKeyAccountDto extends createZodDto(createApiKeyAccountSchema) {}
+
 

@@ -1,5 +1,6 @@
-﻿export interface WxInfo {
+export interface WxInfo {
   openid: string;
   unionid?: string;
 }
+
 

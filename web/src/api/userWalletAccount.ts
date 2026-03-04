@@ -1,4 +1,4 @@
-﻿import http from '@/utils/request'
+import http from '@/utils/request'
 
 export type WalletType = 'ZFB' | 'WX_PAY'
 
@@ -39,4 +39,5 @@ export function getUserWalletAccountList(pageNo: number, pageSize: number) {
 }
 
 export const EMAIL_REGEX = /^(?!\.)(?!.*\.\.)([\w'+\-.]*)[\w+-]@([A-Z0-9][A-Z0-9\-]*\.)+[A-Z]{2,}$/i
+
 

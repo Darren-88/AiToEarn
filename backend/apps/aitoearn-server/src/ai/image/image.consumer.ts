@@ -1,4 +1,4 @@
-﻿import { OnWorkerEvent, Processor, WorkerHost } from '@nestjs/bullmq'
+import { OnWorkerEvent, Processor, WorkerHost } from '@nestjs/bullmq'
 import { Logger } from '@nestjs/common'
 import { QueueName } from '@yikart/aitoearn-queue'
 import { UserType } from '@yikart/common'
@@ -211,4 +211,5 @@ export class ImageConsumer extends WorkerHost {
     this.logger.error(`[log-${logId}] Job failed: ${error.message}`)
   }
 }
+
 

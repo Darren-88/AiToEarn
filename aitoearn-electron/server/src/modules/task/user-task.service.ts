@@ -1,4 +1,4 @@
-﻿import { BadRequestException, Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
 import { paginateModel } from '../../common/paginate/create-pagination';
@@ -218,4 +218,5 @@ export class UserTaskService {
     }
   }
 }
+
 

@@ -1,4 +1,4 @@
-﻿export interface PhoneLoginParams {
+export interface PhoneLoginParams {
   phone: string;
   code: string;
   openId?: string; // 微信公众号的openId
@@ -22,4 +22,5 @@ export interface IRefreshToken {
   // 过期时间。秒
   exp: number;
 }
+
 

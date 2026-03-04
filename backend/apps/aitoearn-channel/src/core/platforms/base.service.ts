@@ -1,4 +1,4 @@
-﻿import { Injectable, Logger } from '@nestjs/common'
+import { Injectable, Logger } from '@nestjs/common'
 
 @Injectable()
 export abstract class PlatformBaseService {
@@ -12,4 +12,5 @@ export abstract class PlatformBaseService {
     throw new Error(`${this.platform} delete post is not supported`)
   }
 }
+
 

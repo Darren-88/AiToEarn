@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - 核心方法
  * 包含创建任务、继续任务、SSE处理等核心逻辑
  */
@@ -561,4 +561,5 @@ export function createStoreMethods(ctx: IMethodsContext) {
 }
 
 export type AgentStoreMethods = ReturnType<typeof createStoreMethods>
+
 

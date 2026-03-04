@@ -1,4 +1,4 @@
-﻿import { Prop, Schema } from '@nestjs/mongoose';
+import { Prop, Schema } from '@nestjs/mongoose';
 import { TimeTemp } from './time.tamp';
 import { AccountType } from './account.schema';
 
@@ -260,4 +260,5 @@ export class WorkData extends TimeTemp {
   })
   cookies?: Record<string, any>;
 }
+
 

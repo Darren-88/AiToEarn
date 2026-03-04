@@ -1,4 +1,4 @@
-﻿import { Injectable } from '@nestjs/common'
+import { Injectable } from '@nestjs/common'
 import { AppException, ResponseCode, VipStatus } from '@yikart/common'
 import { User, UserRepository, UserVipInfo, VipRepository } from '@yikart/mongodb'
 import { RedisService } from '@yikart/redis'
@@ -189,4 +189,5 @@ export class VipService {
     return this.vipRepository.findAllNormelVipUsers()
   }
 }
+
 

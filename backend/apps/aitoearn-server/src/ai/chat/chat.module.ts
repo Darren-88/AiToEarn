@@ -1,4 +1,4 @@
-﻿import { Module } from '@nestjs/common'
+import { Module } from '@nestjs/common'
 import { ModelsConfigModule } from '../models-config'
 import { ChatController } from './chat.controller'
 import { ChatService } from './chat.service'
@@ -16,4 +16,5 @@ import { ChatService } from './chat.service'
   ],
 })
 export class ChatModule {}
+
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 浏览器插件状态管理 Store
  */
 
@@ -913,4 +913,5 @@ export const usePluginStore = create(
     },
   ),
 )
+
 

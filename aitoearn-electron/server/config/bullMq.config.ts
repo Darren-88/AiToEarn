@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: nevin
  * @Date: 2022-01-20 11:05:02
  * @LastEditors: nevin
@@ -13,4 +13,5 @@ export default () => ({
     DB: process.env.REDIS_DB,
   },
 });
+
 

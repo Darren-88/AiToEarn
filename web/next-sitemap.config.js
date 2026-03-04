@@ -1,4 +1,4 @@
-﻿const { statSync } = require('node:fs')
+const { statSync } = require('node:fs')
 const path = require('node:path')
 // next-sitemap.config.js
 const glob = require('glob')
@@ -113,4 +113,6 @@ module.exports = {
     ],
   },
 }
+
+
 

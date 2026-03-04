@@ -1,4 +1,4 @@
-﻿const window = {};
+const window = {};
 export default {
   75407: e => {
     ! function(t, n) {
@@ -675,4 +675,5 @@ export default {
     }))
   },
 }
+
 

@@ -1,4 +1,4 @@
-﻿import requestNet, { IRequestNetParams } from '../requestNet';
+import requestNet, { IRequestNetParams } from '../requestNet';
 import {
   CommentAddResponse,
   GetCommentListResponse,
@@ -767,4 +767,5 @@ class KwaiPub {
 }
 
 export const kwaiPub = new KwaiPub();
+
 

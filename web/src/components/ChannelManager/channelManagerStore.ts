@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ChannelManager - 频道管理器状态管理
  * 管理三页面视图状态、授权状态、侧边栏状态等
  */
@@ -597,4 +597,5 @@ export const useChannelManagerStore = create(
     return methods
   }),
 )
+
 

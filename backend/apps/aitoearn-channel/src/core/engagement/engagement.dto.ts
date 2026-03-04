@@ -1,4 +1,4 @@
-﻿import { createZodDto, KeysetPaginationSchema, OffsetPaginationSchema } from '@yikart/common'
+import { createZodDto, KeysetPaginationSchema, OffsetPaginationSchema } from '@yikart/common'
 import { z } from 'zod'
 
 export const fetchPostsRequestSchema = z.object({
@@ -78,4 +78,5 @@ export class AIGenCommentConfig extends createZodDto(AIGenCommentConfigSchema) {
 export class Comment extends createZodDto(CommentSchema) {}
 export class ReplyToCommentsDto extends createZodDto(ReplyToCommentsSchema) {}
 export class AIGenCommentDto extends createZodDto(AIGenCommentSchema) {}
+
 

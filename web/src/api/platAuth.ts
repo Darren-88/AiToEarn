@@ -1,4 +1,4 @@
-﻿import http, { request } from '@/utils/request'
+import http, { request } from '@/utils/request'
 
 // 获取 YouTube 授权 URL
 export function getYouTubeAuthUrlApi(mail: string, spaceId?: string) {
@@ -214,4 +214,5 @@ export function checkPinterestAuthApi(taskId: any) {
     },
   })
 }
+
 

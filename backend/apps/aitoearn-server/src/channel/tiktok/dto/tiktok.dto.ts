@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @Author: AI Assistant
  * @Date: 2025-01-08 00:00:00
  * @LastEditTime: 2025-01-08 00:00:00
@@ -58,4 +58,5 @@ const UploadVideoFileSchema = z.object({
   contentType: z.string({ message: '内容类型不能为空' }),
 })
 export class UploadVideoFileDto extends createZodDto(UploadVideoFileSchema) {}
+
 

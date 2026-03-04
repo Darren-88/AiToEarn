@@ -1,2 +1,3 @@
-﻿export interface ImageRightSettingChildProps {}
+export interface ImageRightSettingChildProps {}
+
 

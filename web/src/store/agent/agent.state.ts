@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Agent Store - 状态定义
  * 初始状态和状态类型
  */
@@ -38,4 +38,5 @@ export const initialState: IAgentState = {
 export function getInitialState(): IAgentState {
   return lodash.cloneDeep(initialState)
 }
+
 

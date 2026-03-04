@@ -1,4 +1,4 @@
-﻿export enum ConditionType {
+export enum ConditionType {
   Nested = 'nested',
   Single = 'single',
 }
@@ -24,4 +24,5 @@ export enum Conjunction {
   And = 'and',
   Or = 'or',
 }
+
 
