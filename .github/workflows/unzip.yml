@@ -1,0 +1,27 @@
+name: Unzip and Replace
+on:
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Unzip the project
+        run: |
+          # 解压 project/project.zip 到仓库根目录，覆盖现有文件
+          unzip -o project/project.zip -d .
+          # 解压完成后删除 ZIP 包
+          rm -f project/project.zip
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "fix: 解压并替换源码为修复后版本" || echo "No changes to commit"
+          git push
