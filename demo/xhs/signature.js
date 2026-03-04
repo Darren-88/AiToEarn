@@ -1,4 +1,4 @@
-import axios from "axios";
+﻿import axios from "axios";
 import crypto from "crypto-js"
 const appKey = "red.gLvsVoksierVz0uF";
 const appSecret = "f13a2266d1e2c32a553cb7a42ea63c48";
@@ -68,3 +68,4 @@ console.log("appKey：", appKey);
 console.log("nonce：", nonce);
 console.log("timestamp：", timestamp);
 console.log("signature：", signature);
+
