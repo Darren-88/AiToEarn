@@ -1,0 +1,11 @@
+{
+  "model": "opus",
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Write",
+      "Edit",
+      "Read"
+    ]
+  }
+}
